@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Real Numbers",
-  "body": " Real Numbers    Does ?    "
+  "body": " Real Numbers    Does ?     Things we think of as ``numbers'' seem to have the following properties:   There are operations and that behave as we expect.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.    "
 },
 {
   "id": "sec-reals-2",
@@ -26,6 +26,15 @@ var ptx_lunr_docs = [
   "number": "1.1.1",
   "title": "",
   "body": "  Does ?   "
+},
+{
+  "id": "sec-reals-3",
+  "level": "2",
+  "url": "sec-reals.html#sec-reals-3",
+  "type": "Observation",
+  "number": "1.1.2",
+  "title": "",
+  "body": " Things we think of as ``numbers'' seem to have the following properties:   There are operations and that behave as we expect.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   "
 }
 ]
 
