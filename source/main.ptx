@@ -11,7 +11,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./01-sequences/chapter.ptx" />
 
 
     <!-- Include backmatter -->
