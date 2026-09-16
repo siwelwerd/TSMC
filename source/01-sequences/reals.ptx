@@ -4,7 +4,7 @@
   <title>Real Numbers</title>
 
     <question>
-      <p>What is a ``number''?</p>
+      <p>What is a "number"?</p>
     </question>
 
     <activity>
@@ -16,7 +16,7 @@
     </activity>
 
     <observation>
-      <p>Things we think of as ``numbers'' seem to have the following properties:</p>
+      <p>Things we think of as "numbers" seem to have the following properties:</p>
           <aside>
             <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</p>
           </aside>
