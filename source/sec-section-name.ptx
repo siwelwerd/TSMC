@@ -4,5 +4,12 @@
   <title>Section Title</title>
 
   <p> Text of section. </p>
+    <activity>
+      <statement>
+        <p>
+          Does <m>0.999999\ldots=1</m>?
+        </p>
+      </statement>
+    </activity>
 
 </section>
