@@ -16,7 +16,7 @@
         <ol>
           <li>There are operations <m>+</m> and <m>\times</m> that behave as we expect.</li>
             <aside>
-              <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</pp>
+              <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</p>
             </aside>
           <li>There are identity elements: <m>0</m> for addition and <m>1</m> for multiplication.</li>
           <li>These operations have inverse operations <m>-</m> and <m>\div</m>, respectively.</li>
