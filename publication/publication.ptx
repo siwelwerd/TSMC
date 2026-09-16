@@ -244,6 +244,7 @@
 
     <!-- Whether a particular element is born in a knowl is set here.  -->
     <!-- Each attribute is "yes" or "no"; the defaults are shown.      -->
+      <knowl example="no"/>
       <!--<knowl
         theorem="no"
         proof="yes"
