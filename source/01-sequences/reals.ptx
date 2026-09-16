@@ -11,4 +11,30 @@
       </statement>
     </activity>
 
+    <observation>
+      <p>Things we think of as ``numbers'' seem to have the following properties:</p>
+        <ol>
+          <li>There are operations <m>+</m> and <m>\times</m> that behave as we expect.</li>
+            <aside>
+              <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</pp>
+            </aside>
+          <li>There are identity elements: <m>0</m> for addition and <m>1</m> for multiplication.</li>
+          <li>These operations have inverse operations <m>-</m> and <m>\div</m>, respectively.</li>
+          <li>Every number has an additive inverse and every non-zero number has a multiplicative inverse.</li>
+        </ol>
+      <p>Mathematicians call anything with these properties a <term>field</term></p>
+    </observation>
+
+    <example>
+      <p>The set of rational numbers, denoted <m>\Q</m> is a field.</p>
+    </example>
+
+    <observation>
+      <p>The rational numbers are an <term>ordered field</term>: we have an inequality operator <m>\lt</m> such that
+        for any two distinct rational numbers <m>a</m> and <m>b</m>, either <m>a\lt b</m> or <m>b \lt a</m>.
+        </p>
+    </observation> 
+
+
+
 </section>
