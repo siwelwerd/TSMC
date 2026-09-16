@@ -26,15 +26,6 @@ var ptx_lunr_docs = [
   "number": "1.1.1",
   "title": "",
   "body": "  Does ?   "
-},
-{
-  "id": "backmatter-2",
-  "level": "1",
-  "url": "backmatter-2.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
 }
 ]
 
