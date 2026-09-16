@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Real Numbers",
-  "body": " Real Numbers   What is a \"number\"?     Does ?     Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .    The set of rational numbers, denoted , is a field.    The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.    The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.    The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .   "
+  "body": " Real Numbers   What is a \"number\"?    Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .    The set of rational numbers, denoted , is a field.    The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.    The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.    The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .     Previously we asked the question: Does ?  How can we interpret as a number?      Informally, sequence (of numbers) is an infinite list of numbers.  Formally, a rational sequence is a function from the natural numbers to the rational numbers.      is a (rational) sequence. It represents the function from to given by    "
 },
 {
   "id": "sec-reals-2",
@@ -31,19 +31,19 @@ var ptx_lunr_docs = [
   "id": "sec-reals-3",
   "level": "2",
   "url": "sec-reals.html#sec-reals-3",
-  "type": "Activity",
+  "type": "Observation",
   "number": "1.1.2",
   "title": "",
-  "body": "  Does ?   "
+  "body": " Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .  "
 },
 {
   "id": "sec-reals-4",
   "level": "2",
   "url": "sec-reals.html#sec-reals-4",
-  "type": "Observation",
+  "type": "Example",
   "number": "1.1.3",
   "title": "",
-  "body": " Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .  "
+  "body": " The set of rational numbers, denoted , is a field.  "
 },
 {
   "id": "sec-reals-5",
@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.4",
   "title": "",
-  "body": " The set of rational numbers, denoted , is a field.  "
+  "body": " The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.  "
 },
 {
   "id": "sec-reals-6",
@@ -61,25 +61,43 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.5",
   "title": "",
-  "body": " The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.  "
+  "body": " The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.  "
 },
 {
   "id": "sec-reals-7",
   "level": "2",
   "url": "sec-reals.html#sec-reals-7",
-  "type": "Example",
+  "type": "Observation",
   "number": "1.1.6",
   "title": "",
-  "body": " The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.  "
+  "body": " The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .  "
 },
 {
   "id": "sec-reals-8",
   "level": "2",
   "url": "sec-reals.html#sec-reals-8",
-  "type": "Observation",
+  "type": "Question",
   "number": "1.1.7",
   "title": "",
-  "body": " The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .  "
+  "body": "  Previously we asked the question: Does ?  How can we interpret as a number?   "
+},
+{
+  "id": "sec-reals-9",
+  "level": "2",
+  "url": "sec-reals.html#sec-reals-9",
+  "type": "Definition",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  Informally, sequence (of numbers) is an infinite list of numbers.  Formally, a rational sequence is a function from the natural numbers to the rational numbers.   "
+},
+{
+  "id": "sec-reals-10",
+  "level": "2",
+  "url": "sec-reals.html#sec-reals-10",
+  "type": "Example",
+  "number": "1.1.9",
+  "title": "",
+  "body": "  is a (rational) sequence. It represents the function from to given by   "
 }
 ]
 
