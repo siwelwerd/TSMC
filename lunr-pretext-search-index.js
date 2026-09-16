@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Real Numbers",
-  "body": " Real Numbers    Does ?     Things we think of as ``numbers'' seem to have the following properties:   There are operations and that behave as we expect.   In particular, these operations should both be commutative and associative, and obey distributive rules.   There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field    The set of rational numbers, denoted is a field.    The rational numbers are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .   "
+  "body": " Real Numbers    Does ?     Things we think of as ``numbers'' seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field    The set of rational numbers, denoted , is a field.    The rational numbers are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .   "
 },
 {
   "id": "sec-reals-2",
@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Observation",
   "number": "1.1.2",
   "title": "",
-  "body": " Things we think of as ``numbers'' seem to have the following properties:   There are operations and that behave as we expect.   In particular, these operations should both be commutative and associative, and obey distributive rules.   There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field  "
+  "body": " Things we think of as ``numbers'' seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field  "
 },
 {
   "id": "sec-reals-4",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.3",
   "title": "",
-  "body": " The set of rational numbers, denoted is a field.  "
+  "body": " The set of rational numbers, denoted , is a field.  "
 },
 {
   "id": "sec-reals-5",
