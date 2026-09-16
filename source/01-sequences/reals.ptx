@@ -3,6 +3,10 @@
 <section xml:id="sec-reals" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Real Numbers</title>
 
+    <question>
+      <p>What is a ``number''?</p>
+    </question>
+
     <activity>
       <statement>
         <p>
@@ -13,24 +17,47 @@
 
     <observation>
       <p>Things we think of as ``numbers'' seem to have the following properties:</p>
-            <aside>
-              <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</p>
-            </aside>
+          <aside>
+            <p>In particular, these operations should both be commutative and associative, and obey distributive rules.</p>
+          </aside>
         <ol>
           <li>There are operations <m>+</m> and <m>\times</m> that behave as we expect.</li>
           <li>There are identity elements: <m>0</m> for addition and <m>1</m> for multiplication.</li>
           <li>These operations have inverse operations <m>-</m> and <m>\div</m>, respectively.</li>
           <li>Every number has an additive inverse and every non-zero number has a multiplicative inverse.</li>
         </ol>
-      <p>Mathematicians call anything with these properties a <term>field</term></p>
+      <p>Mathematicians call anything with these properties a <term>field</term>.</p>
     </observation>
 
     <example>
       <p>The set of rational numbers, denoted <m>\Q</m>, is a field.</p>
     </example>
 
+    <example>
+      <p>The set of <term>constructible numbers</term> are the lengths that can be
+      constructed with a compass and straight edge, given a line segment of length <m>1</m>.
+      The number <m>\sqrt{2}</m> is constructible, but <m>\sqrt[3]{2}</m> is not.
+      </p>
+      <aside>
+        <p>A classical geometry question asks if, given a cube, another cube of twice
+        the volume can be constructed with a compass and a straight edge.  Showing
+        that this is impossible is equivalent to showing that <m>\sqrt[3]{2}</m> is
+        not constructible and took over 2000 years to solve.
+        </p>
+      </aside>
+      <p>
+      The set of constructible numbers also forms a field.
+      </p>
+    </example>
+
+    <example>
+      <p>The set of rational functions, i.e. functions of the form <m>\dfrac{p(x)}{q(x)}</m>,
+        where <m>p(x)</m> and <m>q(x)</m> are polynomials, is a field.
+      </p>
+    </example>
+
     <observation>
-      <p>The rational numbers are an <term>ordered field</term>: we have an inequality operator <m>\lt</m> such that
+      <p>The rational numbers (and the constructible numbers) are an <term>ordered field</term>: we have an inequality operator <m>\lt</m> such that
         for any two distinct rational numbers <m>a</m> and <m>b</m>, either <m>a\lt b</m> or <m>b \lt a</m>.
         </p>
     </observation> 
