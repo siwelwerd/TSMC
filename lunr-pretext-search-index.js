@@ -10,18 +10,18 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-section-name",
+  "id": "sec-reals",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "sec-reals.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.    Does ?    "
+  "title": "Real Numbers",
+  "body": " Real Numbers    Does ?    "
 },
 {
-  "id": "sec-section-name-3",
+  "id": "sec-reals-2",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-3",
+  "url": "sec-reals.html#sec-reals-2",
   "type": "Activity",
   "number": "1.1.1",
   "title": "",
