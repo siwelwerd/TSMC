@@ -7,13 +7,7 @@
       <p>What is a "number"?</p>
     </question>
 
-    <activity>
-      <statement>
-        <p>
-          Does <m>0.999999\ldots=1</m>?
-        </p>
-      </statement>
-    </activity>
+
 
     <observation>
       <p>Things we think of as "numbers" seem to have the following properties:</p>
@@ -62,6 +56,90 @@
         </p>
     </observation> 
 
+    <question>
+      <statement>
+        <p>
+          Previously we asked the question: Does <m>0.999999\ldots=1</m>?
+        </p>
+        <p>
+           How can we interpret <m>0.999999\ldots</m> as a number?
+        </p>
+      </statement>
+    </question>
 
+    <definition>
+      <statement>
+        <p>Informally, <term>sequence</term> (of numbers) is an infinite list of numbers.</p>
+        <p>Formally, a rational sequence is a function from the natural numbers to 
+        the rational numbers.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <p>
+        <m>0.9,0.99,0.999,0.9999,0.99999,\ldots</m> is a (rational) sequence.
+        It represents the function from <m>\N</m> to <m>\Q</m> given by
+        <md>n \rightarrow 1-\frac{1}{10^{n+1}}.</md>
+      </p>
+      <p>Often we use a notation such as <m>\{a_n\} _{n=0} ^\infty</m> for a sequence.
+      In this example, we would further write <m>a_n=1-\frac{1}{10^{n+1}}</m>, or perhaps
+      even write <m>\{1-\frac{1}{10^{n+1}}\} _{n=0} ^\infty</m>.
+      </p>
+    </example>
+
+    <activity>
+      <introduction>
+        <p>
+          Write the first 5 terms of each of these sequences
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <m>\{\frac{1}{n}\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{2^n\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{\frac{n-1}{n}\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{(-1)^n\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How would you describe each of these sequences, particularly as <m>n</m> becomes large?
+          </p>
+        </statement>
+      </task>
+    </activity>
+
+  <activity>
+    <introduction>
+      <p>Let's look at the sequence <m>\{a_n\}_{n=1} ^\infty</m> given by
+      <md>a_n=1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\log(n)</md>
+      </p>
+      <aside>
+        <p>We use <m>\log</m> in the usual sense that mathematicians do,
+        that is to refer to the natural log (base <m>e</m>).
+        </p>
+      </aside>
+    </introduction>
+    <task>
+      <p>
+        Use a computational tool to write down the first 10 terms of this sequence.
+      </p>
+    </task>
+  </activity>
+    
 
 </section>
