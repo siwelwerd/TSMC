@@ -139,6 +139,16 @@
         Use a computational tool to write down the first 10 terms of this sequence.
       </p>
     </task>
+    <task>
+      <statement>
+        <p>Show that every term of this sequence is positive.</p>
+      </statement>
+      <hint>
+        <p>
+          Interpret <m>1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}</m> as an area
+          or a Riemann sum.
+        </p>
+      </hint>
   </activity>
     
 
