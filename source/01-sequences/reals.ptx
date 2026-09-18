@@ -58,12 +58,12 @@
 
   <activity xml:id="activity-q-lub">
     <introduction>
-      <p>Consider the set of numbers <md>E=\{x \in \Q\ \div\ x^2 < 2 \}</md>.</p>
+      <p>Consider the set of numbers <md>E=\{x \in \Q\ \div\ x^2 \lt 2 \}</md>.</p>
     </introduction>
     <task>
       <p>
         Find a rational number <m>a \in \Q</m> that is an <term>upper bound</term> for <m>E</m>; that is,
-        <m>a>x</m> for every <m>x \in E</m>.
+        <m>a\gtx</m> for every <m>x \in E</m>.
       </p>
     </task>
     <task>
