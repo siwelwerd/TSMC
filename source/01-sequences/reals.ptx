@@ -58,12 +58,18 @@
 
   <activity xml:id="activity-q-lub">
     <introduction>
-      <p>Consider the set of numbers <md>E=\{x \in \Q\ \div\ x^2 \lt 2 \}</md>.</p>
+      <p>Consider the set of numbers <md>E=\{x \in \Q\ \mid\ x^2 \lt 2 \}</md>.</p>
+      <aside>
+        <p>This an example of what we call <term>set builder notation</term>.  The curly braces <m>\{</m> and <m>\}</m>
+          denote a set, and <m>\in</m> means "is an element of" or "in", and <m>\mid</m> means "such that".  This whole
+          set <m>E</m> is then "The set of all <m>x</m> that are elements of <m>\Q</m> such that <m>x^2 \lt 2</m>"
+        </p>
+        </aside>
     </introduction>
     <task>
       <p>
         Find a rational number <m>a \in \Q</m> that is an <term>upper bound</term> for <m>E</m>; that is,
-        <m>a\gtx</m> for every <m>x \in E</m>.
+        <m>a \gt x</m> for every <m>x \in E</m>.
       </p>
     </task>
     <task>
