@@ -56,100 +56,66 @@
         </p>
     </observation> 
 
-    <question>
-      <statement>
-        <p>
-          Previously we asked the question: Does <m>0.999999\ldots=1</m>?
-        </p>
-        <p>
-           How can we interpret <m>0.999999\ldots</m> as a number?
-        </p>
-      </statement>
-    </question>
-
-    <definition>
-      <statement>
-        <p>Informally, <term>sequence</term> (of numbers) is an infinite list of numbers.</p>
-        <p>Formally, a rational sequence is a function from the natural numbers to 
-        the rational numbers.
-        </p>
-      </statement>
-    </definition>
-
-    <example>
-      <p>
-        <m>0.9,0.99,0.999,0.9999,0.99999,\ldots</m> is a (rational) sequence.
-        It represents the function from <m>\N</m> to <m>\Q</m> given by
-        <md>n \rightarrow 1-\frac{1}{10^{n+1}}.</md>
-      </p>
-      <p>Often we use a notation such as <m>\{a_n\} _{n=0} ^\infty</m> for a sequence.
-      In this example, we would further write <m>a_n=1-\frac{1}{10^{n+1}}</m>, or perhaps
-      even write <m>\{1-\frac{1}{10^{n+1}}\} _{n=0} ^\infty</m>.
-      </p>
-    </example>
-
-    <activity>
-      <introduction>
-        <p>
-          Write the first 5 terms of each of these sequences
-        </p>
-      </introduction>
-      <task>
-        <statement>
-          <m>\{\frac{1}{n}\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\{2^n\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\{\frac{n-1}{n}\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\{(-1)^n\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            How would you describe each of these sequences, particularly as <m>n</m> becomes large?
-          </p>
-        </statement>
-      </task>
-    </activity>
-
-  <activity>
+  <activity xml:id="activity-q-lub">
     <introduction>
-      <p>Let's look at the sequence <m>\{a_n\}_{n=1} ^\infty</m> given by
-      <md>a_n=1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\log(n)</md>
-      </p>
-      <aside>
-        <p>We use <m>\log</m> in the usual sense that mathematicians do,
-        that is to refer to the natural log (base <m>e</m>).
-        </p>
-      </aside>
+      <p>Consider the set of numbers <md>E=\{x \in \Q\ \div\ x^2 < 2 \}</md>.</p>
     </introduction>
     <task>
       <p>
-        Use a computational tool to write down the first 10 terms of this sequence.
+        Find a rational number <m>a \in \Q</m> that is an <term>upper bound</term> for <m>E</m>; that is,
+        <m>a>x</m> for every <m>x \in E</m>.
       </p>
     </task>
     <task>
-      <statement>
-        <p>Show that every term of this sequence is positive.</p>
-      </statement>
-      <hint>
-        <p>
-          Interpret <m>1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}</m> as an area
-          or a Riemann sum.
-        </p>
-      </hint>
+      <p>
+        What is the smallest rational number <m>a \in \Q</m> that is an upper bound for <m>E</m>?
+      </p>
+    </task>
   </activity>
+
+  <definition>
+    <p>An ordered set <m>S</m> has the <term>least-upper-bound property</term> if every nonempty subset
+    <m>E \subset S</m> that has an upper bound has a least upper bound.
+    </p>
+    <p>An ordered field that has the least-upper-bound property is called <term>complete</term>.</p>
+  </definition>
+
+  <example>
+    <p>The rational numbers <m>\Q</m> does not have the least upper bound property as we saw in <xref ref="activity-q-lub"/>.
+    In other words, <m>\Q</m> is not complete.
+    </p>
+  </example>
+
+  <theorem xml:id="thm-r-uniqe">
+    <statement>
+      <p>
+        There is a unique complete ordered field that contains the rational numbers.
+      </p>
+    </statement>
+  </theorem>
+
+  <remark>
+    <p>Note that this theorem is saying two things: there exist complete ordered fields that contain the rationals,
+    and further any two such fields are actually the same (i.e. it is unique).
+    </p>
+  </remark>
+
+  <definition xml:id="def-reals">
+    <statement>
+      <p>
+        The real numbers, denoted <m>\R</m>, are the unique complete ordered field containing <m>\Q</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
+    <p>
+      You can think about "building" <m>\R</m> from <m>\Q</m> by formally adding least upper bounds to every
+      subset of <m>\Q</m>.  
+    </p>
+  </remark>
+  
+
     
 
 </section>
