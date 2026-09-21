@@ -86,6 +86,16 @@
     <p>An ordered field that has the least-upper-bound property is called <term>complete</term>.</p>
   </definition>
 
+  <definition>
+    <p>If an ordered set <m>S</m> has a least upper bound, this least upper bound is called the <term>supremum</term>
+      of <m>S</m>, and is denoted <m>\sup S</m>.
+    </p>
+    <p>If an ordered set <m>S</m> has a greatest lower bound, this least upper bound is called the <term>infemum</term>
+      of <m>S</m>, and is denoted <m>\inf S</m>.
+    </p>
+  </definition>
+
+
   <example>
     <p>The rational numbers <m>\Q</m> does not have the least upper bound property as we saw in <xref ref="activity-q-lub"/>.
     In other words, <m>\Q</m> is not complete.
@@ -120,6 +130,23 @@
       subset of <m>\Q</m>.  
     </p>
   </remark>
+
+  <activity>
+    <statement>
+      <p>
+        What is the least upper bound for the set <m>\left\{0.9,0.99,0.999,0.9999,0.99999,\ldots\right\}</m>?
+      </p>
+    </statement>
+  </activity>
+
+  <activity>
+    <statement>
+      <p>The real numbers by definition have the least upper bound property.  Show that they also have the
+      greatest lower bound property, i.e. for any subset <m>S \subset \R</m> with a lower bound, <m>\inf S</m> exists (and is an
+      element of <m>\R</m>).
+      </p>
+    </statement>
+  </activity>
   
 
     
