@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sequences </title>
+
+    <definition>
+      <statement>
+        <p>Informally, a <term>sequence</term> (of real numbers) is an infinite list of real numbers.</p>
+        <p>Formally, a sequence is a function from the natural numbers to 
+        the real numbers <m>a: \N \rightarrow \R</m>. Rather than writing <m>a(n)</m>,
+        we typically use <m>a_n</m> to refer to the nth term of the sequence,
+        and write <m>\{a_n\}_{n=1}^\infty</m> to represent the whole sequence.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <p>
+        <m>\{0.9,0.99,0.999,0.9999,0.99999,\ldots\}</m> is a sequence.
+        It represents the function from <m>\N</m> to <m>\R</m> given by
+        <md>n \rightarrow 1-\frac{1}{10^{n}}.</md>
+        We could also represent this sequence as <m>\{1-\frac{1}{10^{n}}\} _{n=1} ^\infty</m>.
+      </p>
+    </example>
+
+    <activity>
+      <introduction>
+        <p>
+          Write the first 5 terms of each of these sequences
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <m>\{\frac{1}{n}\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{2^n\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{\frac{n-1}{n}\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\{(-1)^n\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How would you describe each of these sequences, particularly as <m>n</m> becomes large?
+          </p>
+        </statement>
+      </task>
+    </activity>
+
+
+</section>

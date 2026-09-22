@@ -6,7 +6,11 @@
   <definition xml:id="def-number-sets">
     <p>We will work with a number of sets in this class.  Common sets are
     <ul>
-      <li><m>\N=\{0,1,2,3,\ldots\}</m>, the set of natural numbers.</li>
+      <li><m>\N=\{1,2,3,\ldots\}</m>, the set of natural numbers.</li>
+        <aside>
+          <p>Many authors will define the natural numbers to also include <m>0</m>.
+          </p>
+        </aside>
       <li><m>\Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}</m>, the set of integers.</li>
       <li><m>\Q</m>, the set of rational numbers.</li>
       <li><m>\R</m>, the set of real numbers defined in <xref ref="sec-reals"/>.</li>
