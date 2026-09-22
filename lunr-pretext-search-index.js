@@ -10,6 +10,15 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
+  "id": "attribution",
+  "level": "1",
+  "url": "attribution.html",
+  "type": "Preface",
+  "number": "",
+  "title": "Attribution and Acknowledgements",
+  "body": " Attribution and Acknowledgements  This work includes materials used under license from the following works:  Basic Analysis I & II by Jiří Lebl is licensed under the CC-BY-NC-SA 4.0 license .  Calculus for Team-Based Inquiry Learning , edited by Steven Clontz and Drew Lewis, is licensed under the CC-BY-NC-SA 4.0 license .    "
+},
+{
   "id": "sec-reals",
   "level": "1",
   "url": "sec-reals.html",
@@ -163,13 +172,49 @@ var ptx_lunr_docs = [
   "body": "  The real numbers by definition have the least upper bound property. Show that they also have the greatest lower bound property, i.e. for any subset with a lower bound, exists (and is an element of ).   "
 },
 {
+  "id": "sec-sequences",
+  "level": "1",
+  "url": "sec-sequences.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Sequences",
+  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     Write the first 5 terms of each of these sequences                         How would you describe each of these sequences, particularly as becomes large?     "
+},
+{
+  "id": "sec-sequences-2",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-2",
+  "type": "Definition",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.   "
+},
+{
+  "id": "sec-sequences-3",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-3",
+  "type": "Example",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  is a sequence. It represents the function from to given by We could also represent this sequence as .  "
+},
+{
+  "id": "sec-sequences-4",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-4",
+  "type": "Activity",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  Write the first 5 terms of each of these sequences                         How would you describe each of these sequences, particularly as becomes large?    "
+},
+{
   "id": "appendix-set-builder",
   "level": "1",
   "url": "appendix-set-builder.html",
   "type": "Section",
   "number": "A.1",
   "title": "Sets",
-  "body": " Sets   We will work with a number of sets in this class. Common sets are  , the set of natural numbers.  , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .       To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").      Determine which of the following are true statements.                         We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .    Among the sets in , we have .    Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .     is the natural numbers .  is the interval .  is the even integers.      Describe the following sets.                  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.     The empty set is denoted or .   "
+  "body": " Sets   We will work with a number of sets in this class. Common sets are  , the set of natural numbers.   Many authors will define the natural numbers to also include .   , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .       To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").      Determine which of the following are true statements.                         We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .    Among the sets in , we have .    Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .     is the natural numbers .  is the interval .  is the even integers.      Describe the following sets.                  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.     The empty set is denoted or .   "
 },
 {
   "id": "def-number-sets",
@@ -178,7 +223,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "A.1.1",
   "title": "",
-  "body": " We will work with a number of sets in this class. Common sets are  , the set of natural numbers.  , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .    "
+  "body": " We will work with a number of sets in this class. Common sets are  , the set of natural numbers.   Many authors will define the natural numbers to also include .   , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .    "
 },
 {
   "id": "def-set-notation",
