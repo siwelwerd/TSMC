@@ -29,5 +29,15 @@
   <colophon xml:id="front-colophon">
     <colophon-items/>
   </colophon>
+  <preface xml:id="attribution">
+    <title>Attribution and Acknowledgements</title>
+    <p>
+      This work includes materials used under license from the following works:
+      <ul>
+        <li><url href="https://www.jirka.org/ra/html/">Basic Analysis I &amp; II</url> by Jiří Lebl is 
+        licensed under the <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0 license</url>.</li>
+      </ul>
+    </p>
+  </preface>
 </frontmatter>
 
