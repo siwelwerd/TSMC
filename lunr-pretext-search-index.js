@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Real Numbers",
-  "body": " Real Numbers   What is a \"number\"?    Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .    The set of rational numbers, denoted , is a field.    The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.    The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.    The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .     Consider the set of numbers .   This an example of what we call set builder notation . The curly braces and denote a set, and means \"is an element of\" or \"in\", and means \"such that\". This whole set is then \"The set of all that are elements of such that \"     Find a rational number that is an upper bound for ; that is, for every .    What is the smallest rational number that is an upper bound for ?     An ordered set has the least-upper-bound property if every nonempty subset that has an upper bound has a least upper bound.  An ordered field that has the least-upper-bound property is called complete .    If an ordered set has a least upper bound, this least upper bound is called the supremum of , and is denoted .  If an ordered set has a greatest lower bound, this least upper bound is called the infemum of , and is denoted .    The rational numbers does not have the least upper bound property as we saw in . In other words, is not complete.     There is a unique complete ordered field that contains the rational numbers.     Note that this theorem is saying two things: there exist complete ordered fields that contain the rationals, and further any two such fields are actually the same (i.e. it is unique).     The real numbers, denoted , are the unique complete ordered field containing .     You can think about \"building\" from by formally adding least upper bounds to every subset of .     What is the least upper bound for the set ?      The real numbers by definition have the least upper bound property. Show that they also have the greatest lower bound property, i.e. for any subset with a lower bound, exists (and is an element of ).    "
+  "body": " Real Numbers   What is a \"number\"?    Things we think of as \"numbers\" seem to have the following properties:   In particular, these operations should both be commutative and associative, and obey distributive rules.    There are operations and that behave as we expect.  There are identity elements: for addition and for multiplication.  These operations have inverse operations and , respectively.  Every number has an additive inverse and every non-zero number has a multiplicative inverse.   Mathematicians call anything with these properties a field .    The set of rational numbers, denoted , is a field.    The set of constructible numbers are the lengths that can be constructed with a compass and straight edge, given a line segment of length . The number is constructible, but is not.   A classical geometry question asks if, given a cube, another cube of twice the volume can be constructed with a compass and a straight edge. Showing that this is impossible is equivalent to showing that is not constructible and took over 2000 years to solve.   The set of constructible numbers also forms a field.    The set of rational functions, i.e. functions of the form , where and are polynomials, is a field.    The rational numbers (and the constructible numbers) are an ordered field : we have an inequality operator such that for any two distinct rational numbers and , either or .     Consider the set of numbers .    Find a rational number that is an upper bound for ; that is, for every .    What is the smallest rational number that is an upper bound for ?     An ordered set has the least-upper-bound property if every nonempty subset that has an upper bound has a least upper bound.  An ordered field that has the least-upper-bound property is called complete .    If an ordered set has a least upper bound, this least upper bound is called the supremum of , and is denoted .  If an ordered set has a greatest lower bound, this least upper bound is called the infemum of , and is denoted .    The rational numbers does not have the least upper bound property as we saw in . In other words, is not complete.     There is a unique complete ordered field that contains the rational numbers.     Note that this theorem is saying two things: there exist complete ordered fields that contain the rationals, and further any two such fields are actually the same (i.e. it is unique).     The real numbers, denoted , are the unique complete ordered field containing .     You can think about \"building\" from by formally adding least upper bounds to every subset of .     What is the least upper bound for the set ?      The real numbers by definition have the least upper bound property. Show that they also have the greatest lower bound property, i.e. for any subset with a lower bound, exists (and is an element of ).    "
 },
 {
   "id": "sec-reals-2",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.1.7",
   "title": "",
-  "body": "  Consider the set of numbers .   This an example of what we call set builder notation . The curly braces and denote a set, and means \"is an element of\" or \"in\", and means \"such that\". This whole set is then \"The set of all that are elements of such that \"     Find a rational number that is an upper bound for ; that is, for every .    What is the smallest rational number that is an upper bound for ?   "
+  "body": "  Consider the set of numbers .    Find a rational number that is an upper bound for ; that is, for every .    What is the smallest rational number that is an upper bound for ?   "
 },
 {
   "id": "sec-reals-9",
@@ -161,6 +161,105 @@ var ptx_lunr_docs = [
   "number": "1.1.16",
   "title": "",
   "body": "  The real numbers by definition have the least upper bound property. Show that they also have the greatest lower bound property, i.e. for any subset with a lower bound, exists (and is an element of ).   "
+},
+{
+  "id": "appendix-set-builder",
+  "level": "1",
+  "url": "appendix-set-builder.html",
+  "type": "Section",
+  "number": "A.1",
+  "title": "Sets",
+  "body": " Sets   We will work with a number of sets in this class. Common sets are  , the set of natural numbers.  , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .       To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").      Determine which of the following are true statements.                         We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .    Among the sets in , we have .    Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .     is the natural numbers .  is the interval .  is the even integers.      Describe the following sets.                  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.     The empty set is denoted or .   "
+},
+{
+  "id": "def-number-sets",
+  "level": "2",
+  "url": "appendix-set-builder.html#def-number-sets",
+  "type": "Definition",
+  "number": "A.1.1",
+  "title": "",
+  "body": " We will work with a number of sets in this class. Common sets are  , the set of natural numbers.  , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .    "
+},
+{
+  "id": "def-set-notation",
+  "level": "2",
+  "url": "appendix-set-builder.html#def-set-notation",
+  "type": "Definition",
+  "number": "A.1.2",
+  "title": "",
+  "body": "  To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").   "
+},
+{
+  "id": "appendix-set-builder-4",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-4",
+  "type": "Activity",
+  "number": "A.1.3",
+  "title": "",
+  "body": "  Determine which of the following are true statements.                       "
+},
+{
+  "id": "appendix-set-builder-5",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-5",
+  "type": "Definition",
+  "number": "A.1.4",
+  "title": "",
+  "body": " We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .  "
+},
+{
+  "id": "appendix-set-builder-6",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-6",
+  "type": "Example",
+  "number": "A.1.5",
+  "title": "",
+  "body": " Among the sets in , we have .  "
+},
+{
+  "id": "appendix-set-builder-7",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-7",
+  "type": "Definition",
+  "number": "A.1.6",
+  "title": "",
+  "body": " Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .  "
+},
+{
+  "id": "appendix-set-builder-8",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-8",
+  "type": "Example",
+  "number": "A.1.7",
+  "title": "",
+  "body": "  is the natural numbers .  is the interval .  is the even integers.   "
+},
+{
+  "id": "appendix-set-builder-9",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-9",
+  "type": "Activity",
+  "number": "A.1.8",
+  "title": "",
+  "body": "  Describe the following sets.               "
+},
+{
+  "id": "appendix-set-builder-10",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-10",
+  "type": "Activity",
+  "number": "A.1.9",
+  "title": "",
+  "body": "  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.   "
+},
+{
+  "id": "appendix-set-builder-11",
+  "level": "2",
+  "url": "appendix-set-builder.html#appendix-set-builder-11",
+  "type": "Definition",
+  "number": "A.1.10",
+  "title": "",
+  "body": " The empty set is denoted or .  "
 }
 ]
 
