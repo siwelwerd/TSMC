@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="appendix-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sets</title>
+
+  <definition xml:id="def-number-sets">
+    <p>We will work with a number of sets in this class.  Common sets are
+    <ul>
+      <li><m>\N=\{0,1,2,3,\ldots\}</m>, the set of natural numbers.</li>
+      <li><m>\Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}</m>, the set of integers.</li>
+      <li><m>\Q</m>, the set of rational numbers.</li>
+      <li><m>\R</m>, the set of real numbers defined in <xref ref="sec-reals"/>.</li>
+    </ul>
+    </p>
+  </definition>
+
+  <definition xml:id="def-set-notation">
+    <statement>
+        <p>
+            To describe which expressions (or "elements") belong to a set, 
+            we use the symbol <m>\in</m> to denote "is an element of",
+            and <m>\notin</m> to denote "is not an element of".
+            For example, we might write <m>\frac{1}{2} \in \Q</m>, read as "<m>\frac{1}{2}</m> 
+            is an element of the rational numbers", or <m>\sqrt{2} \notin \Q</m> to mean
+            "<m>\sqrt{2}</m> is not an element of the rationals" (perhaps more colloquially 
+            we might say that as "<m>\sqrt{2}</m> is not rational").
+        </p>
+    </statement>
+  </definition>
+
+  <activity>
+    <statement>
+      <p>Determine which of the following are true statements.</p>
+      <ol>
+        <li><m>-11 \in \N</m> </li>
+        <li><m>\frac{1}{30} \in \N</m> </li>
+        <li><m>\sqrt{17} \in \N</m> </li>
+        <li><m>-5 \notin \Z</m> </li>
+        <li><m>\frac{2}{3} \notin \Z</m> </li>
+        <li><m>\sqrt{7} \notin \Z</m> </li>
+        <li><m>-5.1 \in \Q</m> </li>
+        <li><m>\frac{1}{7} \in \Q</m> </li>
+        <li><m>\sqrt{27} \in \Q</m> </li>
+      </ol>
+    </statement>
+  </activity>
+
+  <definition>
+    <p>We will use the symbol <m>\subset</m> to denote a containment relation between sets.
+    That is, if we write <m>A \subset B</m> for two sets <m>A</m> and <m>B</m>, we mean that
+    <m>A</m> is contained in <m>B</m>, i.e. <m>A</m> is a subset of <m>B</m>.
+    </p>
+  </definition>
+
+  <example>
+    <p>Among the sets in <xref ref="def-number-sets"/>, we have
+       <md>\N \subset \Z \subset \Q \subset \R</md>.
+    </p>
+  </example>
+
+  <definition> 
+  <p><term>Set builder notation</term> is a way to efficiently describe a set or a subset.
+  It is an expression of the form <md>\left\{ x \mid \Phi(x)\right\}</md>,
+  where 
+  The curly braces <m>\{</m> and <m>\}</m> denote a set, and <m>\mid</m> means "such that".
+  <m>\Phi(x)</m> is called the <term>predicate</term>, and evaluates to true for members of the set. 
+  </p>
+  <p>To specify a subset of a given set <m>A</m>, we would write
+    <md>\left\{ x \in A \mid \Phi(x)\right\}</md>
+    for an appropriate predicate <m>\Phi(x)</m>.
+  </p>
+  </definition>
+
+  <example>
+    <ol>
+      <li><m>\left\{x \in \Z \mid x \geq 0\right\}</m> is the natural numbers <m>\N</m>.</li>
+      <li><m>\left\{x \in \R \mid -1 \leq x \le 1\right\}</m> is the interval<m>(-1,1]</m>.</li>
+      <li><m>\left\{n \in \Z \mid n=2k \text{ for some } k \in \Z \right\}</m> is the even integers.</li>
+    </ol>
+  </example>
+
+  <activity>
+    <introduction>
+      <p>
+        Describe the following sets.
+      </p>
+    </introduction>
+    <task>
+      <p><m>\left\{n \in \Z \mid n=2k+1 \text{ for some } k \in \Z\right\}</m></p>
+    </task>
+    <task>
+      <p><m>\left\{x \in \R \mid x^2-5x+6=0 \right\}</m></p>
+    </task>
+    <task>
+      <p><m>\left\{x \in \Q \mid x^2 \leq 0 \right\}</m></p>
+    </task>
+    <task>
+      <p><m>\left\{x \in \R \mid x^2 +x+1=0 \right\}</m></p>
+    </task>
+  </activity>
+
+  <activity>
+    <introduction>
+      <p>
+        Describe the following sets using set builder notation.
+      </p>
+    </introduction>
+    <task>
+      <p>The interval <m>(-\infty,7]</m>.</p>
+    </task>
+    <task>
+      <p>The set of integers that are multiples of 3.</p>
+    </task>
+    <task>
+      <p>The set of natural numbers that are perfect squares.</p>
+    </task>
+  </activity>
+
+  <definition>
+    <p>The <term>empty set</term> is denoted <m>\{\}</m> or <m>\emptyset</m>.</p>
+  </definition>
+  
+</section>
