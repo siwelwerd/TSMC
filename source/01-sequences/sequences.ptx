@@ -26,34 +26,68 @@
     <activity>
       <introduction>
         <p>
-          Write the first 5 terms of each of these sequences
+          For each of the following sequences:
+          <ul>
+            <li>
+              Write the first 5 terms of the sequence.
+            </li>
+            <li>
+              Plot the points <m>(n,a_n)</m> on a graph.
+            </li>
+            <li>
+              Describe the behavior of the sequence as <m>n</m> becomes large.
+            </li>
+          </ul>
         </p>
       </introduction>
       <task>
         <statement>
-          <m>\{\frac{1}{n}\}_{n=1} ^\infty</m>
+          <m>\left\{\dfrac{1}{n}\right\}_{n=1} ^\infty</m>
         </statement>
       </task>
       <task>
         <statement>
-          <m>\{2^n\}_{n=1} ^\infty</m>
+          <m>\left\{2^n\right\}_{n=1} ^\infty</m>
         </statement>
       </task>
       <task>
         <statement>
-          <m>\{\frac{n-1}{n}\}_{n=1} ^\infty</m>
+          <m>\left\{\dfrac{n-1}{n}\right\}_{n=1} ^\infty</m>
         </statement>
       </task>
       <task>
         <statement>
-          <m>\{(-1)^n\}_{n=1} ^\infty</m>
+          <m>\left\{(-1)^n\right\}_{n=1} ^\infty</m>
         </statement>
       </task>
       <task>
         <statement>
-          <p>
-            How would you describe each of these sequences, particularly as <m>n</m> becomes large?
-          </p>
+          <m>\left\{1+\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^n}\right\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\left\{\dfrac{(-1)^n}{n^2}\right\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\left\{\dfrac{1+(-1)^n}{2}\right\}_{n=1} ^\infty</m>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}-\log(n)\right\}_{n=1} ^\infty</m>
+          <aside>
+            <p>In this text we use the usual mathematical convention that <m>\log</m>
+              means the natural log, i.e. base <m>e</m>.
+            </p>
+          </aside>
         </statement>
       </task>
     </activity>
