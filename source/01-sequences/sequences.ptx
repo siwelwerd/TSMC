@@ -3,94 +3,114 @@
 <section xml:id="sec-sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Sequences </title>
 
-    <definition>
-      <statement>
-        <p>Informally, a <term>sequence</term> (of real numbers) is an infinite list of real numbers.</p>
-        <p>Formally, a sequence is a function from the natural numbers to 
-        the real numbers <m>a: \N \rightarrow \R</m>. Rather than writing <m>a(n)</m>,
-        we typically use <m>a_n</m> to refer to the nth term of the sequence,
-        and write <m>\{a_n\}_{n=1}^\infty</m> to represent the whole sequence.
-        </p>
-      </statement>
-    </definition>
-
-    <example>
-      <p>
-        <m>\{0.9,0.99,0.999,0.9999,0.99999,\ldots\}</m> is a sequence.
-        It represents the function from <m>\N</m> to <m>\R</m> given by
-        <md>n \rightarrow 1-\frac{1}{10^{n}}.</md>
-        We could also represent this sequence as <m>\{1-\frac{1}{10^{n}}\} _{n=1} ^\infty</m>.
+  <definition>
+    <statement>
+      <p>Informally, a <term>sequence</term> (of real numbers) is an infinite list of real numbers.</p>
+      <p>Formally, a sequence is a function from the natural numbers to 
+      the real numbers <m>a: \N \rightarrow \R</m>. Rather than writing <m>a(n)</m>,
+      we typically use <m>a_n</m> to refer to the nth term of the sequence,
+      and write <m>\{a_n\}_{n=1}^\infty</m> to represent the whole sequence.
       </p>
-    </example>
+    </statement>
+  </definition>
 
-    <activity>
-      <introduction>
-        <p>
-          For each of the following sequences:
-          <ul>
-            <li>
-              Write the first 5 terms of the sequence.
-            </li>
-            <li>
-              Plot the points <m>(n,a_n)</m> on a graph.
-            </li>
-            <li>
-              Describe the behavior of the sequence as <m>n</m> becomes large.
-            </li>
-          </ul>
-        </p>
-      </introduction>
-      <task>
-        <statement>
-          <m>\left\{\dfrac{1}{n}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{2^n\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{\dfrac{n-1}{n}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{(-1)^n\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{1+\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^n}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{\dfrac{(-1)^n}{n^2}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{\dfrac{1+(-1)^n}{2}\right\}_{n=1} ^\infty</m>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}-\log(n)\right\}_{n=1} ^\infty</m>
-          <aside>
-            <p>In this text we use the usual mathematical convention that <m>\log</m>
-              means the natural log, i.e. base <m>e</m>.
-            </p>
-          </aside>
-        </statement>
-      </task>
-    </activity>
+  <example>
+    <p>
+      <m>\{0.9,0.99,0.999,0.9999,0.99999,\ldots\}</m> is a sequence.
+      It represents the function from <m>\N</m> to <m>\R</m> given by
+      <md>n \rightarrow 1-\frac{1}{10^{n}}.</md>
+      We could also represent this sequence as <m>\{1-\frac{1}{10^{n}}\} _{n=1} ^\infty</m>.
+    </p>
+  </example>
+
+  <activity>
+    <introduction>
+      <p>
+        For each of the following sequences:
+        <ul>
+          <li>
+            Write the first 5 terms of the sequence.
+          </li>
+          <li>
+            Plot the points <m>(n,a_n)</m> on a graph.
+          </li>
+          <li>
+            Describe the behavior of the sequence as <m>n</m> becomes large.
+          </li>
+        </ul>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <m>\left\{\dfrac{1}{n}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{2^n\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{\dfrac{n-1}{n}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{(-1)^n\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{1+\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^n}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{\dfrac{(-1)^n}{n^2}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{\dfrac{1+(-1)^n}{2}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <m>\left\{1+\frac{1}{2}+\frac{1}{6}+\cdots+\frac{1}{n!}\right\}_{n=1} ^\infty</m>
+      </statement>
+    </task>
+  </activity>
+
+  <definition xml:id="def-seq-convergence">
+    <p>A sequence <m>\{a_n\} _{n=1} ^\infty</m> is said to <term>converge to <m>L</m></term>,
+    or simply to <term>converge</term>, if for every <m>\epsilon \gt 0</m>,
+    there exists some <m>N \in \N</m> such that if <m>k\geq N</m>,
+    then <m>|a_k-L| \lt \epsilon</m>.</p>
+    <p>In other words, the sequence converges to <m>L</m> if 
+    no matter how close we want the sequence to be to <m>L</m>,
+    eventually the sequence gets and stays that close to <m>L</m>.
+    </p>
+    <p>If the sequence <m>\{a_n\}_{n=1}^\infty</m> converges to <m>L</m>,
+    we often write <m>\displaystyle \lim _{n \rightarrow \infty} a_n = L</m>.
+    If a sequence does not converge, we say it <term>diverges</term>.
+    </p>
+  </definition>
+
+  <example>
+    <p>The sequence <m>\left\{\dfrac{1}{n}\right\}_{n=1} ^\infty</m> converges
+    to zero.  To see this, let <m>\epsilon \gt 0</m> be any positive real number.
+    Then set <m>N</m> to be the
+    next integer larger than <m>\frac{1}{\epsilon}</m>.  By
+    construction, for all <m>n \geq N</m>, <m>n\gt\frac{1}{\epsilon}</m>, so 
+    <m>\frac{1}{n} \lt \epsilon</m>.  Thus the sequence converges to zero.
+    </p>
+  </example>
 
 
 </section>
