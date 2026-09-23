@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "A.1",
   "title": "Sets",
-  "body": " Sets   We will work with a number of sets in this class. Common sets are  , the set of natural numbers.   Many authors will define the natural numbers to also include .   , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .       To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").      Determine which of the following are true statements.                         We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .    Among the sets in , we have .    Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .     is the natural numbers .  is the interval .  is the even integers.      Describe the following sets.                  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.     The empty set is denoted or .   "
+  "body": " Sets   We will work with a number of sets in this class. Common sets are  , the set of natural numbers.   Many authors will define the natural numbers to also include .   , the set of integers.  , the set of rational numbers.  , the set of real numbers defined in .       To describe which expressions (or \"elements\") belong to a set, we use the symbol to denote \"is an element of\", and to denote \"is not an element of\". For example, we might write , read as \" is an element of the rational numbers\", or to mean \" is not an element of the rationals\" (perhaps more colloquially we might say that as \" is not rational\").      Determine which of the following are true statements.                         False.  False.  False.  False.  True.  True.  True.  True.  False.      We will use the symbol to denote a containment relation between sets. That is, if we write for two sets and , we mean that is contained in , i.e. is a subset of .    Among the sets in , we have .    Set builder notation is a way to efficiently describe a set or a subset. It is an expression of the form , where The curly braces and denote a set, and means \"such that\". is called the predicate , and evaluates to true for members of the set.  To specify a subset of a given set , we would write for an appropriate predicate .     is the natural numbers .  is the interval .  is the even integers.      Describe the following sets.      These are the odd integers.                   or       Describe the following sets using set builder notation.    The interval .       The set of integers that are multiples of 3.       The set of natural numbers that are perfect squares.        The empty set is denoted or .   "
 },
 {
   "id": "def-number-sets",
@@ -241,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "A.1.3",
   "title": "",
-  "body": "  Determine which of the following are true statements.                       "
+  "body": "  Determine which of the following are true statements.                         False.  False.  False.  False.  True.  True.  True.  True.  False.    "
 },
 {
   "id": "appendix-set-builder-5",
@@ -286,7 +286,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "A.1.8",
   "title": "",
-  "body": "  Describe the following sets.               "
+  "body": "  Describe the following sets.      These are the odd integers.                   or    "
 },
 {
   "id": "appendix-set-builder-10",
@@ -295,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "A.1.9",
   "title": "",
-  "body": "  Describe the following sets using set builder notation.    The interval .    The set of integers that are multiples of 3.    The set of natural numbers that are perfect squares.   "
+  "body": "  Describe the following sets using set builder notation.    The interval .       The set of integers that are multiples of 3.       The set of natural numbers that are perfect squares.      "
 },
 {
   "id": "appendix-set-builder-11",
