@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Sequences",
-  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     Write the first 5 terms of each of these sequences                         How would you describe each of these sequences, particularly as becomes large?     "
+  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                                                    A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .    The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.   "
 },
 {
   "id": "sec-sequences-2",
@@ -205,7 +205,25 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.3",
   "title": "",
-  "body": "  Write the first 5 terms of each of these sequences                         How would you describe each of these sequences, particularly as becomes large?    "
+  "body": "  For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                                                  "
+},
+{
+  "id": "def-seq-convergence",
+  "level": "2",
+  "url": "sec-sequences.html#def-seq-convergence",
+  "type": "Definition",
+  "number": "1.2.4",
+  "title": "",
+  "body": " A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .  "
+},
+{
+  "id": "sec-sequences-6",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-6",
+  "type": "Example",
+  "number": "1.2.5",
+  "title": "",
+  "body": " The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.  "
 },
 {
   "id": "appendix-set-builder",
