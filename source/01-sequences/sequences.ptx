@@ -68,7 +68,6 @@
             <p><m>2, 4, 8, 16, 32</m></p>
           </li>
           <li>
-            <p><m>(1,2), (2,4), (3,8), (4,16), (5,32)</m></p>
           </li>
           <li>
             <p><m>\displaystyle \lim_{n\to\infty} 2^n=\infty</m>.</p>
@@ -86,7 +85,6 @@
             <p><m>0, \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \frac{4}{5}</m></p>
           </li>
           <li>
-            <p><m>(1,0), (2,\frac{1}{2}), (3,\frac{2}{3}), (4,\frac{3}{4}), (5,\frac{4}{5})</m></p>
           </li>
           <li>
             <p>The least upper bound of <m>\{a_n\}</m> is <m>1</m>.</p>
@@ -104,7 +102,6 @@
             <p><m>-1, 1, -1, 1, -1</m></p>
           </li>
           <li>
-            <p><m>(1,-1), (2,1), (3,-1), (4,1), (5,-1)</m></p>
           </li>
           <li>
             <p>The sequence alternates between <m>-1</m> and <m>1</m>.</p>
