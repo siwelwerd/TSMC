@@ -141,6 +141,13 @@
       element of <m>\R</m>).
       </p>
     </statement>
+    <solution>
+      <p>Let <m>S \subset \R</m> have a lower bound <m>L</m>, so <m>L \le s</m> for all <m>s \in S</m>.</p>
+      <p>Let <m>T=\{1-s \mid s \in S\}</m>. Since <m>L \le s</m> for all <m>s \in S</m>, 
+      <m>-L \ge -s</m> for all <m>s \in S</m>, and <m>1-L \ge 1-s</m> for all <m>s \in S</m>. 
+      So <m>T</m> has an upper bound of <m>1-L</m>.</p>
+      <p>Then <m>T</m> has a least upper bound <m>U</m>. <m>1-U</m> is a greatest lower bound for <m>S</m>.</p>
+    </solution>
   </activity>
   
 
