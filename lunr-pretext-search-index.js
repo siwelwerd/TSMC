@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Sequences",
-  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                  The greatest lower bound of is , and .                  .                  The least upper bound of is .                  The sequence alternates between and .                                 A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .    The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.   "
+  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                  The greatest lower bound of is , and .                  .                  The least upper bound of is .                  The sequence alternates between and .                                 A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .    The condition is equivalent to saying .     A graph of sequence points showing eventually all sequence points are within of .    Once , we see that .     The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.    The sequence diverges. Let be any number. If , then for every odd . Conversely, if , then for every even . Thus the sequence diverges.    If is a function with , then the sequence also converges to .    Since , the sequence converges to .    A sequence is called monotonic if its terms are all increasing (i.e. for all ), or if its terms are all decreasing (i.e. for all ).     Which of the following sequences are monotonic?                 Every bounded monotonic sequence converges.    Without loss of generality, let be an increasing bounded sequence. By the least upper bound property, let be its least upper bound.  We claim converges to . Let . If for every , then is an upper bound of smaller than , a contradiction. Thus, for some , . Since the sequence is increasing, we have for all , so the sequence converges.   "
 },
 {
   "id": "sec-sequences-2",
@@ -220,10 +220,91 @@ var ptx_lunr_docs = [
   "id": "sec-sequences-6",
   "level": "2",
   "url": "sec-sequences.html#sec-sequences-6",
-  "type": "Example",
+  "type": "Remark",
   "number": "1.2.5",
   "title": "",
+  "body": " The condition is equivalent to saying .  "
+},
+{
+  "id": "sec-sequences-7",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-7",
+  "type": "Figure",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  A graph of sequence points showing eventually all sequence points are within of .    Once , we see that .   "
+},
+{
+  "id": "sec-sequences-8",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-8",
+  "type": "Example",
+  "number": "1.2.7",
+  "title": "",
   "body": " The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.  "
+},
+{
+  "id": "sec-sequences-9",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-9",
+  "type": "Example",
+  "number": "1.2.8",
+  "title": "",
+  "body": " The sequence diverges. Let be any number. If , then for every odd . Conversely, if , then for every even . Thus the sequence diverges.  "
+},
+{
+  "id": "sec-sequences-10",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-10",
+  "type": "Proposition",
+  "number": "1.2.9",
+  "title": "",
+  "body": " If is a function with , then the sequence also converges to .  "
+},
+{
+  "id": "sec-sequences-11",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-11",
+  "type": "Example",
+  "number": "1.2.10",
+  "title": "",
+  "body": " Since , the sequence converges to .  "
+},
+{
+  "id": "sec-sequences-12",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-12",
+  "type": "Definition",
+  "number": "1.2.11",
+  "title": "",
+  "body": " A sequence is called monotonic if its terms are all increasing (i.e. for all ), or if its terms are all decreasing (i.e. for all ).  "
+},
+{
+  "id": "sec-sequences-13",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-13",
+  "type": "Activity",
+  "number": "1.2.12",
+  "title": "",
+  "body": "  Which of the following sequences are monotonic?               "
+},
+{
+  "id": "sec-sequences-14",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-14",
+  "type": "Theorem",
+  "number": "1.2.13",
+  "title": "",
+  "body": " Every bounded monotonic sequence converges.  "
+},
+{
+  "id": "sec-sequences-15",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-15",
+  "type": "Proof",
+  "number": "1.2.1",
+  "title": "",
+  "body": " Without loss of generality, let be an increasing bounded sequence. By the least upper bound property, let be its least upper bound.  We claim converges to . Let . If for every , then is an upper bound of smaller than , a contradiction. Thus, for some , . Since the sequence is increasing, we have for all , so the sequence converges.  "
 },
 {
   "id": "appendix-set-builder",
