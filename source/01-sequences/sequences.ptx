@@ -150,7 +150,24 @@
     If a sequence does not converge, we say it <term>diverges</term>.
     </p>
   </definition>
+
+  <remark>
+    <p>The condition <m>|a_k-L|\lt \epsilon</m> is equivalent to saying <m>L-\epsilon \lt a_k \lt L+\epsilon</m>.
+    </p>
+  </remark>
   
+  <figure>
+    <image source="sequence-convergence.svg">
+      <shortdescription>
+        A graph of sequence points showing eventually all sequence points
+        are within <m>\epsilon</m> of <m>x</m>.
+      </shortdescription>
+    </image>
+    <caption>
+      <p>Once <m>n \gt M</m>, we see that <m>|x_n-x| \lt \epsilon </m>.</p>
+    </caption>
+  </figure>
+
   <example>
     <p>The sequence <m>\left\{\dfrac{1}{n}\right\}_{n=1} ^\infty</m> converges
     to zero.  To see this, let <m>\epsilon \gt 0</m> be any positive real number.
@@ -160,6 +177,68 @@
     <m>\frac{1}{n} \lt \epsilon</m>.  Thus the sequence converges to zero.
     </p>
   </example>
+
+  <example>
+    <p>The sequence <m>\{(-1)^n\}_{n=1}^\infty</m> diverges.  Let <m>L</m> be any
+    number.  If <m>L \geq 0</m>, then <m>|a_n-L|\geq 1</m> for every odd <m>n</m>.
+    Conversely, if <m>L \leq 0</m>, then <m>|a_n-L| \geq 1</m> for every even <m>n</m>.
+    Thus the sequence diverges.
+    </p>
+  </example>
+
+  <proposition>
+    <p>If <m>f(x)</m> is a function with <m>\displaystyle \lim _{x \rightarrow \infty} f(x) = L</m>,
+    then the sequence <m>\{f(n)\}_{n=1} ^\infty</m> also converges to <m>L</m>.
+    </p>
+  </proposition>
+
+  <example>
+    <p>Since <m>\displaystyle \lim _{x \rightarrow \infty} \dfrac{x^2}{x^2+1}=1</m>, 
+    the sequence <m>\left\{\dfrac{n^2}{n^2+1}\right\}_{n=1}^\infty</m> converges to <m>1</m>.
+    </p>
+  </example>
+
+  <definition>
+    <p>A sequence is called <term>monotonic</term> if its terms are all
+    increasing (i.e. <m>a_n \leq a_{n+1}</m> for all <m>n</m>), or if its
+    terms are all decreasing (i.e. <m>a_n \geq a_{n+1}</m> for all <m>n</m>). 
+    </p>
+  </definition>
+
+  <activity>
+    <statement>
+      <p>
+        Which of the following sequences are monotonic?
+        <ol>
+          <li> <m>\left\{-\dfrac{1}{n}\right\}_{n=1} ^\infty</m></li>
+          <li> <m>\left\{(-1)^n\right\}_{n=1} ^\infty</m></li>
+          <li> <m>\left\{\dfrac{n}{n^3+1}\right\}_{n=1} ^\infty</m></li>
+          <li> <m>\left\{\dfrac{(-1)^n}{n}\right\}_{n=1} ^\infty</m></li>
+          <li> <m>\left\{\dfrac{2^n}{n}\right\}_{n=1} ^\infty</m></li>
+        </ol>
+      </p>
+    </statement>
+  </activity>
+
+  <theorem>
+    <p>Every bounded monotonic sequence converges.</p>
+  </theorem>
+  <proof>
+    <p>
+      Without loss of generality, let <m>\{a_n\}_{n=1} ^\infty</m> be an increasing bounded sequence.
+      By the least upper bound property, let <m>L=\sup \{a_n\}</m> be its least upper bound.
+    </p>
+    <p>
+      We claim <m>\{a_n\}</m> converges to <m>L</m>.  Let <m>\epsilon \gt 0</m>.
+      If <m>a_n \leq L-\epsilon</m> for every <m>n</m>, then <m>L-\epsilon</m> is 
+      an upper bound of <m>\{a_n\}</m> smaller than <m>L</m>, a contradiction.  Thus, 
+      for some <m>N</m>, <m>a_N \gt L-\epsilon</m>.  Since the sequence is increasing,
+      we have <m>a_n \geq a_N \gt L-\epsilon</m> for all <m>n \geq N</m>,
+      so the sequence converges.
+    </p>
+  </proof>
+
+ 
 
 
 </section>
