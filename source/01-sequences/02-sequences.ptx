@@ -246,8 +246,51 @@
     <p>We will see later that this sequence converges to <m>e</m>.
     </p>
   </example>
-  
- 
 
+  <definition>
+    <p>
+      A sequence <m>\{b_k\} _{k=1} ^\infty</m> is called a <term>subsequence</term> of another sequence <m>\{a_n\} _{n=1} ^\infty</m>
+      if there is an increasing sequence of natural numbers <m>\{n_k\} _{k=1} ^\infty</m> such that 
+      <m>b_k = a_{n_k}</m> for each <m>k</m>.
+    </p>
+    <p>
+      In other words, a subsequence of a sequence is formed by dropping some terms from a sequence, but
+      without changing the order.
+    </p>
+  </definition>
+
+  <example>
+    <p>
+      The sequence <m>\{1,\frac{1}{3},\frac{1}{5},\frac{1}{7},\ldots\}</m> is a subsequence of the 
+      sequence<m>\left\{\dfrac{1}{n}\right\} _{n=1} ^\infty</m>.
+    </p>
+  </example>
+
+  <theorem xml:id="thm-subseq-converge">
+    <statement>
+      <p>
+        A sequence <m>\{a_n\}_{n=1} ^\infty</m> converges to <m>L</m> if and only if every 
+        subsequence also converges to <m>L</m>.
+      </p>
+    </statement>
+  </theorem>
+  <proof>
+    <p>One direction is trivial since a sequence is a subsequence of itself.</p>
+    <p>So suppose <m>\{a_{n_k}\}_{k=1} ^\infty</m> is a subsequence, and that <m>\displaystyle \lim _{n \rightarrow \infty} a_n = L</m>.
+       Let <m>\epsilon \gt 0</m>. Then there exists <m>N</m> such that <m>|a_n-L|\lt \epsilon</m> for all <m>n \geq N</m>.
+       choose <m>K</m> such that <m>n_K \geq N</m>.  Then for any <m>n_k \geq n_K</m>, <m>n_k \geq N</m>,
+       so <m>|a_{n_k}-L|\lt \epsilon</m>.  Thus the subsequence converges.
+    </p>
+  </proof>
+
+  <example>
+    <p>Consider the sequence <m>\left\{(-1)^n\right\}_{n=1}^\infty</m>.  The subsequence of odd terms is
+      <md>\left\{-1,-1,-1,-1,-1,\ldots\right\}</md>
+      which converges to <m>-1</m>, and the subsequence of even terms is
+      <md>\left\{1,1,1,1,1,1,\ldots,\right\}</md>
+      which converges to <m>1</m>.  Since two subsequences converge to different things, the sequence
+      <m>\left\{(-1)^n\right\}_{n=1}^\infty</m> diverges.
+    </p>
+  </example>
 
 </section>
