@@ -238,6 +238,15 @@
     </p>
   </proof>
 
+  <example>
+    <p>The sequence 
+        <m>\left\{1+\frac{1}{2}+\frac{1}{6}+\cdots+\frac{1}{n!}\right\}_{n=1} ^\infty</m>
+    is increasing and bounded, so it converges.
+    </p>
+    <p>We will see later that this sequence converges to <m>e</m>.
+    </p>
+  </example>
+  
  
 
 
