@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-series" xmlns:xi="http://www.w3.org/2001/XInclude">
+  
+  <title>Series </title>
+
+  <observation>
+    <p>In <xref ref="sec-sequences"/>, we encountered a few examples of sequences of <term>partial sums</term> like
+    <md>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right\}_{n=1} ^\infty</md>
+    and
+    <md>\left\{1+\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^n}\right\}_{n=1} ^\infty</md>.
+    We want to generalize this idea into a new concept called a <term>series</term>
+    </p>
+  </observation>
+
+  <definition>
+    <p>
+      Given a sequence <m>\{a_n\}_{n=1} ^\infty</m>, we can define a series of partial sums by
+      <md>A_k=\sum _{n=1} ^k a_n = a_1+\cdots+a_k</md>.
+      Instead of writing <m>\left\{A_k\right\}_{k=1} ^\infty</m> or <m>\displaystyle \left\{\sum _{n=1} ^k a_n\right\} _{n=1} ^\infty</m>,
+      we use the notation 
+      <md>\sum _{n=1} ^\infty a_n</md>
+      to represent the series.
+    </p>
+    <p>
+      We say the series <term>converges</term> (respectively, <term>diverges</term>) when its sequence of partial
+      sums converges (respectively, diverges). If the series converges to <m>L</m>, we often write
+      <m>\displaystyle \sum _{n=1} ^\infty a_n = L</m>.
+    </p> 
+  </definition>
+
+  <example>
+    <p>We write <m>\sum _{n=1} ^\infty \dfrac{1}{n}</m> to represent the sequence of partial sums
+    <m>\left\{1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}\right\} _{n=1} ^\infty</m>.
+    </p>
+  </example> 
+
+  <activity>
+    <introduction>
+      <p>Write the first 5 terms of each of the following series.</p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{2^n} </m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{n}{n^2+1} </m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n!} </m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+</section>
