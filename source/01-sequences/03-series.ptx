@@ -30,7 +30,7 @@
   </definition>
 
   <example>
-    <p>We write <m>\sum _{n=1} ^\infty \dfrac{1}{n}</m> to represent the sequence of partial sums
+    <p>We write <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n}</m> to represent the sequence of partial sums
     <m>\left\{1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}\right\} _{n=1} ^\infty</m>.
     </p>
   </example> 
@@ -56,10 +56,19 @@
     <task>
       <statement>
         <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{2^n}{n} </m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n!} </m>
         </p>
       </statement>
     </task>
   </activity>
+
+
 
 </section>
