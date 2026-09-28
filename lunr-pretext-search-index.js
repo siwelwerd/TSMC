@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Sequences",
-  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                  The greatest lower bound of is , and .                  .                  The least upper bound of is .                  The sequence alternates between and .                                 A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .    The condition is equivalent to saying .     A graph of sequence points showing eventually all sequence points are within of .    Once , we see that .     The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.    The sequence diverges. Let be any number. If , then for every odd . Conversely, if , then for every even . Thus the sequence diverges.    If is a function with , then the sequence also converges to .    Since , the sequence converges to .    A sequence is called monotonic if its terms are all increasing (i.e. for all ), or if its terms are all decreasing (i.e. for all ).     Which of the following sequences are monotonic?                 Every bounded monotonic sequence converges.    Without loss of generality, let be an increasing bounded sequence. By the least upper bound property, let be its least upper bound.  We claim converges to . Let . If for every , then is an upper bound of smaller than , a contradiction. Thus, for some , . Since the sequence is increasing, we have for all , so the sequence converges.   "
+  "body": " Sequences    Informally, a sequence (of real numbers) is an infinite list of real numbers.  Formally, a sequence is a function from the natural numbers to the real numbers . Rather than writing , we typically use to refer to the nth term of the sequence, and write to represent the whole sequence.      is a sequence. It represents the function from to given by We could also represent this sequence as .     For each of the following sequences:  Write the first 5 terms of the sequence.  Plot the points on a graph.  Describe the behavior of the sequence as becomes large.                  The greatest lower bound of is , and .                  .                  The least upper bound of is .                  The sequence alternates between and .                                 A sequence is said to converge to , or simply to converge , if for every , there exists some such that if , then .  In other words, the sequence converges to if no matter how close we want the sequence to be to , eventually the sequence gets and stays that close to .  If the sequence converges to , we often write . If a sequence does not converge, we say it diverges .    The condition is equivalent to saying .     A graph of sequence points showing eventually all sequence points are within of .    Once , we see that .     The sequence converges to zero. To see this, let be any positive real number. Then set to be the next integer larger than . By construction, for all , , so . Thus the sequence converges to zero.    The sequence diverges. Let be any number. If , then for every odd . Conversely, if , then for every even . Thus the sequence diverges.    If is a function with , then the sequence also converges to .    Since , the sequence converges to .    A sequence is called monotonic if its terms are all increasing (i.e. for all ), or if its terms are all decreasing (i.e. for all ).     Which of the following sequences are monotonic?                 Every bounded monotonic sequence converges.    Without loss of generality, let be an increasing bounded sequence. By the least upper bound property, let be its least upper bound.  We claim converges to . Let . If for every , then is an upper bound of smaller than , a contradiction. Thus, for some , . Since the sequence is increasing, we have for all , so the sequence converges.    The sequence is increasing and bounded, so it converges.  We will see later that this sequence converges to .    A sequence is called a subsequence of another sequence if there is an increasing sequence of natural numbers such that for each .  In other words, a subsequence of a sequence is formed by dropping some terms from a sequence, but without changing the order.    The sequence is a subsequence of the sequence .     A sequence converges to if and only if every subsequence also converges to .     One direction is trivial since a sequence is a subsequence of itself.  So suppose is a subsequence, and that . Let . Then there exists such that for all . choose such that . Then for any , , so . Thus the subsequence converges.    Consider the sequence . The subsequence of odd terms is which converges to , and the subsequence of even terms is which converges to . Since two subsequences converge to different things, the sequence diverges.   "
 },
 {
   "id": "sec-sequences-2",
@@ -305,6 +305,105 @@ var ptx_lunr_docs = [
   "number": "1.2.1",
   "title": "",
   "body": " Without loss of generality, let be an increasing bounded sequence. By the least upper bound property, let be its least upper bound.  We claim converges to . Let . If for every , then is an upper bound of smaller than , a contradiction. Thus, for some , . Since the sequence is increasing, we have for all , so the sequence converges.  "
+},
+{
+  "id": "sec-sequences-16",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-16",
+  "type": "Example",
+  "number": "1.2.14",
+  "title": "",
+  "body": " The sequence is increasing and bounded, so it converges.  We will see later that this sequence converges to .  "
+},
+{
+  "id": "sec-sequences-17",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-17",
+  "type": "Definition",
+  "number": "1.2.15",
+  "title": "",
+  "body": " A sequence is called a subsequence of another sequence if there is an increasing sequence of natural numbers such that for each .  In other words, a subsequence of a sequence is formed by dropping some terms from a sequence, but without changing the order.  "
+},
+{
+  "id": "sec-sequences-18",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-18",
+  "type": "Example",
+  "number": "1.2.16",
+  "title": "",
+  "body": " The sequence is a subsequence of the sequence .  "
+},
+{
+  "id": "thm-subseq-converge",
+  "level": "2",
+  "url": "sec-sequences.html#thm-subseq-converge",
+  "type": "Theorem",
+  "number": "1.2.17",
+  "title": "",
+  "body": "  A sequence converges to if and only if every subsequence also converges to .   "
+},
+{
+  "id": "sec-sequences-20",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-20",
+  "type": "Proof",
+  "number": "1.2.2",
+  "title": "",
+  "body": " One direction is trivial since a sequence is a subsequence of itself.  So suppose is a subsequence, and that . Let . Then there exists such that for all . choose such that . Then for any , , so . Thus the subsequence converges.  "
+},
+{
+  "id": "sec-sequences-21",
+  "level": "2",
+  "url": "sec-sequences.html#sec-sequences-21",
+  "type": "Example",
+  "number": "1.2.18",
+  "title": "",
+  "body": " Consider the sequence . The subsequence of odd terms is which converges to , and the subsequence of even terms is which converges to . Since two subsequences converge to different things, the sequence diverges.  "
+},
+{
+  "id": "sec-series",
+  "level": "1",
+  "url": "sec-series.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Series",
+  "body": " Series   In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series     Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .    We write to represent the sequence of partial sums .     Write the first 5 terms of each of the following series.                                "
+},
+{
+  "id": "sec-series-2",
+  "level": "2",
+  "url": "sec-series.html#sec-series-2",
+  "type": "Observation",
+  "number": "1.3.1",
+  "title": "",
+  "body": " In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series   "
+},
+{
+  "id": "sec-series-3",
+  "level": "2",
+  "url": "sec-series.html#sec-series-3",
+  "type": "Definition",
+  "number": "1.3.2",
+  "title": "",
+  "body": " Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .  "
+},
+{
+  "id": "sec-series-4",
+  "level": "2",
+  "url": "sec-series.html#sec-series-4",
+  "type": "Example",
+  "number": "1.3.3",
+  "title": "",
+  "body": " We write to represent the sequence of partial sums .  "
+},
+{
+  "id": "sec-series-5",
+  "level": "2",
+  "url": "sec-series.html#sec-series-5",
+  "type": "Activity",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Write the first 5 terms of each of the following series.                               "
 },
 {
   "id": "appendix-set-builder",
