@@ -293,4 +293,41 @@
     </p>
   </example>
 
+  <activity>
+    <introduction>
+      <p>
+        Determine if each of the following sequences converge, and if so, to what.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\left\{\dfrac{n^2-1}{n^2+1}\right\}_{n=1} ^\infty</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\left\{\dfrac{(-1)^n}{2n}\right\}_{n=1} ^\infty</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\left\{\dfrac{2}{(-3)^n}\right\}_{n=1} ^\infty</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The sequence <m>\left\{a_n\right\}_{n=1} ^\infty</m> where
+          <m>a_n = \begin{cases} \dfrac{1}{n} \amp \text{ when } n \text{ is even} \\ \dfrac{1}{n^2} \amp \text{ when } n \text{ is odd}\end{cases}</m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
 </section>
