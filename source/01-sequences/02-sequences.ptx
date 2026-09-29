@@ -324,7 +324,7 @@
       <statement>
         <p>
           The sequence <m>\left\{a_n\right\}_{n=1} ^\infty</m> where
-          <m>a_n = \begin{cases} \dfrac{1}{n} \amp \text{ when } n \text{ is even} \\ \dfrac{1}{n^2} \amp \text{ when } n \text{ is odd}\end{cases}</m>
+          <m>a_n = \begin{cases} \dfrac{1}{n} \amp \text{ when } n \text{ is even} \\ \dfrac{n+1}{n} \amp \text{ when } n \text{ is odd}\end{cases}</m>
         </p>
       </statement>
     </task>

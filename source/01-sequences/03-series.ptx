@@ -37,7 +37,7 @@
 
   <activity>
     <introduction>
-      <p>Write the first 5 terms of each of the following series.</p>
+      <p>Write the first 5 terms (i.e. partial sums) of each of the following series.</p>
     </introduction>
     <task>
       <statement>
@@ -63,11 +63,213 @@
     <task>
       <statement>
         <p>
-          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n!} </m>
+          <m>\displaystyle \sum _{n=0} ^\infty \dfrac{1}{n!} </m>
         </p>
       </statement>
     </task>
   </activity>
+
+  <p>Lets look at some special kinds of series.  We previously looked at 
+  a <term>geometric series</term> <m>\displaystyle \sum _{n=1} ^\infty \frac{1}{2^n}</m>.
+  </p>
+
+  <activity>
+    <task>
+      <statement>
+        <p>
+          Determine if <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{3^n}</m> converges or diverges.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Determine if <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{5^n}</m> converges or diverges.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Determine if <m>\displaystyle \sum _{n=1} ^\infty 2^n</m> converges or diverges.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Make a conjecture by completing this statement:
+          The series <m>\displaystyle \sum _{n=1} ^\infty r^n</m> converges if and only if ... 
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <theorem xml:id="thm-geometric-series">
+    <statement>
+      <p>
+        A geometric series <m>\displaystyle \sum _{n=1} ^\infty r^n</m> diverges
+        when ??? and converges to ??? when ???
+      </p>
+    </statement>
+    <proof>
+      <p>
+        
+      </p>
+    </proof>
+  </theorem>
+
+  <activity>
+    <introduction>
+      <p>
+        Determine if each of the following series converge or diverge. If they converge, find their limit.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \left(\dfrac{2}{3}\right)^n</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{4^n}{3^n}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty -\dfrac{3^n}{5^n}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{(-2)^n}{7^n}</m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>Lets now return to two series we examined previously.</p>
+  <activity>
+    <introduction>
+      The series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n}</m>
+      is called the <term>harmonic series</term>.
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Compute the first 10 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Compute the first 100 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Compute the first 1000 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Formulate a conjecture about whether this series converges or diverges.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <theorem xml:id="thm-harmonic-series">
+    <statement>
+      <p>
+        The harmonic series <m>\displaystyle \sum _{n=1} ^\infinity</m> converges/diverges.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        
+      </p>
+    </proof>
+  </theorem>
+
+  <activity>
+    <introduction>
+      Now consider the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2}</m>.
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Compute the first 10 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Compute the first 100 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Compute the first 1000 terms (partial sums) of this series.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Formulate a conjecture about whether this series converges or diverges.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <theorem xml:id="thm-p2-series">
+    <statement>
+      <p>
+        The series <m>\displaystyle \sum _{n=1} ^\infinity</m> converges/diverges.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        
+      </p>
+    </proof>
+  </theorem>
+
+  <definition>
+    <statement>
+      <p>
+        A <term><m>p</m>-series</term> is a series of the form <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^p}</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <theorem xml:id="thm-p-series">
+    <statement>
+      <p>
+        A <m>p</m> series of the form <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^p}</m>
+        converges for <m>p \gt 1</m> and diverges for <m>p \leq 1</m>.
+      </p>
+    </statement>
+  </theorem>
+  
+    
+  
 
 
 
