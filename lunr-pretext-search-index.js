@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Series",
-  "body": " Series   In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series     Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .    We write to represent the sequence of partial sums .     Write the first 5 terms (i.e. partial sums) of each of the following series.                                Lets look at some special kinds of series. We previously looked at a geometric series  .     Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...       A geometric series diverges when ??? and converges to ??? when ???          Determine if each of the following series converge or diverge. If they converge, find their limit.                                Lets now return to two series we examined previously.   The series is called the harmonic series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The harmonic series converges\/diverges.         Now consider the series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The series converges\/diverges.          A -series is a series of the form .      A series of the form converges for and diverges for .    "
+  "body": " Series   In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series     Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .    We write to represent the sequence of partial sums .     Write the first 5 terms (i.e. partial sums) of each of the following series.                                  If is a convergent series, then the sequence must converge to .  In other words, a necessary but not sufficient condition for a series to converge is that its underlying sequence must converge to .    Suppose converges to . Let . Then there exists such that for all . Then for all , we have . Thus the sequnce converges to .     An important thing to internalize is that knowing that the terms go to zero is not enough to conclude that converges. They must go to zero fast enough . We will soon see several different characterizations of what fast enough means.   Lets look at some special kinds of series. We previously looked at a geometric series  .     Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...       A geometric series diverges when ??? and converges to ??? when ???          Determine if each of the following series converge or diverge. If they converge, find their limit.                                Lets now return to two series we examined previously.    The series is called the harmonic series .     Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The harmonic series converges\/diverges.         Now consider the series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The series converges\/diverges.         The question of what value the series converges to is known as the Basel Problem. It was first posed in 1650 and not solved until 1734 by Leonhard Euler.     A -series is a series of the form .      A -series of the form converges for and diverges for .    "
 },
 {
   "id": "sec-series-2",
@@ -418,28 +418,28 @@ var ptx_lunr_docs = [
   "id": "sec-series-6",
   "level": "2",
   "url": "sec-series.html#sec-series-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Proposition",
+  "number": "1.3.5",
   "title": "",
-  "body": "geometric series "
+  "body": "  If is a convergent series, then the sequence must converge to .  In other words, a necessary but not sufficient condition for a series to converge is that its underlying sequence must converge to .    Suppose converges to . Let . Then there exists such that for all . Then for all , we have . Thus the sequnce converges to .   "
 },
 {
   "id": "sec-series-7",
   "level": "2",
   "url": "sec-series.html#sec-series-7",
-  "type": "Activity",
-  "number": "1.3.5",
-  "title": "",
-  "body": "   Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...    "
-},
-{
-  "id": "thm-geometric-series",
-  "level": "2",
-  "url": "sec-series.html#thm-geometric-series",
-  "type": "Theorem",
+  "type": "Remark",
   "number": "1.3.6",
   "title": "",
-  "body": "  A geometric series diverges when ??? and converges to ??? when ???       "
+  "body": " An important thing to internalize is that knowing that the terms go to zero is not enough to conclude that converges. They must go to zero fast enough . We will soon see several different characterizations of what fast enough means.  "
+},
+{
+  "id": "sec-series-8",
+  "level": "2",
+  "url": "sec-series.html#sec-series-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "geometric series "
 },
 {
   "id": "sec-series-9",
@@ -448,25 +448,25 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.7",
   "title": "",
-  "body": "  Determine if each of the following series converge or diverge. If they converge, find their limit.                               "
+  "body": "   Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...    "
+},
+{
+  "id": "thm-geometric-series",
+  "level": "2",
+  "url": "sec-series.html#thm-geometric-series",
+  "type": "Theorem",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  A geometric series diverges when ??? and converges to ??? when ???       "
 },
 {
   "id": "sec-series-11",
   "level": "2",
   "url": "sec-series.html#sec-series-11",
   "type": "Activity",
-  "number": "1.3.8",
-  "title": "",
-  "body": " The series is called the harmonic series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.    "
-},
-{
-  "id": "thm-harmonic-series",
-  "level": "2",
-  "url": "sec-series.html#thm-harmonic-series",
-  "type": "Theorem",
   "number": "1.3.9",
   "title": "",
-  "body": "  The harmonic series converges\/diverges.       "
+  "body": "  Determine if each of the following series converge or diverge. If they converge, find their limit.                               "
 },
 {
   "id": "sec-series-13",
@@ -475,6 +475,24 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.10",
   "title": "",
+  "body": "  The series is called the harmonic series .     Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.    "
+},
+{
+  "id": "thm-harmonic-series",
+  "level": "2",
+  "url": "sec-series.html#thm-harmonic-series",
+  "type": "Theorem",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  The harmonic series converges\/diverges.       "
+},
+{
+  "id": "sec-series-15",
+  "level": "2",
+  "url": "sec-series.html#sec-series-15",
+  "type": "Activity",
+  "number": "1.3.12",
+  "title": "",
   "body": " Now consider the series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.    "
 },
 {
@@ -482,16 +500,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-series.html#thm-p2-series",
   "type": "Theorem",
-  "number": "1.3.11",
+  "number": "1.3.13",
   "title": "",
   "body": "  The series converges\/diverges.       "
 },
 {
-  "id": "sec-series-15",
+  "id": "sec-series-18",
   "level": "2",
-  "url": "sec-series.html#sec-series-15",
+  "url": "sec-series.html#sec-series-18",
   "type": "Definition",
-  "number": "1.3.12",
+  "number": "1.3.14",
   "title": "",
   "body": "  A -series is a series of the form .   "
 },
@@ -500,9 +518,117 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-series.html#thm-p-series",
   "type": "Theorem",
-  "number": "1.3.13",
+  "number": "1.3.15",
   "title": "",
-  "body": "  A series of the form converges for and diverges for .   "
+  "body": "  A -series of the form converges for and diverges for .   "
+},
+{
+  "id": "sec-comparison",
+  "level": "1",
+  "url": "sec-comparison.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Comparison Tests",
+  "body": " Comparison Tests  In proving that -series converge in , we implicitly made use of the following.   Comparison Test   Let and be two series.  If converges and for all , then also converges.  If diverges and for all , then also diverges.      First, suppose converges to and for all . Then for every , , so the series is a bounded, monotonic sequence and hence converges.  Now suppose instead diverges and for all . Suppose is any real number. Then since is increasing and divergent, there exists such that . Then . Since the series gets larger than any real number, we see that diverges as well.     Because the first finitely many terms don't affect whether a sequence or series converges or not, the comparison test can be strengthened: it is enough to know that eventually  (i.e. there exists such that for all ).    Consider the series . Since , . Then since the harmonic series diverges, the series diverges as well.    Consider the series . Since , . Since this -series converges, we have must also converge.     Use the comparison test to determine if each of the following series converge or diverge.                                 As we saw in the last part of the previous activity, direct comparison is not always effective, even if qualitatively one series seems to behave like another.    Limit Comparison Test   Let and be two series with and for all . Suppose that for some . Then either and both converge, or they both diverge.    By the definition of the limit of a sequence, there exists such that for , . If diverges, then we have , so also diverges by the direct comparison test. If instead converges, then , so converges by direct comparison test.     Since and the -series converges, by the limit comparison test we know that also converges.     Use an appropriate comparison test to determine if each of the following series converge or diverge.                                "
+},
+{
+  "id": "sec-comparison-3",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-3",
+  "type": "Theorem",
+  "number": "1.4.1",
+  "title": "Comparison Test.",
+  "body": " Comparison Test   Let and be two series.  If converges and for all , then also converges.  If diverges and for all , then also diverges.      First, suppose converges to and for all . Then for every , , so the series is a bounded, monotonic sequence and hence converges.  Now suppose instead diverges and for all . Suppose is any real number. Then since is increasing and divergent, there exists such that . Then . Since the series gets larger than any real number, we see that diverges as well.   "
+},
+{
+  "id": "sec-comparison-4",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-4",
+  "type": "Remark",
+  "number": "1.4.2",
+  "title": "",
+  "body": " Because the first finitely many terms don't affect whether a sequence or series converges or not, the comparison test can be strengthened: it is enough to know that eventually  (i.e. there exists such that for all ).  "
+},
+{
+  "id": "sec-comparison-5",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-5",
+  "type": "Example",
+  "number": "1.4.3",
+  "title": "",
+  "body": " Consider the series . Since , . Then since the harmonic series diverges, the series diverges as well.  "
+},
+{
+  "id": "sec-comparison-6",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-6",
+  "type": "Example",
+  "number": "1.4.4",
+  "title": "",
+  "body": " Consider the series . Since , . Since this -series converges, we have must also converge.  "
+},
+{
+  "id": "sec-comparison-7",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-7",
+  "type": "Activity",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Use the comparison test to determine if each of the following series converge or diverge.                               "
+},
+{
+  "id": "sec-comparison-8",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-8",
+  "type": "Remark",
+  "number": "1.4.6",
+  "title": "",
+  "body": " As we saw in the last part of the previous activity, direct comparison is not always effective, even if qualitatively one series seems to behave like another.  "
+},
+{
+  "id": "thm-limit-comparison",
+  "level": "2",
+  "url": "sec-comparison.html#thm-limit-comparison",
+  "type": "Theorem",
+  "number": "1.4.7",
+  "title": "Limit Comparison Test.",
+  "body": " Limit Comparison Test   Let and be two series with and for all . Suppose that for some . Then either and both converge, or they both diverge.    By the definition of the limit of a sequence, there exists such that for , . If diverges, then we have , so also diverges by the direct comparison test. If instead converges, then , so converges by direct comparison test.   "
+},
+{
+  "id": "sec-comparison-10",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-10",
+  "type": "Example",
+  "number": "1.4.8",
+  "title": "",
+  "body": " Since and the -series converges, by the limit comparison test we know that also converges.  "
+},
+{
+  "id": "sec-comparison-11",
+  "level": "2",
+  "url": "sec-comparison.html#sec-comparison-11",
+  "type": "Activity",
+  "number": "1.4.9",
+  "title": "",
+  "body": "  Use an appropriate comparison test to determine if each of the following series converge or diverge.                               "
+},
+{
+  "id": "sec-alternating",
+  "level": "1",
+  "url": "sec-alternating.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "Alternating Series and Rearrangements",
+  "body": " Alternating Series and Rearrangements  We have so far been mostly focusing on series with positive terms. Here we consider sequences with both positive and negative terms.  "
+},
+{
+  "id": "sec-ratio-root",
+  "level": "1",
+  "url": "sec-ratio-root.html",
+  "type": "Section",
+  "number": "1.6",
+  "title": "Ratio and Root Tests",
+  "body": " Ratio and Root Tests  "
 },
 {
   "id": "appendix-set-builder",
