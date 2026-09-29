@@ -8,7 +8,7 @@
   </appendix>
   <appendix xml:id="appendix-psets">
     <title>Problem Sets</title>
-    <!--<xi:include href="problem-sets/problem-set1.ptx"/>-->
+    <xi:include href="problem-sets/problem-set1.ptx"/>
   </appendix>
 
 </backmatter>
