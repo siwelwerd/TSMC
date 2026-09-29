@@ -512,6 +512,15 @@ var ptx_lunr_docs = [
   "number": "A.1.10",
   "title": "",
   "body": " The empty set is denoted or .  "
+},
+{
+  "id": "appendix-psets",
+  "level": "1",
+  "url": "appendix-psets.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "Problem Sets",
+  "body": " Problem Sets   "
 }
 ]
 
