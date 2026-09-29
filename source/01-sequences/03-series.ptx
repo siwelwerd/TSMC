@@ -191,8 +191,9 @@
   <p>Lets now return to two series we examined previously.</p>
   <activity>
     <introduction>
-      The series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n}</m>
+      <p>The series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n}</m>
       is called the <term>harmonic series</term>.
+      </p>
     </introduction>
     <task>
       <statement>
