@@ -8,5 +8,7 @@
   <xi:include href="02-sequences.ptx" />
   <xi:include href="03-series.ptx" />
   <xi:include href="04-comparison.ptx" />
+  <xi:include href="05-alternating.ptx" />
+  <xi:include href="06-ratio-root.ptx" />
 
 </chapter>
