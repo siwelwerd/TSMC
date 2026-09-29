@@ -69,6 +69,39 @@
     </task>
   </activity>
 
+  <proposition>
+    <statement>
+      <p>
+        If <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is a convergent series, then the 
+        sequence <m>\{a_n\}_{n=1} ^\infty</m> must converge to <m>0</m>. 
+      </p>
+      <p>
+        In other words, a necessary <em>but not sufficient</em> condition
+        for a series to converge is that its underlying sequence must
+        converge to <m>0</m>.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Suppose <m>\sum _{n=1} ^\infty a_n</m> converges to <m>L</m>.
+        Let <m>\epsilon \gt 0</m>.  Then there exists <m>N</m> such that
+        <md>L-\dfrac{\epsilon}{2} \lt \sum _{n=1} ^k a_n \lt L+\dfrac{\epsilon}{2}</md> for all <m>k \gt N</m>.
+        Then for all <m>k \gt N</m>, we have 
+        <md>|a_{k+1}|=|\sum _{n=1}^{k+1} a_n - \sum _{n=1} ^k a_n| \lt \epsilon</md>. 
+        Thus the sequnce <m>\{a_n\} _{n=1} ^\infty</m> converges to <m>0</m>.
+      </p>
+    </proof>
+  </proposition>
+
+  <remark>
+    <p>An important thing to internalize is that knowing that the terms
+      <m>\{a_n\}_{n=1} ^\infty</m> go to zero is not enough to conclude that
+      <m>\displaystyle \sum _{n=1} ^\infty</m> converges.  They must go to 
+      zero <em>fast enough</em>.  We will soon see several different characterizations
+      of what <em>fast enough</em> means.
+    </p>
+  </remark>
+
   <p>Lets look at some special kinds of series.  We previously looked at 
   a <term>geometric series</term> <m>\displaystyle \sum _{n=1} ^\infty \frac{1}{2^n}</m>.
   </p>
