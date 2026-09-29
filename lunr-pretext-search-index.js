@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Series",
-  "body": " Series   In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series     Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .    We write to represent the sequence of partial sums .     Write the first 5 terms of each of the following series.                                "
+  "body": " Series   In , we encountered a few examples of sequences of partial sums like and . We want to generalize this idea into a new concept called a series     Given a sequence , we can define a series of partial sums by . Instead of writing or , we use the notation to represent the series.  We say the series converges (respectively, diverges ) when its sequence of partial sums converges (respectively, diverges). If the series converges to , we often write .    We write to represent the sequence of partial sums .     Write the first 5 terms (i.e. partial sums) of each of the following series.                                Lets look at some special kinds of series. We previously looked at a geometric series  .     Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...       A geometric series diverges when ??? and converges to ??? when ???          Determine if each of the following series converge or diverge. If they converge, find their limit.                                Lets now return to two series we examined previously.   The series is called the harmonic series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The harmonic series converges\/diverges.         Now consider the series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.       The series converges\/diverges.          A -series is a series of the form .      A series of the form converges for and diverges for .    "
 },
 {
   "id": "sec-series-2",
@@ -412,7 +412,97 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.4",
   "title": "",
-  "body": "  Write the first 5 terms of each of the following series.                               "
+  "body": "  Write the first 5 terms (i.e. partial sums) of each of the following series.                               "
+},
+{
+  "id": "sec-series-6",
+  "level": "2",
+  "url": "sec-series.html#sec-series-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "geometric series "
+},
+{
+  "id": "sec-series-7",
+  "level": "2",
+  "url": "sec-series.html#sec-series-7",
+  "type": "Activity",
+  "number": "1.3.5",
+  "title": "",
+  "body": "   Determine if converges or diverges.      Determine if converges or diverges.      Determine if converges or diverges.      Make a conjecture by completing this statement: The series converges if and only if ...    "
+},
+{
+  "id": "thm-geometric-series",
+  "level": "2",
+  "url": "sec-series.html#thm-geometric-series",
+  "type": "Theorem",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  A geometric series diverges when ??? and converges to ??? when ???       "
+},
+{
+  "id": "sec-series-9",
+  "level": "2",
+  "url": "sec-series.html#sec-series-9",
+  "type": "Activity",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  Determine if each of the following series converge or diverge. If they converge, find their limit.                               "
+},
+{
+  "id": "sec-series-11",
+  "level": "2",
+  "url": "sec-series.html#sec-series-11",
+  "type": "Activity",
+  "number": "1.3.8",
+  "title": "",
+  "body": " The series is called the harmonic series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.    "
+},
+{
+  "id": "thm-harmonic-series",
+  "level": "2",
+  "url": "sec-series.html#thm-harmonic-series",
+  "type": "Theorem",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  The harmonic series converges\/diverges.       "
+},
+{
+  "id": "sec-series-13",
+  "level": "2",
+  "url": "sec-series.html#sec-series-13",
+  "type": "Activity",
+  "number": "1.3.10",
+  "title": "",
+  "body": " Now consider the series .    Compute the first 10 terms (partial sums) of this series.      Compute the first 100 terms (partial sums) of this series.      Compute the first 1000 terms (partial sums) of this series.      Formulate a conjecture about whether this series converges or diverges.    "
+},
+{
+  "id": "thm-p2-series",
+  "level": "2",
+  "url": "sec-series.html#thm-p2-series",
+  "type": "Theorem",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  The series converges\/diverges.       "
+},
+{
+  "id": "sec-series-15",
+  "level": "2",
+  "url": "sec-series.html#sec-series-15",
+  "type": "Definition",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  A -series is a series of the form .   "
+},
+{
+  "id": "thm-p-series",
+  "level": "2",
+  "url": "sec-series.html#thm-p-series",
+  "type": "Theorem",
+  "number": "1.3.13",
+  "title": "",
+  "body": "  A series of the form converges for and diverges for .   "
 },
 {
   "id": "appendix-set-builder",
