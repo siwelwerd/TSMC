@@ -2,4 +2,8 @@
 <section xml:id="sec-alternating" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Alternating Series and Rearrangements</title>
 
+  <p>
+    We have so far been mostly focusing on series with positive terms.
+    Here we consider sequences with both positive and negative terms.
+  </p>
 </section>
