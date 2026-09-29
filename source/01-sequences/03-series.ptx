@@ -283,6 +283,13 @@
     </proof>
   </theorem>
 
+  <aside>
+    <p>The question of what value the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2}</m>
+      converges to is known as the Basel Problem.  It was first posed in 1650 and not
+      solved until 1734 by Leonhard Euler.  
+    </p>
+  </aside>
+
   <definition>
     <statement>
       <p>
