@@ -194,7 +194,7 @@
   <theorem xml:id="thm-harmonic-series">
     <statement>
       <p>
-        The harmonic series <m>\displaystyle \sum _{n=1} ^\infinity</m> converges/diverges.
+        The harmonic series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n}</m> converges/diverges.
       </p>
     </statement>
     <proof>
@@ -241,7 +241,7 @@
   <theorem xml:id="thm-p2-series">
     <statement>
       <p>
-        The series <m>\displaystyle \sum _{n=1} ^\infinity</m> converges/diverges.
+        The series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2}</m> converges/diverges.
       </p>
     </statement>
     <proof>
