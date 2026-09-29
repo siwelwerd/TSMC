@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-comparison" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Comparison Tests</title>
+
+  <p>In proving that <m>p</m>-series converge in <xref ref="sec-series"/>, 
+    we implicitly made use of the following.
+  </p>
+
+  <theorem>
+    <title>Comparison Test</title>
+    <statement>
+      <p>Let <m>\displaystyle \sum _{n=1} ^\infty a_n</m> and 
+        <m>\displaystyle \sum _{n=1} ^\infty b_n</m> be two series.
+        <ul>
+          <li>If <m>\displaystyle \sum _{n=1} ^\infty b_n</m> converges and 
+            <m>0 \leq a_n \leq b_n</m> for all <m>n</m>, then <m>\displaystyle \sum _{n=1} ^\infty a_n</m> also converges.
+          </li>
+          <li>If <m>\displaystyle \sum _{n=1} ^\infty b_n</m> diverges and 
+            <m>a_n \geq b_n \geq 0</m> for all <m>n</m>, then <m>\displaystyle \sum _{n=1} ^\infty a_n</m> also diverges.
+          </li>
+        </ul>
+      </p>
+    </statement>
+    <proof>
+      <p>
+        First, suppose  
+          <m>\displaystyle \sum _{n=1} ^\infty b_n</m> converges to <m>S</m> and 
+          <m>0 \leq a_n \leq b_n</m> for all <m>n</m>. Then for every <m>k</m>,
+          <md>\sum _{n=1} ^k a_n \leq \sum _{n=1} ^k b_n \leq S</md>,
+          so the series <m>\sum _{n=1} ^\infty a_n</m> is a bounded, monotonic
+          sequence and hence converges.
+      </p>
+      <p>
+        Now suppose instead <m>\displaystyle \sum _{n=1} ^\infty b_n</m> diverges and 
+        <m>a_n \geq b_n \geq 0</m> for all <m>n</m>.  Suppose <m>L</m> is any real number.
+        Then since <m>\displaystyle \sum _{n=1} ^\infty b_n</m> is increasing and divergent,
+        there exists <m>k</m> such that <m>\displaystyle \sum _{n=1} ^k b_n \gt L</m>.  
+        Then <md>\displaystyle \sum _{n=1} ^k a_n \geq \sum _{n=1} ^k b_n \gt L</md>.
+        Since the series gets larger than any real number, we see that <m>\displaystyle \sum _{n=1} ^k a_n</m> diverges as well.
+      </p>
+    </proof>
+  </theorem>
+
+  <remark>
+    <p>Because the first finitely many terms don't affect whether a sequence or series
+      converges or not, the comparison test can be strengthened: it is enough to know that
+      <em>eventually</em> <m>a_n \leq b_n</m> (i.e. there exists <m>N</m> such that 
+      <m>a_n \leq b_n</m> for all <m>n\gt N</m>).
+    </p>
+  </remark>
+
+  <example>
+    <p>Consider the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n-3}</m>.
+    Since <m>n-3 \lt n</m>, <m>\frac{1}{n-3} \gt \frac{1}{n}</m>.  Then
+    since the harmonic series diverges, the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n-3}</m>
+    diverges as well.
+    </p>
+  </example>
+
+  <example>
+    <p>Consider the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2+5}</m>.
+    Since <m>n^2+5 \gt n^2</m>, <m>\frac{1}{n^2+5} \lt \frac{1}{n^2}</m>.  Since this
+    <m>p</m>-series converges, we have <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2+5}</m>
+    must also converge.
+    </p>
+  </example>
+
+  <activity>
+    <introduction>
+      <p>
+        Use the comparison test to determine if each of the following series converge or diverge.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=2} ^\infty \dfrac{1}{\sqrt{n-1}}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^3+n}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{e^n+e}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2-n+1}</m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <remark>
+    <p>As we saw in the last part of the previous activity, direct comparison
+    is not always effective, even if qualitatively one series seems to behave
+    like another.</p>
+  </remark>
+
+  <theorem xml:id="thm-limit-comparison">
+    <title>Limit Comparison Test</title>
+    <statement>
+      <p>
+        Let <m>\displaystyle \sum _{n=1} ^\infty a_n</m> and
+        <m>\displaystyle \sum _{n=1} ^\infty b_n</m> be two series 
+        with <m>a_n \gt 0</m> and <m>b_n \gt 0</m> for all <m>n</m>.
+        Suppose that <m>\displaystyle \lim _{n \rightarrow \infty} \dfrac{a_n}{b_n}=c</m>
+        for some <m>c \gt 0</m>.  
+        Then either <m>\displaystyle \sum _{n=1} ^\infty a_n</m> and
+        <m>\displaystyle \sum _{n=1} ^\infty b_n</m> both converge, or 
+        they both diverge.
+      </p>
+    </statement>
+    <proof>
+      <p>By the definition of the limit of a sequence, there exists <m>N</m> such that
+      for <m>n \geq N</m>, <m>\dfrac{c}{2} \lt \dfrac{a_n}{b_n} \lt \dfrac{3c}{2}</m>.
+      If <m>\displaystyle \sum _{n=1} ^\infty b_n</m> diverges, then we have <m>a_n \gt \left(\dfrac{c}{2}\right)b_n</m>,
+      so <m>\displaystyle \sum _{n=1} ^\infty a_n</m> also diverges by the direct comparison test.  If instead <m>\displaystyle \sum _{n=1} ^\infty b_n</m> converges,
+      then <m>a_n \lt \left(\dfrac{3c}{2}\right)b_n</m>, so <m>\displaystyle \sum _{n=1} ^\infty a_n</m> converges
+      by direct comparison test.
+      </p>
+    </proof>
+  </theorem>
+
+  <example>
+    <p>Since <m>\displaystyle \lim _{n \rightarrow \infty} \dfrac{n^2}{n^2-n+1}=1</m> and
+    the <m>p</m>-series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2}</m> converges,
+    by the limit comparison test we know that <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2-n+1}</m>
+    also converges.
+    </p>
+  </example>
+  
+  <activity>
+    <introduction>
+      <p>
+        Use an appropriate comparison test to determine if each of the following series converge or diverge.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=2} ^\infty \dfrac{1}{\sqrt{n+3}}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^4-n^2+7}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{2^n-n+5}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^3-n^2-1}</m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+</section>

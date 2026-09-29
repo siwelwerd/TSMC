@@ -7,5 +7,6 @@
   <xi:include href="01-reals.ptx" />
   <xi:include href="02-sequences.ptx" />
   <xi:include href="03-series.ptx" />
+  <xi:include href="04-comparison.ptx" />
 
 </chapter>

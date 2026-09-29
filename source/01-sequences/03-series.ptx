@@ -262,15 +262,12 @@
   <theorem xml:id="thm-p-series">
     <statement>
       <p>
-        A <m>p</m> series of the form <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^p}</m>
+        A <m>p</m>-series of the form <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^p}</m>
         converges for <m>p \gt 1</m> and diverges for <m>p \leq 1</m>.
       </p>
     </statement>
   </theorem>
-  
-    
-  
 
-
+  
 
 </section>
