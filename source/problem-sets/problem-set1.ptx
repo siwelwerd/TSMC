@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="appendix-problem-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Problem Set 1</title>
+  <exercises>
+    <exercise>
+      <statement>
+        <p>Determine if the sequence <m>\left\{\dfrac{n^2}{(-2)^n}\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the sequence <m>\left\{\sqrt{\dfrac{2n}{n+3}}\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the sequence <m>\left\{\dfrac{\ln(n)}{\ln(2n)}\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the sequence <m>\left\{\sqrt{n+1}-\sqrt{n}\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the sequence <m>\left\{\dfrac{(-1)^n n^2}{n^2+n-1}\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Let <m>\{a_n\} _{n=1} ^\infty</m> be a sequence defined by
+          <md><mrow>a_n = \begin{cases} \frac{1}{n} &amp; \text{$n$ is odd}</mrow><mrow>\frac{1}{n^2} &amp; \text{$n$ is even}.</mrow><mrow>\end{cases}</mrow></md>
+          Does <m>\{a_n\} _{n=1} ^\infty</m> converge or diverge?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Let <m>\{a_n\} _{n=1} ^\infty</m> be a sequence defined by
+          <md>a_n = \begin{cases} \frac{n}{n+1} &amp; \text{$n$ is odd} \\ \frac{n}{n-1} &amp; \text{$n$ is even.}\end{cases}</md>
+          Does <m>\{a_n\} _{n=1} ^\infty</m> converge or diverge?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Prove that the sequence <m>\{a_n\}_{n=1} ^\infty</m> converges to
+          <m>L</m> if and only if <m>\{a_n-L\}_{n=1} ^\infty</m> converges to <m>0</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>(Tricky) Determine if the sequence <m>\left\{\left(1+\frac{1}{n}\right)^n\right\}_{n=1} ^\infty</m> converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>(Tricky) Determine if the sequence
+          <md>\left\{1+\frac{1}{2}+\cdots+\frac{1}{n}-\ln(n)\right\}_{n=1} ^\infty</md>
+          converges or diverges.
+        </p>
+      </statement>
+    </exercise>
+
+  
+  </exercises>
+</section>
