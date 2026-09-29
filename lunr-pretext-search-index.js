@@ -604,13 +604,103 @@ var ptx_lunr_docs = [
   "body": " The empty set is denoted or .  "
 },
 {
-  "id": "appendix-psets",
+  "id": "appendix-problem-sets",
   "level": "1",
-  "url": "appendix-psets.html",
-  "type": "Appendix",
-  "number": "B",
-  "title": "Problem Sets",
-  "body": " Problem Sets   "
+  "url": "appendix-problem-sets.html",
+  "type": "Section",
+  "number": "B.1",
+  "title": "Problem Set 1",
+  "body": " Problem Set 1     Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Let be a sequence defined by Does converge or diverge?      Let be a sequence defined by Does converge or diverge?      Prove that the sequence converges to if and only if converges to .      (Tricky) Determine if the sequence converges or diverges.      (Tricky) Determine if the sequence converges or diverges.     "
+},
+{
+  "id": "appendix-problem-sets-2-1",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-1",
+  "type": "Exercise",
+  "number": "B.1.1",
+  "title": "",
+  "body": "  Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-2",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-2",
+  "type": "Exercise",
+  "number": "B.1.2",
+  "title": "",
+  "body": "  Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-3",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-3",
+  "type": "Exercise",
+  "number": "B.1.3",
+  "title": "",
+  "body": "  Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-4",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-4",
+  "type": "Exercise",
+  "number": "B.1.4",
+  "title": "",
+  "body": "  Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-5",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-5",
+  "type": "Exercise",
+  "number": "B.1.5",
+  "title": "",
+  "body": "  Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-6",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-6",
+  "type": "Exercise",
+  "number": "B.1.6",
+  "title": "",
+  "body": "  Let be a sequence defined by Does converge or diverge?   "
+},
+{
+  "id": "appendix-problem-sets-2-7",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-7",
+  "type": "Exercise",
+  "number": "B.1.7",
+  "title": "",
+  "body": "  Let be a sequence defined by Does converge or diverge?   "
+},
+{
+  "id": "appendix-problem-sets-2-8",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-8",
+  "type": "Exercise",
+  "number": "B.1.8",
+  "title": "",
+  "body": "  Prove that the sequence converges to if and only if converges to .   "
+},
+{
+  "id": "appendix-problem-sets-2-9",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-9",
+  "type": "Exercise",
+  "number": "B.1.9",
+  "title": "",
+  "body": "  (Tricky) Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-sets-2-10",
+  "level": "2",
+  "url": "appendix-problem-sets.html#appendix-problem-sets-2-10",
+  "type": "Exercise",
+  "number": "B.1.10",
+  "title": "",
+  "body": "  (Tricky) Determine if the sequence converges or diverges.   "
 }
 ]
 
