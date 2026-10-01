@@ -161,7 +161,8 @@
   <p>This example motivates the following definition.</p>
   <definition>
     <p>A series is called <term>unconditionally convergent</term> if every
-    rearrangement of the series converges. Otherwise, it is called <term>conditionally convergent</term>.
+    rearrangement of the series converges. A convergent series that is not
+    unconditionally convergent is called <term>conditionally convergent</term>.
     </p>
   </definition>
 
@@ -177,8 +178,10 @@
       if <m>\displaystyle \sum _{n=1} ^\infty |a_n|</m> converges.
     </p>
   </definition>
+
   <p>We make this definition because of the following observation.</p>
-  <theorem>
+
+  <theorem xml:id="thm-pos-neg">
     <statement>
       <p>
         A series <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is absolutely convergent if and only if
@@ -208,6 +211,34 @@
     </proof>
   </theorem>
 
+  <corollary xml:id="cor-conditional-convergence">
+    <statement>
+      <p>
+        If a series <m>\displaystyle \sum _{n=1} ^\infty a_n</m> converges but is not absolutely convergent, then 
+        both  <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n</m> and
+        <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n </m> diverge. 
+      </p>
+    </statement>
+    <proof>
+      <p>
+        The observation is that if a series converges, either <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n</m> and
+        <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n </m> both converge or they both diverge.
+        By <xref ref="thm-pos-neg"/>, absolute convergence is equivalent to both converging, so
+        since the series is not absolutely convergent we see that they must instead both diverge.
+      </p>
+    </proof>
+  </corollary>
+
+  <remark>
+    <p>One loose way to think about what is going on is to note that if <m>\displaystyle \sum _{n=1} ^\infty a_n</m>
+      converges but is not absolutely convergent, then <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n = \infty</m> and
+      <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n = -\infty</m>, so 
+      <m>\displaystyle \sum _{n=1} ^\infty a_n = \infty - \infty </m>.  This intuition can be
+      formalized into the following theorem.
+    </p>
+  </remark>
+
+
   <theorem xml:id="thm-riemann-rearrangement">
     <title>Riemann Rearrangement Theorem</title>
     <statement>
@@ -217,7 +248,7 @@
       <ol>
         <li>
           <p>
-            A series is absolutely convergent if and only if it is unconditionally convergent.
+            A convergent series is absolutely convergent if and only if it is unconditionally convergent.
           </p>
         </li>
         <li>
