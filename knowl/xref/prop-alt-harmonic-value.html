@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="proposition theorem-like"><h2 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para">
+<span class="process-math">\(\displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^{n+1}}{n} = \ln(2)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-value-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proposition 1.5.2"><a tabindex="-1" href="#prop-alt-harmonic-value" title="Copy heading and permalink for Proposition 1.5.2" aria-label="Copy heading and permalink for Proposition 1.5.2">🔗</a></div>
+</article>
+<details class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
+<article class="hiddenproof knowl__content">
+<div class="para">First recall that <span class="process-math">\(\left\{1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\ln(n)\right\}_{n=1} ^\infty\)</span> converges to a number <span class="process-math">\(\gamma\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-value-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Now consider the partial sum</div>
+<div class="displaymath process-math">
+\begin{align*}
+S_{2n} \amp = \dfrac{1}{1}-\dfrac{1}{2}+\dfrac{1}{3}-\dfrac{1}{4}+\cdots+\dfrac{1}{2n-1}+\dfrac{1}{2n} \\
+\amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n}\right)-2\left(\dfrac{1}{2}+\dfrac{1}{4}+\cdots+\dfrac{1}{2n}\right) \\
+\amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n}\right)-\left(\dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{n}\right) \\
+\amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n} -\ln(2n) \right) + \ln(2n) \\
+\amp \phantom{=,,}-\left(\dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{n} - \ln(n) \right) - \ln(n)
+\end{align*}
+</div>
+<div class="para">Then we see <span class="process-math">\(\displaystyle \lim _{n \rightarrow \infty} S_{2n} = \gamma - \gamma + \lim _{n \rightarrow \infty} \left(\ln(2n)-\ln(n)\right)=\ln(2)\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-value-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Since we already know the alternating harmonic series converges, and we found a subsequence converging to <span class="process-math">\(\ln(2)\text{,}\)</span> by <a href="sec-sequences.html#thm-subseq-converge" class="xref" data-knowl="./knowl/xref/thm-subseq-converge.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 1.2.17">Theorem 1.2.17</a> the alternating harmonic series must also converge to <span class="process-math">\(\ln(2)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-value-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 1.5.2.1"><a tabindex="-1" href="#prop-alt-harmonic-value-2" title="Copy heading and permalink for Proof 1.5.2.1" aria-label="Copy heading and permalink for Proof 1.5.2.1">🔗</a></div>
+</article></details><span class="incontext"><a class="internal" href="sec-alternating.html#prop-alt-harmonic-value">In Context</a></span>
+</body>
+</html>

@@ -619,7 +619,97 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Alternating Series and Rearrangements",
-  "body": " Alternating Series and Rearrangements  We have so far been mostly focusing on series with positive terms. Here we consider sequences with both positive and negative terms.  "
+  "body": " Alternating Series and Rearrangements  We have so far been mostly focusing on series with positive terms. Here we consider sequences with both positive and negative terms.  Let us use the alternating harmonic series as an example: .    The alternating harmonic series converges.    Let be the -th partial sum. Then   Note that the series converges to some number by e.g. the limit comparison test with the -series .  Now let be given. Choose such that  is even (so );   ; and   for all .  Now suppose . If is even, then . If is odd, then write for some . Note that , so . Then     If we take a different approach, we can actually determine what this series converges to.         First recall that converges to a number .  Now consider the partial sum Then we see   Since we already know the alternating harmonic series converges, and we found a subsequence converging to , by the alternating harmonic series must also converge to .      Let be the sequence given by      Write the first 20 terms of the sequence .      Do you think the series converges? If so, to what?      Find an expression for , , and .      Let be a series. If is a bijection, then we call a rearrangement of the series.     Let be the sequence given by . The series is a rearrangement of the alternating harmonic series and converges to .    Let be the -th partial sum. In , we deduced that . Similar to the proof of , we can get a common denominator and after some algebraic simplification observe . This series converges (e.g. by limit comparison to ), so by an argument analogous to the proof of , we can show this series converges.  We can also adapt the proof of to see what this converges to. We compute Note that , so we have . Since the series converges and this subsequence converges to , we have .    This example motivates the following definition.   A series is called unconditionally convergent if every rearrangement of the series converges. Otherwise, it is called conditionally convergent .   The key idea to understanding unconditional convergence lies in the observation that the problem with the alternating harmonic series was that it relied on cancellation of positive and negative terms to converge. In essence, we had that diverged and that also diverged.   A series is called absolutely convergent if converges.   We make this definition because of the following observation.    A series is absolutely convergent if and only if and , in which case .    Suppose is absolutely convergent, i.e. . Then every partial sum of positive terms satisfies , so the sequence of partial sums is a bounded increasing sequence and hence convergent. Similarly, noting that for negative terms , we have , so . Thus the sequence of partial sums of negative terms is a bounded decreasing sequence and hence convergent.  Suppose conversely that and . Then      Riemann Rearrangement Theorem   Let be a series.    A series is absolutely convergent if and only if it is unconditionally convergent.    A conditionally convergent series can be rearranged to converge to any value, as well as to be divergent.      "
+},
+{
+  "id": "sec-alternating-3",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "alternating harmonic series "
+},
+{
+  "id": "prop-alt-harmonic",
+  "level": "2",
+  "url": "sec-alternating.html#prop-alt-harmonic",
+  "type": "Proposition",
+  "number": "1.5.1",
+  "title": "",
+  "body": "  The alternating harmonic series converges.    Let be the -th partial sum. Then   Note that the series converges to some number by e.g. the limit comparison test with the -series .  Now let be given. Choose such that  is even (so );   ; and   for all .  Now suppose . If is even, then . If is odd, then write for some . Note that , so . Then    "
+},
+{
+  "id": "prop-alt-harmonic-value",
+  "level": "2",
+  "url": "sec-alternating.html#prop-alt-harmonic-value",
+  "type": "Proposition",
+  "number": "1.5.2",
+  "title": "",
+  "body": "       First recall that converges to a number .  Now consider the partial sum Then we see   Since we already know the alternating harmonic series converges, and we found a subsequence converging to , by the alternating harmonic series must also converge to .   "
+},
+{
+  "id": "activity-alt-harmonic-rearranged",
+  "level": "2",
+  "url": "sec-alternating.html#activity-alt-harmonic-rearranged",
+  "type": "Activity",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  Let be the sequence given by      Write the first 20 terms of the sequence .      Do you think the series converges? If so, to what?      Find an expression for , , and .    "
+},
+{
+  "id": "sec-alternating-8",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-8",
+  "type": "Definition",
+  "number": "1.5.4",
+  "title": "",
+  "body": " Let be a series. If is a bijection, then we call a rearrangement of the series.  "
+},
+{
+  "id": "sec-alternating-9",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-9",
+  "type": "Proposition",
+  "number": "1.5.5",
+  "title": "",
+  "body": "  Let be the sequence given by . The series is a rearrangement of the alternating harmonic series and converges to .    Let be the -th partial sum. In , we deduced that . Similar to the proof of , we can get a common denominator and after some algebraic simplification observe . This series converges (e.g. by limit comparison to ), so by an argument analogous to the proof of , we can show this series converges.  We can also adapt the proof of to see what this converges to. We compute Note that , so we have . Since the series converges and this subsequence converges to , we have .   "
+},
+{
+  "id": "sec-alternating-11",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-11",
+  "type": "Definition",
+  "number": "1.5.6",
+  "title": "",
+  "body": " A series is called unconditionally convergent if every rearrangement of the series converges. Otherwise, it is called conditionally convergent .  "
+},
+{
+  "id": "sec-alternating-13",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-13",
+  "type": "Definition",
+  "number": "1.5.7",
+  "title": "",
+  "body": " A series is called absolutely convergent if converges.  "
+},
+{
+  "id": "sec-alternating-15",
+  "level": "2",
+  "url": "sec-alternating.html#sec-alternating-15",
+  "type": "Theorem",
+  "number": "1.5.8",
+  "title": "",
+  "body": "  A series is absolutely convergent if and only if and , in which case .    Suppose is absolutely convergent, i.e. . Then every partial sum of positive terms satisfies , so the sequence of partial sums is a bounded increasing sequence and hence convergent. Similarly, noting that for negative terms , we have , so . Thus the sequence of partial sums of negative terms is a bounded decreasing sequence and hence convergent.  Suppose conversely that and . Then    "
+},
+{
+  "id": "thm-riemann-rearrangement",
+  "level": "2",
+  "url": "sec-alternating.html#thm-riemann-rearrangement",
+  "type": "Theorem",
+  "number": "1.5.9",
+  "title": "Riemann Rearrangement Theorem.",
+  "body": " Riemann Rearrangement Theorem   Let be a series.    A series is absolutely convergent if and only if it is unconditionally convergent.    A conditionally convergent series can be rearranged to converge to any value, as well as to be divergent.     "
 },
 {
   "id": "sec-ratio-root",

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="proposition theorem-like"><h2 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.5.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para">The alternating harmonic series <span class="process-math">\(\displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^{(n+1)}}{n}\)</span> converges.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proposition 1.5.1"><a tabindex="-1" href="#prop-alt-harmonic" title="Copy heading and permalink for Proposition 1.5.1" aria-label="Copy heading and permalink for Proposition 1.5.1">🔗</a></div>
+</article>
+<details class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
+<article class="hiddenproof knowl__content">
+<div class="para logical">
+<div class="para">Let <span class="process-math">\(\displaystyle S_k = \sum _{n=1} ^k \dfrac{(-1)^{k+1}}{n}\)</span> be the <span class="process-math">\(k\)</span>-th partial sum. Then</div>
+<div class="displaymath process-math">
+\begin{align*}
+S_{2k} \amp = \frac{1}{1}-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots+\frac{1}{2k-1}-\frac{1}{2k}\\
+\amp = \left(\frac{1}{1}-\frac{1}{2}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\cdots+\left(\frac{1}{2k-1}-\frac{1}{2k}\right)\\
+\amp = \sum _{n=1} ^k \left(\frac{1}{n}-\frac{1}{n+1}\right)\\
+\amp = \sum _{n=1} ^k \frac{1}{n(n+1)}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Note that the series <span class="process-math">\(\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n(n+1)}\)</span> converges to some number <span class="process-math">\(L\)</span> by e.g. the limit comparison test with the <span class="process-math">\(p\)</span>-series <span class="process-math">\(\displaystyle \sum _{n=1} ^\infty \frac{1}{n^2}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Now let <span class="process-math">\(\epsilon \gt 0\)</span> be given.  Choose <span class="process-math">\(N\)</span> such that</div>
+<ol class="decimal" id="prop-alt-harmonic-2-3-3">
+<li>
+<div class="para">
+<span class="process-math">\(N\)</span> is even (so <span class="process-math">\(N=2M\)</span>);</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#prop-alt-harmonic-2-3-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li>
+<div class="para">
+<span class="process-math">\(\frac{1}{N} \lt \dfrac{\epsilon}{2} \)</span> ; and</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#prop-alt-harmonic-2-3-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li>
+<div class="para">
+<span class="process-math">\(| S_{2m}-L | \lt \dfrac{\epsilon}{2}\)</span> for all <span class="process-math">\(m \gt M\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3"><a tabindex="-1" href="#prop-alt-harmonic-2-3-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="para">Now suppose <span class="process-math">\(n \gt N\text{.}\)</span>  If <span class="process-math">\(n\)</span> is even, then <span class="process-math">\(|S_n -L|=|S_{2m}-L| \lt \dfrac{\epsilon}{2} \lt \epsilon\text{.}\)</span> If <span class="process-math">\(n\)</span> is odd, then write <span class="process-math">\(n=2m+1\)</span>for some <span class="process-math">\(m\text{.}\)</span>  Note that <span class="process-math">\(m \gt M\text{,}\)</span> so <span class="process-math">\(|S_{2m}-L| \lt \dfrac{\epsilon}{2}\text{.}\)</span> Then</div>
+<div class="displaymath process-math">
+\begin{align*}
+|S_n -L| \amp = |S_{2m+1}-L| \\
+\amp = \left|(S_{2m}-\dfrac{1}{2m+1})-L\right| \\
+\amp \leq |S_{2m}-L|+\left|\dfrac{1}{2m+1}\right| \\
+\amp \lt |S_{2m}-L|+\left|\dfrac{1}{N}\right| \\
+\amp \lt \frac{\epsilon}{2}+\frac{\epsilon}{2}\\
+\amp =\epsilon 
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#prop-alt-harmonic-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 1.5.1.1"><a tabindex="-1" href="#prop-alt-harmonic-2" title="Copy heading and permalink for Proof 1.5.1.1" aria-label="Copy heading and permalink for Proof 1.5.1.1">🔗</a></div>
+</article></details><span class="incontext"><a class="internal" href="sec-alternating.html#prop-alt-harmonic">In Context</a></span>
+</body>
+</html>
