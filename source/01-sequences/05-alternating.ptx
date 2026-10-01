@@ -6,4 +6,229 @@
     We have so far been mostly focusing on series with positive terms.
     Here we consider sequences with both positive and negative terms.
   </p>
+
+  <p>Let us use the <term>alternating harmonic series</term> as an example:
+  <md> \sum _{n=1} ^\infty \dfrac{(-1)^{(n+1)}}{n} = \frac{1}{1}-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots</md>.
+  </p>
+
+  <proposition xml:id="prop-alt-harmonic">
+    <statement>
+      <p>
+        The alternating harmonic series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^{(n+1)}}{n}</m> converges.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Let <m>\displaystyle S_k = \sum _{n=1} ^k \dfrac{(-1)^{k+1}}{n}</m> be the <m>k</m>-th partial sum.
+        Then 
+        <md> 
+          <mrow> S_{2k} \amp = \frac{1}{1}-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots+\frac{1}{2k-1}-\frac{1}{2k}</mrow>
+          <mrow>  \amp = \left(\frac{1}{1}-\frac{1}{2}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\cdots+\left(\frac{1}{2k-1}-\frac{1}{2k}\right)</mrow>
+          <mrow>  \amp = \sum _{n=1} ^k \left(\frac{1}{n}-\frac{1}{n+1}\right)</mrow>
+          <mrow>  \amp = \sum _{n=1} ^k \frac{1}{n(n+1)}</mrow>
+        </md>
+      </p>
+      <p>Note that the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n(n+1)}</m> converges to some number <m>L</m>
+        by e.g. the limit comparison test with the <m>p</m>-series <m>\displaystyle \sum _{n=1} ^\infty \frac{1}{n^2}</m>.
+      </p>
+      <p>Now let <m>\epsilon \gt 0</m> be given.  Choose <m>N</m> such that 
+        <ol>
+          <li><m>N</m> is even (so <m>N=2M</m>); </li>
+          <li> <m>\frac{1}{N} \lt \dfrac{\epsilon}{2} </m> ; and </li>
+          <li> <m>| S_{2m}-L | \lt \dfrac{\epsilon}{2}</m> for all <m>m \gt M</m>. </li>
+        </ol>
+        Now suppose <m>n \gt N</m>.  If <m>n</m> is even, then <m>|S_n -L|=|S_{2m}-L| \lt \dfrac{\epsilon}{2} \lt \epsilon</m>.
+        If <m>n</m> is odd, then write <m>n=2m+1</m>for some <m>m</m>.  Note that <m>m \gt M</m>,
+        so <m>|S_{2m}-L| \lt \dfrac{\epsilon}{2}</m>. Then
+        <md>
+          <mrow>|S_n -L| \amp = |S_{2m+1}-L| </mrow>
+          <mrow> \amp = \left|(S_{2m}-\dfrac{1}{2m+1})-L\right| </mrow>
+          <mrow> \amp \leq |S_{2m}-L|+\left|\dfrac{1}{2m+1}\right| </mrow>
+          <mrow> \amp \lt |S_{2m}-L|+\left|\dfrac{1}{N}\right| </mrow>
+          <mrow> \amp \lt \frac{\epsilon}{2}+\frac{\epsilon}{2}</mrow>
+          <mrow> \amp =\epsilon </mrow>
+        </md>
+      </p>
+    </proof>
+  </proposition>
+
+  <p>If we take a different approach, we can actually determine what this
+  series converges to.
+  </p>
+
+  <proposition xml:id="prop-alt-harmonic-value">
+    <statement>
+      <p>
+        <m>\displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^{n+1}}{n} = \ln(2)</m>
+      </p>
+    </statement>
+    <proof>
+      <p>
+        First recall that <m>\left\{1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\ln(n)\right\}_{n=1} ^\infty</m>
+        converges to a number <m>\gamma</m>.
+      </p>
+      <p>Now consider the partial sum
+        <md>
+          <mrow> S_{2n} \amp = \dfrac{1}{1}-\dfrac{1}{2}+\dfrac{1}{3}-\dfrac{1}{4}+\cdots+\dfrac{1}{2n-1}+\dfrac{1}{2n} </mrow>
+          <mrow> \amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n}\right)-2\left(\dfrac{1}{2}+\dfrac{1}{4}+\cdots+\dfrac{1}{2n}\right) </mrow>
+          <mrow> \amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n}\right)-\left(\dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{n}\right) </mrow>
+          <mrow> \amp = \left( \dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{2n} -\ln(2n) \right) + \ln(2n) </mrow>
+          <mrow> \amp \phantom{=,,}-\left(\dfrac{1}{1}+\dfrac{1}{2}+\cdots+\dfrac{1}{n} - \ln(n) \right) - \ln(n)</mrow>
+        </md>
+        Then we see <m>\displaystyle \lim _{n \rightarrow \infty} S_{2n} = \gamma - \gamma + \lim _{n \rightarrow \infty} \left(\ln(2n)-\ln(n)\right)=\ln(2)</m>
+      </p>
+      <p>Since we already know the alternating harmonic series converges, and we found a subsequence converging to <m>\ln(2)</m>,
+      by <xref ref="thm-subseq-converge"/> the alternating harmonic series must also converge to <m>\ln(2)</m>.
+      </p>
+    </proof>
+  </proposition>
+
+  <activity xml:id="activity-alt-harmonic-rearranged">
+    <introduction>
+      <p>
+        Let <m>\{b_n\} _{n=1} ^\infty </m> be the sequence given by
+        <md>b_n = \begin{cases} \dfrac{3}{4n-1} \amp \text{ if } n \equiv 1 \pmod 3 \\ \dfrac{3}{4n+1} \amp \text{ if } n \equiv 2 \pmod 3 \\ -\dfrac{3}{2n} \amp \text{ if } n \equiv 0 \pmod 3 \end{cases}</md>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Write the first 20 terms of the sequence <m>\{b_n\}_{n=1} ^\infty</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Do you think the series <m>\displaystyle \sum _{n=1} ^\infty b_n</m> converges?  If so, to what?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find an expression for <m>b_{3n-2}</m>, <m>b_{3n-1}</m>, and <m>b_{3n}</m>.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <definition>
+    <p>Let <m>\displaystyle \sum _{n=1} ^\infty a_n</m> be a series.  If <m>\sigma: \N \rightarrow \N</m>
+      is a bijection, then we call <m>\displaystyle \sum _{n=1} ^\infty a_{\sigma(n)}</m> a <term>rearrangement</term>
+      of the series.
+    </p>
+  </definition>
+
+  <proposition>
+    <statement>
+      <p>
+        Let <m>\{b_n\} _{n=1} ^\infty </m> be the sequence given by
+        <md>b_n = \begin{cases} \dfrac{3}{4n-1} \amp \text{ if } n \equiv 1 \pmod 3 \\ \dfrac{3}{4n+1} \amp \text{ if } n \equiv 2 \pmod 3 \\ -\dfrac{3}{2n} \amp \text{ if } n \equiv 0 \pmod 3 \end{cases}</md>.
+        The series <m>\displaystyle \sum _{n=1} ^\infty b_n</m> is a rearrangement
+        of the alternating harmonic series and converges to .
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Let <m>S_k = \displaystyle \sum _{n=1} ^k b_k</m> be the <m>k</m>-th partial sum.
+        In <xref ref="activity-alt-harmonic-rearranged"/>, we deduced that 
+        <md>S_{3k}=\sum _{n=1} ^k \dfrac{1}{4n-3}+\dfrac{1}{4n-1}-\dfrac{1}{3n}</md>.
+        Similar to the proof of <xref ref="prop-alt-harmonic"/>, we can get a common denominator
+        and after some algebraic simplification observe 
+        <md>S_{3k} = \sum _{n=1} ^k \dfrac{8n-3}{(4n-3)(4n-1)(2n)}</md>.
+        This series converges (e.g. by limit comparison to <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2}</m>),
+        so by an argument analogous to the proof of <xref ref="prop-alt-harmonic"/>, we can
+        show this series converges.
+      </p>
+      <p>We can also adapt the proof of <xref ref="prop-alt-harmonic-value"/> to see what this converges to.
+      We compute 
+        <md>
+          <mrow> S_{3n} \amp = \left(1+\frac{1}{3}-\frac{1}{2}\right)+\cdots+\left(\frac{1}{4n-3}+\frac{1}{4n-1}+\frac{1}{2n}\right) </mrow>
+          <mrow> \amp = \left(1+\frac{1}{3}+\cdots+\frac{1}{4n-1}\right)-\left(\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2n}\right)</mrow>
+          <mrow> \amp = \sum _{k=1} ^{4n} \frac{1}{k}-\frac{1}{2} \sum _{k=1} ^n \frac{1}{k}-\frac{1}{2} \sum_{k=1} ^{2n} \frac{1}{k}</mrow>
+          <mrow> \amp = \left(\sum _{k=1} ^{4n} \frac{1}{k} - \ln(4n)\right)-\frac{1}{2} \left( \sum _{k=1} ^n \frac{1}{k} - \ln(n)\right) -\frac{1}{2} \left( \sum_{k=1} ^{2n} \frac{1}{k} - \ln(2n)\right)</mrow>
+          <mrow> \amp \phantom{=,,} +\ln(4n)-\frac{1}{2}\ln(n)-\frac{1}{2}\ln(2n)</mrow>
+        </md>
+        Note that <m>\ln(4n)-\frac{1}{2}\ln(n)-\frac{1}{2}\ln(2n) = \frac{3}{2}\ln(2)</m>, so we have
+        <md>\lim _{n \rightarrow \infty} S_{3n} = \gamma -\frac{1}{2} \gamma -\frac{1}{2} \gamma + \frac{3}{2}\ln(2)=\frac{3}{2}\ln(2)</md>.
+        Since the series converges and this subsequence converges to <m>\frac{3}{2} \ln(2)</m>, we have
+        <md>\sum _{n=1} ^\infty b_n = \frac{3}{2}\ln(2)</md>.
+      </p>
+    </proof>
+  </proposition>
+
+  <p>This example motivates the following definition.</p>
+  <definition>
+    <p>A series is called <term>unconditionally convergent</term> if every
+    rearrangement of the series converges. Otherwise, it is called <term>conditionally convergent</term>.
+    </p>
+  </definition>
+
+  <p>The key idea to understanding unconditional convergence lies in the observation
+  that the problem with the alternating harmonic series was that it relied on
+  cancellation of positive and negative terms to converge.  In essence, we 
+  had that <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n</m> diverged
+  and that <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n</m> also diverged.
+  </p>
+
+  <definition>
+    <p>A series <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is called <term>absolutely convergent</term>
+      if <m>\displaystyle \sum _{n=1} ^\infty |a_n|</m> converges.
+    </p>
+  </definition>
+  <p>We make this definition because of the following observation.</p>
+  <theorem>
+    <statement>
+      <p>
+        A series <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is absolutely convergent if and only if
+        <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n = L</m> and
+        <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n = M</m>, in which case
+        <m>\displaystyle \sum _{n=1} ^\infty |a_n|=L-M</m>.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Suppose <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is absolutely convergent, 
+        i.e. <m>\displaystyle \sum _{n=1} ^\infty |a_n|=c</m>.  Then every partial sum
+        of positive terms satisfies <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^k a_n \leq c</m>,
+        so the sequence of partial sums is a bounded increasing sequence and hence convergent.
+        Similarly, noting that for negative terms <m>|a_n|=-a_n</m>, we have <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^k -a_n \leq c</m>,
+        so <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^k a_n \geq -c</m>.
+        Thus the sequence of partial sums of negative terms is a bounded decreasing sequence and hence convergent.
+      </p>
+      <p>Suppose conversely that <m>\displaystyle \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n = L</m> and
+        <m>\displaystyle \sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty a_n = M</m>.  Then
+        <md>
+          <mrow> \sum _{n=1} ^\infty |a_n| \amp = \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty |a_n|+\sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty |a_n| </mrow> 
+          <mrow> \amp = \sum _{\substack{n=1 \\ a_n \gt 0}} ^\infty a_n+\sum _{\substack{n=1 \\ a_n \lt 0}} ^\infty -a_n </mrow> 
+          <mrow> \amp = L - M</mrow>
+        </md>
+      </p>
+    </proof>
+  </theorem>
+
+  <theorem xml:id="thm-riemann-rearrangement">
+    <title>Riemann Rearrangement Theorem</title>
+    <statement>
+      <p>
+        Let <m> \displaystyle \sum _{n=1} ^\infty a_n</m> be a series.
+      </p>
+      <ol>
+        <li>
+          <p>
+            A series is absolutely convergent if and only if it is unconditionally convergent.
+          </p>
+        </li>
+        <li>
+          <p>
+            A conditionally convergent series can be rearranged to converge to any value,
+            as well as to be divergent.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </theorem>
+  
+
 </section>
