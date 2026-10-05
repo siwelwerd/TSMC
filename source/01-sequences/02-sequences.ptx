@@ -424,4 +424,32 @@
     </task>
   </activity>
 
+  <example>
+    <p>Let us consider the sequence <m>\{a_n\}_{n=1} ^\infty</m> whose terms are given by
+      <md>a_n=1+\dfrac{1}{2}+\dfrac{1}{3}+\cdots+\dfrac{1}{n}-\ln(n)</md>.
+      We note that 
+      <md>
+        <mrow>a_{n}-a_{n-1} \amp = \dfrac{1}{n}-\ln(n)+\ln(n-1) </mrow>
+        <mrow> \amp = \dfrac{1}{n}+\ln(1-\frac{1}{n}) </mrow>
+      </md>
+      Note that this difference is the same as plugging <m>\frac{1}{n}</m> into
+      <m>x+\ln(1-x)</m>; but since <m>\ln(1-x)</m> is a concave down decreasing function,
+      it lies below its tangent line at zero of <m>-x</m>; thus <m>\ln(1-x) \leq -x</m>,
+      and plugging in <m>\frac{1}{n}</m> and rearranging yields 
+      <md>a_{n}-{a_{n-1}} = \dfrac{1}{n}+\ln(1-\frac{1}{n}) \leq 0</md>,
+      so this sequence is decreasing.
+    </p>
+    <p>
+      To see it is bounded, note that <m>\sum _{k=1} ^n \frac{1}{k}</m> is a left endpoint
+      Riemann sum for the (decreasing) function <m>\frac{1}{x}</m> on the interval <m>[1,n+1]</m>,
+      so 
+      <md>\sum _{k=1} ^n \frac{1}{k} \geq \int _{1} ^{n+1} \ln(x)\ dx = \ln(n+1) \gt \ln(n)</md>.
+      Thus we have <m>a_n \gt 0</m> for all <m>n</m>.  So our sequence is bounded and monotonic, and hence convergent.
+    </p>
+    <p>
+      The number this sequence converges to is called the <term>Euler-Mascheroni constant</term>, denoted <m>\gamma</m>,
+      and has an approximate value of <m>\gamma \approx 0.5772</m>.
+    </p>
+  </example>
+
 </section>
