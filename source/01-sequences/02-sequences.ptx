@@ -369,9 +369,12 @@
         </p>
       </statement>
       <solution>
-        <p>Write <m>\dfrac{n^2-1}{n^2+1}=1-2\dfrac{1}{n^2+1}</m>.  Then observing
-          that <m>\left\{\dfrac{1}{n^2+1}\right\} _{n=1} ^\infty</m> converges to zero,
-          the original sequence must converge to <m>1</m>.
+        <p>Write <m>\dfrac{n^2-1}{n^2+1}=1-2\dfrac{1}{n^2+1}</m>.
+        Let <m>\epsilon \gt 0</m>, and choose <m>N</m> such that <m> N^2+1 \gt \frac{2}{\epsilon}</m>.
+        Then for <m>n \gt N</m>, <m>\dfrac{1}{n^2+1} \lt \frac{\epsilon}{2}</m>, so <m> \frac{2}{n^2+1} \lt \epsilon</m>.
+        So for <m>n \gt N</m> we have
+        <md>\left|\frac{n^2-1}{n^2+1}-1\right|=\left|-\dfrac{-2}{n^2+1}\right|=\dfrac{2}{n^2+1} \lt \epsilon</md>.
+        Thus the sequence converges to <m>1</m>.
         </p>
       </solution>
     </task>
@@ -382,8 +385,11 @@
         </p>
       </statement>
       <solution>
-        <p>Since <m>\displaystyle \lim _{n \rightarrow \infty}\dfrac{1}{n} = 0 </m>,
-          we can conclude this sequence also converges to zero.
+        <p>
+          Let <m>\epsilon \gt 0</m>.  Let <m>N</m> be an integer larger than <m>\frac{1}{2\epsilon}</m>.
+          Then for <m>n \gt N</m>, <m>n \gt \frac{1}{2\epsilon}</m>, so <m>\frac{1}{n} \lt 2 \epsilon</m> and
+          thus <m>\frac{1}{2n} \lt \epsilon</m>. Thus for <m>n \gt N</m>, <m>\left| \frac{(-1)^n}{2n}\right|=\left|\frac{1}{2n}\right| \lt \epsilon</m>,
+          so the sequence converges to <m>0</m>.
         </p>
       </solution>
     </task>
