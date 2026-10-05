@@ -373,7 +373,7 @@
         Let <m>\epsilon \gt 0</m>, and choose <m>N</m> such that <m> N^2+1 \gt \frac{2}{\epsilon}</m>.
         Then for <m>n \gt N</m>, <m>\dfrac{1}{n^2+1} \lt \frac{\epsilon}{2}</m>, so <m> \frac{2}{n^2+1} \lt \epsilon</m>.
         So for <m>n \gt N</m> we have
-        <md>\left|\frac{n^2-1}{n^2+1}-1\right|=\left|-\dfrac{-2}{n^2+1}\right|=\dfrac{2}{n^2+1} \lt \epsilon</md>.
+        <md>\left|\frac{n^2-1}{n^2+1}-1\right|=\left|\dfrac{-2}{n^2+1}\right|=\dfrac{2}{n^2+1} \lt \epsilon</md>.
         Thus the sequence converges to <m>1</m>.
         </p>
       </solution>

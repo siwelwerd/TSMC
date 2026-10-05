@@ -43,6 +43,9 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{2^n} </m>
         </p>
       </statement>
+      <solution>
+        <p><m>\dfrac{1}{2},\dfrac{3}{4},\dfrac{7}{8},\dfrac{15}{16},\dfrac{31}{32}</m></p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -50,6 +53,9 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{n}{n^2+1} </m>
         </p>
       </statement>
+      <solution>
+        <p><m>\dfrac{1}{2},\dfrac{9}{10},\dfrac{6}{5},\dfrac{122}{85},\dfrac{3897}{2210}</m></p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -57,6 +63,9 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{2^n}{n} </m>
         </p>
       </statement>
+      <solution>
+        <p><m>2,4,\frac{20}{3},\frac{32}{3},\frac{256}{15}</m></p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -64,6 +73,9 @@
           <m>\displaystyle \sum _{n=0} ^\infty \dfrac{1}{n!} </m>
         </p>
       </statement>
+      <solution>
+        <p><m>1,2,\frac{5}{2},\frac{8}{3},\frac{65}{24}</m></p>
+      </solution>
     </task>
   </activity>
 
