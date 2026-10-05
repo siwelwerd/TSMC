@@ -86,7 +86,7 @@
         <md>L-\dfrac{\epsilon}{2} \lt \sum _{n=1} ^k a_n \lt L+\dfrac{\epsilon}{2}</md> for all <m>k \gt N</m>.
         Then for all <m>k \gt N</m>, we have 
         <md>|a_{k+1}|=|\sum _{n=1}^{k+1} a_n - \sum _{n=1} ^k a_n| \lt \epsilon</md>. 
-        Thus the sequnce <m>\{a_n\} _{n=1} ^\infty</m> converges to <m>0</m>.
+        Thus the sequence <m>\{a_n\} _{n=1} ^\infty</m> converges to <m>0</m>.
       </p>
     </proof>
   </proposition>
