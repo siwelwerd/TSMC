@@ -113,26 +113,86 @@
       <statement>
         <m>\left\{1+\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^n}\right\}_{n=1} ^\infty</m>
       </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>1, \frac{3}{2}, \frac{7}{4}, \frac{15}{8}, \frac{31}{16}</m></p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p>The sequence increases but never exceeds <m>2</m>.</p>
+          </li>
+        </ol>
+      </solution>
     </task>
     <task>
       <statement>
         <m>\left\{\dfrac{(-1)^n}{n^2}\right\}_{n=1} ^\infty</m>
       </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>-1,\frac{1}{4},\frac{-1}{9},\frac{1}{16},\frac{-1}{25}</m></p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p>The sequence oscillates around zero with decreasing absolute value.</p>
+          </li>
+        </ol>
+      </solution>
     </task>
     <task>
       <statement>
         <m>\left\{1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\right\}_{n=1} ^\infty</m>
       </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>1,\frac{3}{2},\frac{11}{6},\frac{25}{12},\frac{137}{60}</m></p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p>The sequence increases with no apparent upper bound.</p>
+          </li>
+        </ol>
+      </solution>
     </task>
     <task>
       <statement>
         <m>\left\{\dfrac{1+(-1)^n}{2}\right\}_{n=1} ^\infty</m>
       </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>0,1,0,1,0</m></p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p>The sequence alternates between <m>0</m> and <m>1</m>.</p>
+          </li>
+        </ol>
+      </solution>
     </task>
     <task>
       <statement>
         <m>\left\{1+\frac{1}{2}+\frac{1}{6}+\cdots+\frac{1}{n!}\right\}_{n=1} ^\infty</m>
       </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>1,\frac{3}{2},\frac{5}{3},\frac{41}{24},\frac{103}{60}</m></p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p>The sequence increases and seems like it may have an upper bound.</p>
+          </li>
+        </ol>
+      </solution>
     </task>
   </activity>
   
@@ -218,6 +278,9 @@
         </ol>
       </p>
     </statement>
+    <solution>
+      <p>Sequences 1, 3, and 5 are monotonic.</p>
+    </solution>
   </activity>
 
   <theorem>
@@ -305,6 +368,12 @@
           <m>\left\{\dfrac{n^2-1}{n^2+1}\right\}_{n=1} ^\infty</m>
         </p>
       </statement>
+      <solution>
+        <p>Write <m>\dfrac{n^2-1}{n^2+1}=1-2\dfrac{1}{n^2+1}</m>.  Then observing
+          that <m>\left\{\dfrac{1}{n^2+1}\right\} _{n=1} ^\infty</m> converges to zero,
+          the original sequence must converge to <m>1</m>.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -312,6 +381,11 @@
           <m>\left\{\dfrac{(-1)^n}{2n}\right\}_{n=1} ^\infty</m>
         </p>
       </statement>
+      <solution>
+        <p>Since <m>\displaystyle \lim _{n \rightarrow \infty}\dfrac{1}{n} = 0 </m>,
+          we can conclude this sequence also converges to zero.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -319,6 +393,14 @@
           <m>\left\{\dfrac{2}{(-3)^n}\right\}_{n=1} ^\infty</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Let <m>\epsilon \gt 0</m>.  Since <m>\displaystyle \lim _{n \rightarrow \infty} 3^n = \infty</m>,
+            we can choose <m>N</m> such that <m>3^n \gt \frac{2}{\epsilon}</m> for <m>n \gt N</m>.  
+            Then for all <m>n \gt N</m>, <m>\frac{1}{3^n} \lt \frac{\epsilon}{2}</m>, so <m>|\frac{2}{(-3)^n}|=\frac{2}{3^n} \lt \epsilon</m>.
+            Thus this sequence converges to <m>0</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -327,6 +409,12 @@
           <m>a_n = \begin{cases} \dfrac{1}{n} \amp \text{ when } n \text{ is even} \\ \dfrac{n+1}{n} \amp \text{ when } n \text{ is odd}\end{cases}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          The subsequence of the even terms converges to zero while the subsequence
+          of the odd terms converges to 1, so this sequence diverges by <xref ref="thm-subseq-converge"/>.
+        </p>
+      </solution>
     </task>
   </activity>
 
