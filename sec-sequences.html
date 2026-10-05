@@ -696,6 +696,46 @@ n \rightarrow 1-\frac{1}{10^{n}}.
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 1.2.19.d"><a tabindex="-1" href="#sec-sequences-22-5" title="Copy heading and permalink for Task 1.2.19.d" aria-label="Copy heading and permalink for Task 1.2.19.d">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Activity 1.2.19"><a tabindex="-1" href="#sec-sequences-22" title="Copy heading and permalink for Activity 1.2.19" aria-label="Copy heading and permalink for Activity 1.2.19">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-sequences-23"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para logical" id="sec-sequences-23-1">
+<div class="para">Let us consider the sequence <span class="process-math">\(\{a_n\}_{n=1} ^\infty\)</span> whose terms are given by</div>
+<div class="displaymath process-math" id="sec-sequences-23-1-2">
+\begin{equation*}
+a_n=1+\dfrac{1}{2}+\dfrac{1}{3}+\cdots+\dfrac{1}{n}-\ln(n)\text{.}
+\end{equation*}
+</div>
+<div class="para">We note that</div>
+<div class="displaymath process-math" id="sec-sequences-23-1-3">
+\begin{align*}
+a_{n}-a_{n-1} \amp = \dfrac{1}{n}-\ln(n)+\ln(n-1) \\
+\amp = \dfrac{1}{n}+\ln(1-\frac{1}{n}) 
+\end{align*}
+</div>
+<div class="para">Note that this difference is the same as plugging <span class="process-math">\(\frac{1}{n}\)</span> into <span class="process-math">\(x+\ln(1-x)\text{;}\)</span> but since <span class="process-math">\(\ln(1-x)\)</span> is a concave down decreasing function, it lies below its tangent line at zero of <span class="process-math">\(-x\text{;}\)</span> thus <span class="process-math">\(\ln(1-x) \leq -x\text{,}\)</span> and plugging in <span class="process-math">\(\frac{1}{n}\)</span> and rearranging yields</div>
+<div class="displaymath process-math" id="sec-sequences-23-1-10">
+\begin{equation*}
+a_{n}-{a_{n-1}} = \dfrac{1}{n}+\ln(1-\frac{1}{n}) \leq 0\text{,}
+\end{equation*}
+</div>
+<div class="para">so this sequence is decreasing.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-sequences-23-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-sequences-23-2">
+<div class="para">To see it is bounded, note that <span class="process-math">\(\sum _{k=1} ^n \frac{1}{k}\)</span> is a left endpoint Riemann sum for the (decreasing) function <span class="process-math">\(\frac{1}{x}\)</span> on the interval <span class="process-math">\([1,n+1]\text{,}\)</span> so</div>
+<div class="displaymath process-math" id="sec-sequences-23-2-4">
+\begin{equation*}
+\sum _{k=1} ^n \frac{1}{k} \geq \int _{1} ^{n+1} \ln(x)\ dx = \ln(n+1) \gt \ln(n)\text{.}
+\end{equation*}
+</div>
+<div class="para">Thus we have <span class="process-math">\(a_n \gt 0\)</span> for all <span class="process-math">\(n\text{.}\)</span>  So our sequence is bounded and monotonic, and hence convergent.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-sequences-23-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-sequences-23-3">The number this sequence converges to is called the <dfn class="terminology">Euler-Mascheroni constant</dfn>, denoted <span class="process-math">\(\gamma\text{,}\)</span> and has an approximate value of <span class="process-math">\(\gamma \approx 0.5772\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-sequences-23-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.2.20"><a tabindex="-1" href="#sec-sequences-23" title="Copy heading and permalink for Example 1.2.20" aria-label="Copy heading and permalink for Example 1.2.20">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Section 1.2: Sequences"><a tabindex="-1" href="#sec-sequences" title="Copy heading and permalink for Section 1.2: Sequences" aria-label="Copy heading and permalink for Section 1.2: Sequences">🔗</a></div>
 </section>
 </div>
