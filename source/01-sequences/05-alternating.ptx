@@ -260,6 +260,56 @@
       </ol>
     </statement>
   </theorem>
+
+  <p>When can we say that a series with alternating terms converges?</p>
+    <theorem xml:id="thm-alt-series-test">
+      <title>Alternating Series Test</title>
+      <statement>
+        <p>
+          If <m>\{a_n\}_{n=1}^\infty</m> is a decreasing sequence that converges to zero, then
+          the alternating series <m>\displaystyle \sum _{n=1} ^\infty (-1)^n a_n</m> converges.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          Let <m>S_k = \displaystyle \sum _{n=1} ^k (-1)^n a_n</m> be the <m>k</m>-th partial sum.
+          Define two subsequences by <m>u_k=S_{2k}</m> and <m>l_k={S_{2k+1}}</m>.  We claim that these
+          are both monotonic sequences.
+        </p>
+        <p>
+          First, compute 
+          <md>u_{k+1}-u_k=S_{2k+2}-S_{2k}=(-1)^{2k+2}a_{2k+2}+(-1)^{2k+1}a_{2k+1}=a_{2k+2}-a_{2k+1}</md>.
+          By assumption <m>\{a_k\}_{k=1} ^\infty</m> is decreasing, so <m>a_{2k+2} \lt a_{2k+1}</m>.
+          Thus <m>u_{k+1}-u_k \lt 0</m>, so the subsequence <m>\{u_k\}_{k=1} ^\infty</m> is decreasing.
+        </p>
+        <p>
+          Similarly, compute 
+          <md>l_{k+1}-l_k=S_{2k+3}-S_{2k+1}=(-1)^{2k+3}a_{2k+3}+(-1)^{2k+2}a_{2k+2}=-a_{2k+3}+a_{2k+2}</md>.
+          By assumption <m>\{a_k\}_{k=1} ^\infty</m> is decreasing, so <m>a_{2k+2} \gt a_{2k+3}</m>.
+          Thus <m>l_{k+1}-l_k \gt 0</m>, so the subsequence <m>\{l_k\}_{k=1} ^\infty</m> is decreasing.
+        </p>
+        <p>
+          We also note that <m>u_k \gt l_k</m> for all <m>k</m>, since <m>u_k-l_k=a_{2k+1} \gt 0</m>.  
+          Thus <m>\{u_k\} _{k=1} ^\infty</m> is a decreasing sequence bounded below, so it converges to a number <m>U</m>,
+          and <m>\{l_k\} _{k=1} ^\infty</m> is a increasing sequence bounded above, so it converges to a number <m>L</m>,
+          and <m>L \leq U</m>.
+        </p>
+        <p>
+          So what we have is the following picture:
+        </p>
+        <p>
+          Now we claim that <m>U=L</m>.  Suppose to the contrary that <m>U-L \gt 0</m>, and let <m>\epsilon = \frac{U-L}{2} \gt 0</m>.
+          Then for some <m>N</m>, we have that <m>a_{n} \lt \epsilon</m> for all <m>n \geq N</m>.
+          However, <m>u_n \geq U</m> and <m>l_n \leq L</m>, so <m>a_{2n+1}=u_n-l_n \geq U-L \gt \epsilon</m>, contradicting the previous.
+          So we have shown that <m>U=L</m>.
+        </p>
+        <p>Finally, we observe that every partial sum is either a <m>u_n</m> or <m>l_n</m> for some <m>n</m>,
+        so it must eventually be arbitrarily close to <m>U=L</m>.  Thus the alternating series converges to
+        this number as well.
+        </p>
+      </proof>
+    </theorem>
+    
   
 
 </section>
