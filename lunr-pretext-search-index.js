@@ -424,9 +424,9 @@ var ptx_lunr_docs = [
   "body": "  Write the first 5 terms (i.e. partial sums) of each of the following series.                                           "
 },
 {
-  "id": "sec-series-6",
+  "id": "prop-terms-zero",
   "level": "2",
-  "url": "sec-series.html#sec-series-6",
+  "url": "sec-series.html#prop-terms-zero",
   "type": "Proposition",
   "number": "1.3.5",
   "title": "",
@@ -754,7 +754,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Ratio and Root Tests",
-  "body": " Ratio and Root Tests  "
+  "body": " Ratio and Root Tests  In we saw how comparing to another series that we know converges or diverges is a helpful technique. In this section, we introduce two tools for comparing to a geometric series without having to explicitly state what is in advance.   Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.    Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.      Use the ratio test to determine if the following series converge or diverge.                         The ratio test relies on successive terms to behave geometrically. Some series can exhibit geometric series-like decay more broadly while successive terms are misbehaving.   Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.   "
+},
+{
+  "id": "sec-ratio-root-3",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-3",
+  "type": "Example",
+  "number": "1.6.1",
+  "title": "",
+  "body": " Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.  "
+},
+{
+  "id": "thm-ratio-test",
+  "level": "2",
+  "url": "sec-ratio-root.html#thm-ratio-test",
+  "type": "Theorem",
+  "number": "1.6.2",
+  "title": "Ratio Test.",
+  "body": " Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.   "
+},
+{
+  "id": "sec-ratio-root-5",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-5",
+  "type": "Activity",
+  "number": "1.6.3",
+  "title": "",
+  "body": "  Use the ratio test to determine if the following series converge or diverge.                        "
+},
+{
+  "id": "sec-ratio-root-7",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-7",
+  "type": "Example",
+  "number": "1.6.4",
+  "title": "",
+  "body": " Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  "
 },
 {
   "id": "appendix-set-builder",
