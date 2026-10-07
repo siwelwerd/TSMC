@@ -106,7 +106,7 @@
   <remark>
     <p>An important thing to internalize is that knowing that the terms
       <m>\{a_n\}_{n=1} ^\infty</m> go to zero is not enough to conclude that
-      <m>\displaystyle \sum _{n=1} ^\infty</m> converges.  They must go to 
+      <m>\displaystyle \sum _{n=1} ^\infty a_n</m> converges.  They must go to 
       zero <em>fast enough</em>.  We will soon see several different characterizations
       of what <em>fast enough</em> means.
     </p>
