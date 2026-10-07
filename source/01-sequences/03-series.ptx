@@ -79,7 +79,7 @@
     </task>
   </activity>
 
-  <proposition>
+  <proposition xml:id="prop-terms-zero">
     <statement>
       <p>
         If <m>\displaystyle \sum _{n=1} ^\infty a_n</m> is a convergent series, then the 
