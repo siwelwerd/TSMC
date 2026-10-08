@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="appendix-problem-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Problem Set 2</title>
+  <exercises>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{n^3+n}{n^5-n^2+1}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^n(n^3+1)}{n^2+n^3}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{2^n}{n!+1}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{n!-n}{e^n}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{\ln(n)\sqrt{n^2+1}}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    
+  </exercises>
+</section>
