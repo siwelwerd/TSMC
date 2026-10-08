@@ -114,4 +114,123 @@
     </statement>
   </activity>
 
+  <activity>
+    <statement>
+      <p>
+        Determine where the power series <m>\displaystyle \sum _{n=1} ^\infty (-1)^nx^n</m>
+        converges.
+      </p>
+    </statement>
+  </activity>
+
+  <activity>
+    <statement>
+      <p>
+        Determine where the power series <m>\displaystyle \sum _{n=1} ^\infty 3^n(x-1)^n</m>
+        converges.
+      </p>
+    </statement>
+  </activity>
+
+  <theorem xml:id="thm-radius-convergence">
+    <statement>
+      <p>
+          Let <m>\displaystyle \sum _{n=0} ^\infty a_n (x-c)^n</m> be a power series.
+          Then either 
+          <ul>
+            <li> <p> The series converges only at <m>x=c</m> </p> </li>
+            <li> <p> The series converges everywhere </p> </li>
+            <li> 
+              <p> There exists <m>R</m> such that the series converges absolutely on 
+                the open interval <m>(c-R,c+R)</m> and diverges on <m>(-\infty, c-R) \cup (c+R,\infty)</m>.
+              </p> 
+            </li>
+          </ul>
+      </p>
+    </statement>
+    <proof>
+      <p>
+        This follows from <xref ref="lem-interval-convergence"/> below.  Let 
+        <md>L=\sup \left\{ x\ \mid\ \sum _{n=0} ^\infty a_n (x-c)^n \text{ converges} \right\}</md>.
+        Note that <m>L \geq c</m>. If <m>L=c</m> the series converges only at <m>c</m> ().
+        If <m>L=\infty</m>, then <xref ref="lem-interval-convergence"/> guarantees convergence everywhere.
+        Finally, assume <m>L=c+R \gt c</m>.  Then by <xref ref="lem-interval-convergence"/> the series converges
+        absolutely on the interval <m>(c-R,c+R)</m>.  Moreover, by construction if the series converges
+        at some point <m>b \gt c+R</m>, then <m>b \leq L=c+R</m>, a contradiction; and similarly,
+        if it converges at some point <m>b \lt c-R</m>, then by <xref ref="lem-interval-convergence"/>
+        it converges at a point larger than <m>c+R</m>, producing the same contradiction.
+        So the series must diverge on <m>(-\infty,c-R) \cup (c+R,\infty)</m>
+      </p>
+    </proof>
+  </theorem>
+
+  <definition xml:id="def-interval-convergence">
+    <statement>
+      <p>
+        For a power series <m>\displaystyle \sum _{n=0} ^\infty a_n (x-c)^n</m>, the maximum interval
+        on which it converges is called the <term>interval of convergence</term>.  Since by <xref ref="thm-radius-convergence"/>
+        this interval is symmetric about <m>c</m> of length <m>2R</m>, <m>R</m> is called the
+        <term>radius of convergence</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <lemma xml:id="lem-interval-convergence">
+    <statement>
+      <p>
+          Let <m>\displaystyle \sum _{n=0} ^\infty a_n (x-c)^n</m> be a power series.
+          If the series converges at <m>x=r</m>, then it converges absolutely on
+          the interval <m>|x-c| \lt |r-c|</m>, i.e. at all points closer to <m>c</m> than <m>r</m> is.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        By making a substitution <m>y=x-c</m>, we may assume without loss of generality that <m>c=0</m>.
+        Assume further without loss of generality that <m>r \gt 0</m>, and let <m>-r \lt b \lt r</m> be given.
+        By the ratio test, since <m>\sum _{n=0} ^\infty a_n r^n</m> converges, we must have <m>|a_nr^n|^\frac{1}{n} \leq 1</m>
+        (since if bigger than 1, the series would diverge by the ratio test).  Then we compute
+         <md>
+          |a_nb^n|^\frac{1}{n}=b|a_n|^\frac{1}{n} \lt |r||a_n|^\frac{1}{n} \leq 1
+        </md>
+        Thus we see by the ratio test that <m>\displaystyle \sum _{n=1} ^\infty a_n b^n</m> converges absolutely.
+      </p>
+    </proof>
+  </lemma>
+
+  <remark>
+    <p>Note that <xref ref="thm-radius-convergence"/> provides no information about convergence
+      at the endpoints of the interval of convergence. These must each be checked individually.
+    </p>
+  </remark>
+
+  <activity>
+    <introduction>
+      <p>
+        Find the interval of convergence for each of the following power series.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \frac{x^n}{3n}</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \frac{(x-2)^n}{\sqrt{n}}</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \sum _{n=1} ^\infty \frac{(x+3)^n}{\ln(n)}</m>.
+        </p>
+      </statement>
+    </task>
+  </activity>
+  
+
 </section>
