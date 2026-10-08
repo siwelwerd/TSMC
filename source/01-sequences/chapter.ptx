@@ -10,5 +10,6 @@
   <xi:include href="04-comparison.ptx" />
   <xi:include href="05-alternating.ptx" />
   <xi:include href="06-ratio-root.ptx" />
+  <xi:include href="07-power-series.ptx" />
 
 </chapter>

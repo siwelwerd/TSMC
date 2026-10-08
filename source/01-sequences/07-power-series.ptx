@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-power-series" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Power Series</title>
+
+  <activity>
+    <introduction>
+      <p>
+        Consider the function <m>f(x)=e^x</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Find a linear approximation <m>L(x)</m> to <m>f(x)</m> at <m>x=0</m>.
+        </p>
+      </statement>
+      <hint>
+        <p><m>L(x)</m> should satisfy <m>L(0)=f(0)</m> and <m>L^\prime(0)=f^\prime(0)</m></p>
+      </hint>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find a quadratic approximation <m>L_2(x)</m> to <m>f(x)</m> at <m>x=0</m>.
+        </p>
+      </statement>
+      <hint>
+        <p><m>L_2(x)</m> should satisfy 
+          <ul>
+            <li><m>L_2(0)=f(0)</m> </li>
+            <li><m>L_2^\prime(0)=f^\prime(0)</m></li>
+            <li><m>L_2^{\prime \prime}(0)=f^{\prime \prime}(0)</m></li>
+          </ul>
+        </p>
+      </hint>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find a degree 3 approximation <m>L_3(x)</m> to <m>f(x)</m> at <m>x=0</m>.
+        </p>
+      </statement>
+      <hint>
+        <p><m>L_3(x)</m> should satisfy 
+          <ul>
+            <li><m>L_3(0)=f(0)</m> </li>
+            <li><m>L_3^\prime(0)=f^\prime(0)</m></li>
+            <li><m>L_3^{\prime \prime}(0)=f^{\prime \prime}(0)</m></li>
+            <li><m>L_3^{\prime \prime \prime }(0)=f^{\prime \prime \prime}(0)</m></li>
+          </ul>
+        </p>
+      </hint>
+    </task>
+    <task>
+      <statement>
+        <p>Evaluate your three approximations at <m>x=0.1</m>.
+        How do they compare to <m>e^{0.1}</m>?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find a degree <m>n</m> approximation <m>L_n(x)</m> to <m>f(x)</m> at <m>x=0</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+         Plot your degree <m>n</m> approximation in Desmos alongside the function <m>f(x)=e^x</m>.
+         Add a slider and observe what happens as <m>n</m> increases? 
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <definition xml:id="def-Taylor-polynomial">
+    <statement>
+      <p>
+          Let <m>f(x)</m> be <m>n</m>-times differentiable at <m>x=c</m>.
+          The <term>Taylor polynomial of degree <m>n</m> at <m>x=c</m></term>
+          is the polynomial <m>\displaystyle T_n(x)=\sum _{k=1} ^n \dfrac{f^{(k)}(c)(x-c)^k}{k!|}</m>
+      </p>
+    </statement>
+  </definition>
+
+  <observation>
+    <p>By construction, if <m>T_n(x)</m> is the degree <m>n</m>
+      Taylor polynomial for <m>f(x)</m> at <m>x=c</m>,
+      then <m>T_n ^{(i)}(c)=f^{(i)}(c)</m> for all <m>0 \leq i \leq n</m>.
+    </p>
+  </observation>
+
+  <definition xml:id="def-power-series">
+    <statement>
+      <p>
+         A power series is a function of the form 
+         <md>P(x)=\sum _{n=0} ^\infty a_n (x-c)^n</md>
+         for some real numbers <m>c</m> and <m>a_n</m>.
+         That is, <m>P(x)</m> is defined to be the value that 
+         the series converges to where it converges, and is undefined
+         elsewhere.
+      </p>
+    </statement>
+  </definition>
+
+  <activity>
+    <statement>
+      <p>
+        Show that the power series <m>\displaystyle \sum _{n=1} ^\infty \frac{x^n}{n!}</m>
+        converges everywhere, i.e. for every value of <m>x</m>.
+      </p>
+    </statement>
+  </activity>
+
+</section>
