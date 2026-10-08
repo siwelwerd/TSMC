@@ -28,6 +28,16 @@
         <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{\ln(n)\sqrt{n^2+1}}</m> converges or diverges.  </p>
       </statement>
     </exercise>
+    <exercise>
+      <statement>
+        <p>Determine if the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{n^n}{3^n}</m> converges or diverges.  </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Find the Taylor series for <m>tan^{-1}(x)</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
+      </statement>
+    </exercise>
     
   </exercises>
 </section>
