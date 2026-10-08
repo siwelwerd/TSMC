@@ -150,6 +150,7 @@
   geometrically.  Some series can exhibit geometric series-like
   decay more broadly while successive terms are misbehaving.
   </p>
+
   <example>
     <p>
       Consider the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{3^{n+(-1)^n}}</m>.
@@ -165,7 +166,74 @@
       <md>\dfrac{a_{2n+1}}{a_{2n}}=\dfrac{\frac{1}{3^{2n}}}{\frac{1}{3^{2n+1}}}=\frac{1}{3}</md>.
       Thus the limit of ratios of successive terms does not exist.
     </p>
+    <p>
+      Note instead that if we look at
+      <md>
+        <mrow> \left(a_n\right) ^{\frac{1}{n}} 
+        \amp = \dfrac{1}{(3^{n+(-1)^n})^{\frac{1}{n}}} </mrow>
+        <mrow>\amp = \dfrac{1}{3^{\frac{1}{n}\left(n+(-1)^n\right)}}</mrow>
+        <mrow>\amp = \dfrac{1}{3}\cdot \dfrac{1}{3^{\left(\frac{1}{n} (-1)^n\right)}}</mrow>
+      </md>
+      Since <m>\displaystyle \lim _{n \rightarrow \infty} \frac{1}{n}(-1)^n = 0</m>, 
+      we see that the terms <m>(a_n)^\frac{1}{n}</m> approach <m>\frac{1}{3}</m>,
+      so the terms <m>a_n</m> are eventually behaving like the geometric series <m>\frac{1}{3^n}</m>.
+    </p>
   </example>
+
+  <theorem xml:id="thm-root-test">
+    <title>Root Test</title>
+    <statement>
+      <p>
+        Let <m> \sum _{n=1} ^\infty a_n</m> be a series,
+        and set
+        <md>L=\lim _{n \rightarrow \infty} \left|a_n\right|^{\frac{1}{n}}</md>.
+        <ul>
+          <li>
+            <p>If <m>L \lt 1</m>, then the series converges absolutely.</p>
+          </li>
+          <li>
+            <p>If <m>L \gt 1</m>, then the series diverges absolutely.</p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </theorem>
+
+  <p>The proof of this is similar to the proof of the ratio test,
+  so we omit it here.</p>
+
+  <activity>
+    <introduction>
+      <p>
+        Determine if the following series converge or diverge.
+      </p>
+    </introduction>
+    <task>
+      <p><m>\displaystyle \sum _{n=1} ^\infty \left(\dfrac{3n-1}{4+2n}\right)^{2n}</m></p>
+    </task>
+    <task>
+      <p><m>\displaystyle \sum _{n=1} ^\infty \left(\dfrac{1}{e}+\dfrac{1}{n}\right)^{n}</m></p>
+    </task>
+    <task>
+      <p><m>\displaystyle \sum _{n=1} ^\infty \dfrac{\pi^n}{n^\pi}</m></p>
+    </task>
+  </activity>
+
+  <remark>
+    <p>Any series whose convergence can be determined by the ratio test could
+    also be shown to converge or diverge by the root test.  So in a sense, the
+    ratio test is redundant; however, in many situations the ratio test is easier
+    to apply and compute the limit.
+    </p>
+  </remark>
+
+  <remark>
+    <p>Note that both the ratio and root test are tests for
+    <em>absolute</em> convergence. This means they cannot detect
+    conditional convergence.  For example, they are inconclusive
+    on series like the alternating harmonic series <m> \displaystyle \sum _{n=1} ^\infty \dfrac{(-1)^n}{n}</m>.
+    </p>
+  </remark>
   
 
 </section>
