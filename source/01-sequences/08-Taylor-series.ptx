@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-Taylor-series" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Taylor Series</title>
+
+  <p>We have seen that power series can be useful, and that we can determine where
+  they converge.  However, a more difficult question in general is determining
+  what they converge <em>to</em>.
+  </p>
+
+  <example>
+    <p>Consider the power series <m>\displaystyle f(x)=\sum _{n=0} ^\infty x^n</m>.  Note that for <m>|r|\lt 1</m>,
+    then <m>f(r)</m> is a geometric series, so <m>f(r)=\frac{1}{1-r}</m>.  In other words,
+    on the interval of convergence <m>(-1,1)</m> we have <m>\displaystyle \sum _{n=0} ^\infty x^n = \frac{1}{1-x}</m>.
+    </p>
+    <p>
+      Note that we can easily compute  the derivatives of <m>f(x)</m> at <m>0</m> using <xref ref="thm-power-series-diff-integral"/>:
+      <m>f^{(n)}(0)=n!</m>.  As a consequence, the Taylor polynomials are
+      <m>\displaystyle T_k(x) = \sum _{n=0} ^k \frac{f^{(n)}(0)}{n!}x^n = \sum _{n=0} ^k x^n</m>.
+    </p>
+  </example>
+
+  <definition xml:id="def-taylor-series">
+    <statement>
+      <p>
+        If <m>f(x)</m> is infinitely differentiable, then the <term>Taylor series</term> for <m>f(x)</m> centered at <m>x=c</m> is
+      <md>\sum _{n=0} ^\infty \dfrac{f^{(n)}(c)}{n!}(x-c)^n</md>
+      </p>
+      <p>
+        If a function is equal to its Taylor series near a point, it is called <term>analytic</term>.
+      </p>
+    </statement>
+  </definition>
+
+
+</section>
