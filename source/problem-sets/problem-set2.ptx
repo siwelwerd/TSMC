@@ -35,8 +35,14 @@
     </exercise>
     <exercise>
       <statement>
+        <p>Find the Taylor series for <m>\ln(1-x)</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
         <p>Find the Taylor series for <m>tan^{-1}(x)</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
       </statement>
+      <hint><p>Do not compute this directly.</p></hint>
     </exercise>
     
   </exercises>
