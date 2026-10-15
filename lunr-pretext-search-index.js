@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Taylor Series",
-  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is   If a function is equal to its Taylor series near a point, it is called analytic .    "
+  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .     Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.     Determine the Taylor series for centered at .      Determine the Taylor series for centered at .      Determine the Taylor series for centered at .     Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.    We can generate new Taylor series from ones we already know this way. For example, since we know , then .     Use Taylor series to compute .    "
 },
 {
   "id": "sec-Taylor-series-3",
@@ -988,7 +988,70 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.8.2",
   "title": "",
-  "body": "  If is infinitely differentiable, then the Taylor series for centered at is   If a function is equal to its Taylor series near a point, it is called analytic .   "
+  "body": "  If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .   "
+},
+{
+  "id": "sec-Taylor-series-5",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-5",
+  "type": "Remark",
+  "number": "1.8.3",
+  "title": "",
+  "body": " Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.  "
+},
+{
+  "id": "sec-Taylor-series-6",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-6",
+  "type": "Activity",
+  "number": "1.8.4",
+  "title": "",
+  "body": "  Determine the Taylor series for centered at .   "
+},
+{
+  "id": "sec-Taylor-series-7",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-7",
+  "type": "Activity",
+  "number": "1.8.5",
+  "title": "",
+  "body": "  Determine the Taylor series for centered at .   "
+},
+{
+  "id": "sec-Taylor-series-8",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-8",
+  "type": "Activity",
+  "number": "1.8.6",
+  "title": "",
+  "body": "  Determine the Taylor series for centered at .   "
+},
+{
+  "id": "sec-Taylor-series-9",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-9",
+  "type": "Example",
+  "number": "1.8.7",
+  "title": "",
+  "body": " Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.  "
+},
+{
+  "id": "sec-Taylor-series-10",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-10",
+  "type": "Example",
+  "number": "1.8.8",
+  "title": "",
+  "body": " We can generate new Taylor series from ones we already know this way. For example, since we know , then .  "
+},
+{
+  "id": "sec-Taylor-series-11",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-11",
+  "type": "Activity",
+  "number": "1.8.9",
+  "title": "",
+  "body": "  Use Taylor series to compute .   "
 },
 {
   "id": "appendix-set-builder",
@@ -1090,99 +1153,99 @@ var ptx_lunr_docs = [
   "body": " The empty set is denoted or .  "
 },
 {
-  "id": "appendix-problem-sets",
+  "id": "appendix-problem-set1",
   "level": "1",
-  "url": "appendix-problem-sets.html",
+  "url": "appendix-problem-set1.html",
   "type": "Section",
   "number": "B.1",
   "title": "Problem Set 1",
   "body": " Problem Set 1     Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Determine if the sequence converges or diverges.      Let be a sequence defined by Does converge or diverge?      Let be a sequence defined by Does converge or diverge?      Prove that the sequence converges to if and only if converges to .      (Tricky) Determine if the sequence converges or diverges.      (Tricky) Determine if the sequence converges or diverges.     "
 },
 {
-  "id": "appendix-problem-sets-2-1",
+  "id": "appendix-problem-set1-2-1",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-1",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-1",
   "type": "Exercise",
   "number": "B.1.1",
   "title": "",
   "body": "  Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-2",
+  "id": "appendix-problem-set1-2-2",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-2",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-2",
   "type": "Exercise",
   "number": "B.1.2",
   "title": "",
   "body": "  Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-3",
+  "id": "appendix-problem-set1-2-3",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-3",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-3",
   "type": "Exercise",
   "number": "B.1.3",
   "title": "",
   "body": "  Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-4",
+  "id": "appendix-problem-set1-2-4",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-4",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-4",
   "type": "Exercise",
   "number": "B.1.4",
   "title": "",
   "body": "  Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-5",
+  "id": "appendix-problem-set1-2-5",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-5",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-5",
   "type": "Exercise",
   "number": "B.1.5",
   "title": "",
   "body": "  Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-6",
+  "id": "appendix-problem-set1-2-6",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-6",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-6",
   "type": "Exercise",
   "number": "B.1.6",
   "title": "",
   "body": "  Let be a sequence defined by Does converge or diverge?   "
 },
 {
-  "id": "appendix-problem-sets-2-7",
+  "id": "appendix-problem-set1-2-7",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-7",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-7",
   "type": "Exercise",
   "number": "B.1.7",
   "title": "",
   "body": "  Let be a sequence defined by Does converge or diverge?   "
 },
 {
-  "id": "appendix-problem-sets-2-8",
+  "id": "appendix-problem-set1-2-8",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-8",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-8",
   "type": "Exercise",
   "number": "B.1.8",
   "title": "",
   "body": "  Prove that the sequence converges to if and only if converges to .   "
 },
 {
-  "id": "appendix-problem-sets-2-9",
+  "id": "appendix-problem-set1-2-9",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-9",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-9",
   "type": "Exercise",
   "number": "B.1.9",
   "title": "",
   "body": "  (Tricky) Determine if the sequence converges or diverges.   "
 },
 {
-  "id": "appendix-problem-sets-2-10",
+  "id": "appendix-problem-set1-2-10",
   "level": "2",
-  "url": "appendix-problem-sets.html#appendix-problem-sets-2-10",
+  "url": "appendix-problem-set1.html#appendix-problem-set1-2-10",
   "type": "Exercise",
   "number": "B.1.10",
   "title": "",
