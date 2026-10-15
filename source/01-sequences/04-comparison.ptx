@@ -50,7 +50,7 @@
   </remark>
 
   <example>
-    <p>Consider the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n-3}</m>.
+    <p>Consider the series <m>\displaystyle \sum _{n=4} ^\infty \dfrac{1}{n-3}</m>.
     Since <m>n-3 \lt n</m>, <m>\frac{1}{n-3} \gt \frac{1}{n}</m>.  Then
     since the harmonic series diverges, the series <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n-3}</m>
     diverges as well.
