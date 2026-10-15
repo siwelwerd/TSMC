@@ -23,13 +23,71 @@
     <statement>
       <p>
         If <m>f(x)</m> is infinitely differentiable, then the <term>Taylor series</term> for <m>f(x)</m> centered at <m>x=c</m> is
-      <md>\sum _{n=0} ^\infty \dfrac{f^{(n)}(c)}{n!}(x-c)^n</md>
+      <md>\sum _{n=0} ^\infty \dfrac{f^{(n)}(c)}{n!}(x-c)^n</md>.
       </p>
       <p>
         If a function is equal to its Taylor series near a point, it is called <term>analytic</term>.
       </p>
     </statement>
   </definition>
+
+  <remark>
+    <p>Not every infintely differentiable function is analytic, but it turns out the common
+    ones we work with are.</p>
+  </remark>
+
+  <activity>
+    <statement>
+      <p>
+        Determine the Taylor series for <m>e^x</m> centered at <m>x=0</m>.
+      </p>
+    </statement>
+  </activity>
+
+  <activity>
+    <statement>
+      <p>
+        Determine the Taylor series for <m>sin(x)</m> centered at <m>x=0</m>.
+      </p>
+    </statement>
+  </activity>
+
+  <activity>
+    <statement>
+      <p>
+        Determine the Taylor series for <m>cos(x)</m> centered at <m>x=0</m>.
+      </p>
+    </statement>
+  </activity>
+
+  <example>
+    <p>Knowing these Taylor series is very useful.  For example, we may easily compute
+      <md>
+        <mrow> \lim _{x \rightarrow 0} \dfrac{\sin(x)}{x}\amp =\lim _{x \rightarrow} \frac{1}{x}\sum _{n=0} ^\infty \dfrac{(-1)^{n}x^{2n+1}}{(2n+1)!} </mrow>
+        <mrow> \amp =\lim _{x \rightarrow} \sum _{n=0} ^\infty \dfrac{(-1)^{n}x^{2n}}{(2n+1)!} </mrow>
+        <mrow> \amp = 1</mrow>
+      </md>
+      This is much easier than the traditional geometric argument.
+    </p>
+  </example>
+
+  <example>
+    <p>
+      We can generate new Taylor series from ones we already know this way.  For example, since we know
+      <m>\displaystyle e^{x}=\sum _{n=0} ^\infty \dfrac{x^n}{n!}</m>, then
+      <md> e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty x^{2n}{n!}</md>.
+    </p>
+  </example>
+
+  <activity>
+    <statement>
+      <p>
+        Use Taylor series to compute <m>\displaystyle \int \sin(x^2)\ dx</m>.
+      </p>
+    </statement>
+  </activity>
+
+
 
 
 </section>
