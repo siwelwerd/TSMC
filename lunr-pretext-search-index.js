@@ -754,7 +754,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Ratio and Root Tests",
-  "body": " Ratio and Root Tests  In we saw how comparing to another series that we know converges or diverges is a helpful technique. In this section, we introduce two tools for comparing to a geometric series without having to explicitly state what is in advance.   Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.    Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.      Use the ratio test to determine if the following series converge or diverge.                         The ratio test relies on successive terms to behave geometrically. Some series can exhibit geometric series-like decay more broadly while successive terms are misbehaving.   Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.   "
+  "body": " Ratio and Root Tests  In we saw how comparing to another series that we know converges or diverges is a helpful technique. In this section, we introduce two tools for comparing to a geometric series without having to explicitly state what is in advance.   Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.    Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.      Use the ratio test to determine if the following series converge or diverge.                         The ratio test relies on successive terms to behave geometrically. Some series can exhibit geometric series-like decay more broadly while successive terms are misbehaving.   Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  Note instead that if we look at Since , we see that the terms approach , so the terms are eventually behaving like the geometric series .    Root Test   Let be a series, and set .   If , then the series converges absolutely.    If , then the series diverges absolutely.       The proof of this is similar to the proof of the ratio test, so we omit it here.    Determine if the following series converge or diverge.              Any series whose convergence can be determined by the ratio test could also be shown to converge or diverge by the root test. So in a sense, the ratio test is redundant; however, in many situations the ratio test is easier to apply and compute the limit.    Note that both the ratio and root test are tests for absolute convergence. This means they cannot detect conditional convergence. For example, they are inconclusive on series like the alternating harmonic series .   "
 },
 {
   "id": "sec-ratio-root-3",
@@ -790,7 +790,205 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.6.4",
   "title": "",
-  "body": " Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  "
+  "body": " Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  Note instead that if we look at Since , we see that the terms approach , so the terms are eventually behaving like the geometric series .  "
+},
+{
+  "id": "thm-root-test",
+  "level": "2",
+  "url": "sec-ratio-root.html#thm-root-test",
+  "type": "Theorem",
+  "number": "1.6.5",
+  "title": "Root Test.",
+  "body": " Root Test   Let be a series, and set .   If , then the series converges absolutely.    If , then the series diverges absolutely.      "
+},
+{
+  "id": "sec-ratio-root-10",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-10",
+  "type": "Activity",
+  "number": "1.6.6",
+  "title": "",
+  "body": "  Determine if the following series converge or diverge.            "
+},
+{
+  "id": "sec-ratio-root-11",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-11",
+  "type": "Remark",
+  "number": "1.6.7",
+  "title": "",
+  "body": " Any series whose convergence can be determined by the ratio test could also be shown to converge or diverge by the root test. So in a sense, the ratio test is redundant; however, in many situations the ratio test is easier to apply and compute the limit.  "
+},
+{
+  "id": "sec-ratio-root-12",
+  "level": "2",
+  "url": "sec-ratio-root.html#sec-ratio-root-12",
+  "type": "Remark",
+  "number": "1.6.8",
+  "title": "",
+  "body": " Note that both the ratio and root test are tests for absolute convergence. This means they cannot detect conditional convergence. For example, they are inconclusive on series like the alternating harmonic series .  "
+},
+{
+  "id": "sec-power-series",
+  "level": "1",
+  "url": "sec-power-series.html",
+  "type": "Section",
+  "number": "1.7",
+  "title": "Power Series",
+  "body": " Power Series    Consider the function .     Find a linear approximation to at .    should satisfy and      Find a quadratic approximation to at .    should satisfy            Find a degree 3 approximation to at .    should satisfy             Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .      Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?       Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial      By construction, if is the degree Taylor polynomial for at , then for all .     A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.      Show that the power series converges everywhere, i.e. for every value of .      Determine where the power series converges.      Determine where the power series converges.      Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at (). If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on       For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .      Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the ratio test, since converges, we must have (since if bigger than 1, the series would diverge by the ratio test). Then we compute Thus we see by the ratio test that converges absolutely.     Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.     Find the interval of convergence for each of the following power series.      .       .       .     The following is incredibly useful.    Let be a power series that converges on for some . Then            and these series both also converge on .      Let      Compute .      Compute .     "
+},
+{
+  "id": "sec-power-series-2",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-2",
+  "type": "Activity",
+  "number": "1.7.1",
+  "title": "",
+  "body": "  Consider the function .     Find a linear approximation to at .    should satisfy and      Find a quadratic approximation to at .    should satisfy            Find a degree 3 approximation to at .    should satisfy             Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .      Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?    "
+},
+{
+  "id": "def-Taylor-polynomial",
+  "level": "2",
+  "url": "sec-power-series.html#def-Taylor-polynomial",
+  "type": "Definition",
+  "number": "1.7.2",
+  "title": "",
+  "body": "  Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial    "
+},
+{
+  "id": "sec-power-series-4",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-4",
+  "type": "Observation",
+  "number": "1.7.3",
+  "title": "",
+  "body": " By construction, if is the degree Taylor polynomial for at , then for all .  "
+},
+{
+  "id": "def-power-series",
+  "level": "2",
+  "url": "sec-power-series.html#def-power-series",
+  "type": "Definition",
+  "number": "1.7.4",
+  "title": "",
+  "body": "  A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.   "
+},
+{
+  "id": "sec-power-series-6",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-6",
+  "type": "Activity",
+  "number": "1.7.5",
+  "title": "",
+  "body": "  Show that the power series converges everywhere, i.e. for every value of .   "
+},
+{
+  "id": "sec-power-series-7",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-7",
+  "type": "Activity",
+  "number": "1.7.6",
+  "title": "",
+  "body": "  Determine where the power series converges.   "
+},
+{
+  "id": "sec-power-series-8",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-8",
+  "type": "Activity",
+  "number": "1.7.7",
+  "title": "",
+  "body": "  Determine where the power series converges.   "
+},
+{
+  "id": "thm-radius-convergence",
+  "level": "2",
+  "url": "sec-power-series.html#thm-radius-convergence",
+  "type": "Theorem",
+  "number": "1.7.8",
+  "title": "",
+  "body": "  Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at (). If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on    "
+},
+{
+  "id": "def-interval-convergence",
+  "level": "2",
+  "url": "sec-power-series.html#def-interval-convergence",
+  "type": "Definition",
+  "number": "1.7.9",
+  "title": "",
+  "body": "  For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .   "
+},
+{
+  "id": "lem-interval-convergence",
+  "level": "2",
+  "url": "sec-power-series.html#lem-interval-convergence",
+  "type": "Lemma",
+  "number": "1.7.10",
+  "title": "",
+  "body": "  Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the ratio test, since converges, we must have (since if bigger than 1, the series would diverge by the ratio test). Then we compute Thus we see by the ratio test that converges absolutely.   "
+},
+{
+  "id": "sec-power-series-12",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-12",
+  "type": "Remark",
+  "number": "1.7.11",
+  "title": "",
+  "body": " Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.  "
+},
+{
+  "id": "sec-power-series-13",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-13",
+  "type": "Activity",
+  "number": "1.7.12",
+  "title": "",
+  "body": "  Find the interval of convergence for each of the following power series.      .       .       .    "
+},
+{
+  "id": "thm-power-series-diff-integral",
+  "level": "2",
+  "url": "sec-power-series.html#thm-power-series-diff-integral",
+  "type": "Theorem",
+  "number": "1.7.13",
+  "title": "",
+  "body": "  Let be a power series that converges on for some . Then            and these series both also converge on .   "
+},
+{
+  "id": "sec-power-series-16",
+  "level": "2",
+  "url": "sec-power-series.html#sec-power-series-16",
+  "type": "Activity",
+  "number": "1.7.14",
+  "title": "",
+  "body": "  Let      Compute .      Compute .    "
+},
+{
+  "id": "sec-Taylor-series",
+  "level": "1",
+  "url": "sec-Taylor-series.html",
+  "type": "Section",
+  "number": "1.8",
+  "title": "Taylor Series",
+  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is   If a function is equal to its Taylor series near a point, it is called analytic .    "
+},
+{
+  "id": "sec-Taylor-series-3",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-3",
+  "type": "Example",
+  "number": "1.8.1",
+  "title": "",
+  "body": " Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .  "
+},
+{
+  "id": "def-taylor-series",
+  "level": "2",
+  "url": "sec-Taylor-series.html#def-taylor-series",
+  "type": "Definition",
+  "number": "1.8.2",
+  "title": "",
+  "body": "  If is infinitely differentiable, then the Taylor series for centered at is   If a function is equal to its Taylor series near a point, it is called analytic .   "
 },
 {
   "id": "appendix-set-builder",
