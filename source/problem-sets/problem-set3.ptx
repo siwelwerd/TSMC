@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="appendix-problem-set3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Problem Set 3</title>
+  <exercises>
+    <exercise>
+      <statement>
+        <p>Find the Taylor series for <m>\ln(1-x)</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Find the Taylor series for <m>\frac{1}{1+x^2}</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Find the Taylor series for <m>tan^{-1}(x)</m> centered at <m>x=0</m>, and determine its interval of convergence.</p>
+      </statement>
+      <hint><p>Do not compute this directly.</p></hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Determine the sum of the alternating series <m>\sum _{n=0} ^\infty \dfrac{(-1)^{n}}{2n+1} = 1-\frac{1}{3}+\frac{1}{5}-\frac{1}{7}+\cdots </m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Use your work in the previous question
+        </p>
+      </hint>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Find a power series expression for <m>\displaystyle \int e^{-x^2}\ dx</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    
+  </exercises>
+</section>
