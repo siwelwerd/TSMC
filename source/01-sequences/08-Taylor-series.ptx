@@ -75,7 +75,7 @@
     <p>
       We can generate new Taylor series from ones we already know this way.  For example, since we know
       <m>\displaystyle e^{x}=\sum _{n=0} ^\infty \dfrac{x^n}{n!}</m>, then
-      <md> e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty x^{2n}{n!}</md>.
+      <md> e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty \dfrac{x^{2n}}{n!}</md>.
     </p>
   </example>
 
@@ -87,6 +87,22 @@
     </statement>
   </activity>
 
+  <example>
+    <p>Power series form a powerful technique for solving differential equations.
+    For example, consider the differential equation <m>\dfrac{dy}{dx}=y</m>, i.e.
+    <m>y</m> is a function of <m>x</m> that is its own derivative.
+    </p>
+    <p>
+      If we assume <m>y</m> is analytic and write <m>y=\sum _{n=0} ^\infty \frac{a_n}{n!}x^n</m>,
+      then
+      <md>
+        <mrow>\frac{dy}{dx} \amp = \sum _{n=1} ^\infty \dfrac{na_n}{n!}x^{n-1} = \sum _{n=1} \infty \dfrac{a_n}{(n-1)!}x^{n-1} = \sum _{n=0} ^\infty \dfrac{a_{n+1}}{n!}x^n </mrow>
+      </md>
+      Then we see that a solution to this is exactly when <m>a_n=a_{n+1}</m> for all <m>n</m>, i.e.
+      <m>a_0=a_1=a_2=\cdots</m>.  Then the solutions to the differential equation are
+      <md> \sum _{n=0} ^\infty \dfrac{a_0}{n!}x^n = a_0 \sum _{n=0} ^\infty \dfrac{x^n}{n!} = a_0 e^x</md>.
+    </p>
+  </example>
 
 
 
