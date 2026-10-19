@@ -93,9 +93,28 @@
     <task>
       <statement>
         <p>
-          Write the first 20 terms of the sequence <m>\{b_n\}_{n=1} ^\infty</m>.
+          Write the first 15 terms of the sequence <m>\{b_n\}_{n=1} ^\infty</m>.
         </p>
       </statement>
+      <solution>
+        <md>
+        \frac{1}{1},
+        \frac{1}{3},
+        -\frac{1}{2},
+        \frac{1}{5},
+        \frac{1}{7},
+        -\frac{1}{4},
+        \frac{1}{9},
+        \frac{1}{11},
+        -\frac{1}{6},
+        \frac{1}{13},
+        \frac{1}{15},
+        -\frac{1}{8},
+        \frac{1}{17},
+        \frac{1}{19},
+        -\frac{1}{10}
+        </md>
+      </solution>
     </task>
     <task>
       <statement>
@@ -110,6 +129,11 @@
           Find an expression for <m>b_{3n-2}</m>, <m>b_{3n-1}</m>, and <m>b_{3n}</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>b_{3n-2}=\dfrac{1}{4n-3}</m>, <m>b_{3n-1}=\dfrac{1}{4n-1}</m>, and <m>b_{3n}=\dfrac{1}{2n}</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 

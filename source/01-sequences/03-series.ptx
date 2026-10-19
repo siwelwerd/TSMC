@@ -189,6 +189,11 @@
           <m>\displaystyle \sum _{n=1} ^\infty \left(\dfrac{2}{3}\right)^n</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This is a geometric series with <m>r=\frac{2}{3}\lt 1</m> so it converges.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -196,6 +201,11 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{4^n}{3^n}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This is a geometric series with <m>r=\frac{4}{3}\gt 1</m> so it diverges.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -203,6 +213,11 @@
           <m>\displaystyle \sum _{n=1} ^\infty -\dfrac{3^n}{5^n}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This is a multiple of a geometric series with <m>r=\frac{3}{5}\lt 1</m> so it converges.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -210,6 +225,11 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{(-2)^n}{7^n}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This is a multiple of a geometric series with <m>r=-\frac{2}{7}</m>. Since <m>|r|\lt 1</m> the series converges.
+        </p>
+      </solution>
     </task>
   </activity>
 

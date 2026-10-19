@@ -77,6 +77,13 @@
           <m>\displaystyle \sum _{n=2} ^\infty \dfrac{1}{\sqrt{n-1}}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since <m>n-1 \lt n</m>, we have <m>\sqrt{n-1} \lt \sqrt{n}</m> and thus <m>\dfrac{1}{\sqrt{n-1}} \gt \dfrac{1}{\sqrt{n}}</m>. 
+          Since <m> \sum _{n=2} ^\infty \dfrac{1}{\sqrt{n}}</m> is a divergent <m>p</m>-series (<m>p=\frac{1}{2})</m>, the original
+          series also diverges by the direct comparison test. 
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -84,6 +91,13 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^3+n}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since <m>n^3+n \gt n^3</m>, we have s <m>\dfrac{1}{n^3+n} \lt \dfrac{1}{n^3}</m>. 
+          Since <m> \sum _{n=1} ^\infty \dfrac{1}{n^3}</m> is a convergent <m>p</m>-series (<m>p=3)</m>, the original
+          series also converges by the direct comparison test. 
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -91,6 +105,13 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{e^n+e}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since <m>e^n+e \gt e^n</m>, we have s <m>\dfrac{1}{e^n+e} \lt \dfrac{1}{e^n}</m>. 
+          Since <m> \sum _{n=1} ^\infty \dfrac{1}{e^n}</m> is a convergent geometric series (<m>r=e^{-1})</m>, the original
+          series also converges by the direct comparison test. 
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -98,6 +119,11 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^2-n+1}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          This series is not a good candidate for direct comparison.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -149,9 +175,18 @@
     <task>
       <statement>
         <p>
-          <m>\displaystyle \sum _{n=2} ^\infty \dfrac{1}{\sqrt{n+3}}</m>
+          <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{\sqrt{n+3}}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since the series <m>\sum _{n=1} ^\infty \dfrac{1}{\sqrt{n}}</m> is a 
+          divergent <m>p</m>-series (<m>p=\frac{1}{2}</m>) and 
+          <md>\lim _{n \rightarrow \infty} \dfrac{\frac{1}{\sqrt{n+3}}}{\frac{1}{\sqrt{n}}} =
+          \lim _{n \rightarrow \infty} \sqrt{\dfrac{n}{n+3}} = \sqrt{1}=1</md>,
+          the original series also diverges by the limit comparison test.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -159,6 +194,15 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^4-n^2+7}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since the series <m>\sum _{n=1} ^\infty \dfrac{1}{n^4}</m> is a 
+          convergent <m>p</m>-series (<m>p=4</m>) and 
+          <md>\lim _{n \rightarrow \infty} \dfrac{\frac{1}{n^4-n^2+7}}{\frac{1}{n^4}} =
+          \lim _{n \rightarrow \infty} \dfrac{n^4x}{n^4-n^2+7}=1</md>,
+          the original series also converges by the limit comparison test.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -166,6 +210,15 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{2^n-n+5}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since the series <m>\sum _{n=1} ^\infty \dfrac{1}{2^n}</m> is a 
+          convergent geometric series (<m>r=\frac{1}{2}</m>) and 
+          <md>\lim _{n \rightarrow \infty} \dfrac{\frac{1}{2^n-n+5}}{\frac{1}{2^n}} =
+          \lim _{n \rightarrow \infty} \dfrac{2^n}{2^n-n+5}=1</md>,
+          the original series also converges by the limit comparison test.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -173,6 +226,15 @@
           <m>\displaystyle \sum _{n=1} ^\infty \dfrac{1}{n^3-n^2-1}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          Since the series <m>\sum _{n=1} ^\infty \dfrac{1}{n^3}</m> is a 
+          convergent <m>p</m>-series (<m>p=3</m>) and 
+          <md>\lim _{n \rightarrow \infty} \dfrac{\frac{1}{n^3-n^2-1}}{\frac{1}{n^3}} =
+          \lim _{n \rightarrow \infty} \dfrac{n^3}{n^3-n^2-1}=1</md>,
+          the original series also converges by the limit comparison test.
+        </p>
+      </solution>
     </task>
   </activity>
 
