@@ -56,14 +56,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.3.5';
+eBookConfig.runestone_version = '8.3.6';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.3adcbea95009347b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.7a45395f326e122c.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.4beca1fdeed766a2.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.ebd33f6a21eed414.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.9963089870a016c8.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -210,14 +210,14 @@ eBookConfig.enable_chatcodes =  false;
 <article class="activity project-like" id="sec-Taylor-series-7"><h2 class="heading">
 <span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.8.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
-<div class="para" id="sec-Taylor-series-7-1-1">Determine the Taylor series for <span class="process-math">\(sin(x)\)</span> centered at <span class="process-math">\(x=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-Taylor-series-7-1-1">Determine the Taylor series for <span class="process-math">\(\sin(x)\)</span> centered at <span class="process-math">\(x=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Activity 1.8.5"><a tabindex="-1" href="#sec-Taylor-series-7" title="Copy heading and permalink for Activity 1.8.5" aria-label="Copy heading and permalink for Activity 1.8.5">🔗</a></div>
 </article>
 <article class="activity project-like" id="sec-Taylor-series-8"><h2 class="heading">
 <span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.8.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h2>
-<div class="para" id="sec-Taylor-series-8-1-1">Determine the Taylor series for <span class="process-math">\(cos(x)\)</span> centered at <span class="process-math">\(x=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-Taylor-series-8-1-1">Determine the Taylor series for <span class="process-math">\(\cos(x)\)</span> centered at <span class="process-math">\(x=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Activity 1.8.6"><a tabindex="-1" href="#sec-Taylor-series-8" title="Copy heading and permalink for Activity 1.8.6" aria-label="Copy heading and permalink for Activity 1.8.6">🔗</a></div>
 </article>
@@ -245,7 +245,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">We can generate new Taylor series from ones we already know this way.  For example, since we know <span class="process-math">\(\displaystyle e^{x}=\sum _{n=0} ^\infty \dfrac{x^n}{n!}\text{,}\)</span> then</div>
 <div class="displaymath process-math" id="sec-Taylor-series-10-1-2">
 \begin{equation*}
-e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty x^{2n}{n!}\text{.}
+e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty \dfrac{x^{2n}}{n!}\text{.}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -258,6 +258,28 @@ e^{x^2} = \sum _{n=0} ^\infty \dfrac{(x^2)^n}{n!} = \sum _{n=0} ^\infty x^{2n}{n
 <div class="para" id="sec-Taylor-series-11-1-1">Use Taylor series to compute <span class="process-math">\(\displaystyle \int \sin(x^2)\ dx\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Activity 1.8.9"><a tabindex="-1" href="#sec-Taylor-series-11" title="Copy heading and permalink for Activity 1.8.9" aria-label="Copy heading and permalink for Activity 1.8.9">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-Taylor-series-12"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.8.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>
+<div class="para" id="sec-Taylor-series-12-1">Power series form a powerful technique for solving differential equations. For example, consider the differential equation <span class="process-math">\(\dfrac{dy}{dx}=y\text{,}\)</span> i.e. <span class="process-math">\(y\)</span> is a function of <span class="process-math">\(x\)</span> that is its own derivative.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Taylor-series-12-2">
+<div class="para">If we assume <span class="process-math">\(y\)</span> is analytic and write <span class="process-math">\(y=\sum _{n=0} ^\infty \frac{a_n}{n!}x^n\text{,}\)</span> then</div>
+<div class="displaymath process-math" id="sec-Taylor-series-12-2-3">
+\begin{align*}
+\frac{dy}{dx} \amp = \sum _{n=1} ^\infty \dfrac{na_n}{n!}x^{n-1} = \sum _{n=1} \infty \dfrac{a_n}{(n-1)!}x^{n-1} = \sum _{n=0} ^\infty \dfrac{a_{n+1}}{n!}x^n 
+\end{align*}
+</div>
+<div class="para">Then we see that a solution to this is exactly when <span class="process-math">\(a_n=a_{n+1}\)</span> for all <span class="process-math">\(n\text{,}\)</span> i.e. <span class="process-math">\(a_0=a_1=a_2=\cdots\text{.}\)</span>  Then the solutions to the differential equation are</div>
+<div class="displaymath process-math" id="sec-Taylor-series-12-2-7">
+\begin{equation*}
+\sum _{n=0} ^\infty \dfrac{a_0}{n!}x^n = a_0 \sum _{n=0} ^\infty \dfrac{x^n}{n!} = a_0 e^x\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-Taylor-series-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.8.10"><a tabindex="-1" href="#sec-Taylor-series-12" title="Copy heading and permalink for Example 1.8.10" aria-label="Copy heading and permalink for Example 1.8.10">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Section 1.8: Taylor Series"><a tabindex="-1" href="#sec-Taylor-series" title="Copy heading and permalink for Section 1.8: Taylor Series" aria-label="Copy heading and permalink for Section 1.8: Taylor Series">🔗</a></div>
 </section>
 </div>
