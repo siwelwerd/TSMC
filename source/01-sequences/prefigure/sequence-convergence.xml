@@ -1,0 +1,35 @@
+<diagram dimensions="(600,600)" margins="5" xmlns="https://prefigure.org">
+  <definition>n=10</definition>
+  <definition>L=1</definition>
+  <definition>epsilon=0.2</definition>
+  <definition>seq=[1.25,0.9,1.4,0.5,1.17,0.75,1.1,1.08,1.05,0.88,0.94,1.1]</definition>
+  <definition>offset=[1,1,1,1,1,-1,1,-1,1,-1,1]</definition>
+  <coordinates bbox="(-1,-0.5,10.5,2)" destination="(0,200,600,600)">
+    <axes hticks="(1,1,10)" hlabels="(1,1,10)" decorations="no"/>
+    <label anchor="(0,L-epsilon)" alignment="west"><m>L-\epsilon</m></label>
+    <label anchor="(0,L+epsilon)" alignment="west"><m>L+\epsilon</m></label>   
+    <label anchor="(0,L)" alignment="west"><m>L</m></label>
+    <polygon points="((0,L+epsilon),(10.5,L+epsilon),(10.5,L-epsilon),(0,L-epsilon))" closed="yes"
+             fill="gray" opacity="0.5"/>
+    <line endpoints="((0,L),(10.5,L))" stroke="blue"/>
+    <repeat parameter="k=0..10">
+      <point p="(k+1,seq[k])"/>
+    </repeat>
+    <label anchor="(7,-0.2)" alignment="south"><m>N</m></label>
+  </coordinates>
+
+  <coordinates bbox="(0.4,-0.5,1.6,2)" destination="(0,0,600,300)">
+    <axes axes="horizontal" decorations="no"/>
+    <polygon points="((L+epsilon,0.1),(L+epsilon,-0.1),(L-epsilon,-0.1),(L-epsilon,0.1))" closed="yes"
+             fill="gray" opacity="0.5"/>
+    <line endpoints="((L-epsilon,-0.1),(L-epsilon,0.25))" stroke="blue"/>
+    <line endpoints="((L+epsilon,-0.1),(L+epsilon,0.25))" stroke="blue"/>
+    <label anchor="(L-epsilon,0.25)" alignment="north"><m>L-\epsilon</m></label>
+    <label anchor="(L+epsilon,0.25)" alignment="north"><m>L+\epsilon</m></label>  
+    <repeat parameter="k=0..10">
+
+      <line endpoints="((seq[k],-0.1),(seq[k],0.1))"/>
+      <label anchor="(seq[k],(offset[k])*0.2)"><m>a_{${k+1}}</m></label>
+    </repeat>
+  </coordinates>
+</diagram>

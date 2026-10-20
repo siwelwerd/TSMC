@@ -320,6 +320,11 @@
         </p>
         <p>
           So what we have is the following picture:
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="prefigure-alternating-series">
+                <xi:include href="prefigure/alternating-series.xml"/>
+              </prefigure>
+            </image>
         </p>
         <p>
           Now we claim that <m>U=L</m>.  Suppose to the contrary that <m>U-L \gt 0</m>, and let <m>\epsilon = \frac{U-L}{2} \gt 0</m>.

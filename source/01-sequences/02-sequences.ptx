@@ -217,14 +217,17 @@
   </remark>
   
   <figure>
-    <image source="sequence-convergence.svg">
+    <image>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-sequence-convergence">
+        <xi:include href="prefigure/sequence-convergence.xml"/>
+      </prefigure>
       <shortdescription>
         A graph of sequence points showing eventually all sequence points
-        are within <m>\epsilon</m> of <m>x</m>.
+        are within <m>\epsilon</m> of <m>L</m>.
       </shortdescription>
     </image>
     <caption>
-      <p>Once <m>n \gt M</m>, we see that <m>|x_n-x| \lt \epsilon </m>.</p>
+      <p>Once <m>n \gt N</m>, we see that <m>|a_n-L| \lt \epsilon </m>.</p>
     </caption>
   </figure>
 
