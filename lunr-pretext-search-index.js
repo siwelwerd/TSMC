@@ -1259,6 +1259,69 @@ var ptx_lunr_docs = [
   "number": "B.1.10",
   "title": "",
   "body": "  (Tricky) Determine if the sequence converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2",
+  "level": "1",
+  "url": "appendix-problem-set2.html",
+  "type": "Section",
+  "number": "B.2",
+  "title": "Problem Set 2",
+  "body": " Problem Set 2     Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.     "
+},
+{
+  "id": "appendix-problem-set2-2-1",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-1",
+  "type": "Exercise",
+  "number": "B.2.1",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2-2-2",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-2",
+  "type": "Exercise",
+  "number": "B.2.2",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2-2-3",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-3",
+  "type": "Exercise",
+  "number": "B.2.3",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2-2-4",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-4",
+  "type": "Exercise",
+  "number": "B.2.4",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2-2-5",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-5",
+  "type": "Exercise",
+  "number": "B.2.5",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set2-2-6",
+  "level": "2",
+  "url": "appendix-problem-set2.html#appendix-problem-set2-2-6",
+  "type": "Exercise",
+  "number": "B.2.6",
+  "title": "",
+  "body": "  Determine if the series converges or diverges.   "
 }
 ]
 
