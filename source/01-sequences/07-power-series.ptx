@@ -80,7 +80,7 @@
       <p>
           Let <m>f(x)</m> be <m>n</m>-times differentiable at <m>x=c</m>.
           The <term>Taylor polynomial of degree <m>n</m> at <m>x=c</m></term>
-          is the polynomial <m>\displaystyle T_n(x)=\sum _{k=1} ^n \dfrac{f^{(k)}(c)(x-c)^k}{k!|}</m>
+          is the polynomial <m>\displaystyle T_n(x)=\sum _{k=1} ^n \dfrac{f^{(k)}(c)(x-c)^k}{k!}</m>
       </p>
     </statement>
   </definition>
@@ -151,7 +151,7 @@
     <proof>
       <p>
         This follows from <xref ref="lem-interval-convergence"/> below.  Let 
-        <md>L=\sup \left\{ x\ \mid\ \sum _{n=0} ^\infty a_n (x-c)^n \text{ converges} \right\}</md>.
+        <md>L=\sup \left\{ x\ \middle\mid\ \sum _{n=0} ^\infty a_n (x-c)^n \text{ converges} \right\}</md>.
         Note that <m>L \geq c</m>. If <m>L=c</m> the series converges only at <m>c</m> ().
         If <m>L=\infty</m>, then <xref ref="lem-interval-convergence"/> guarantees convergence everywhere.
         Finally, assume <m>L=c+R \gt c</m>.  Then by <xref ref="lem-interval-convergence"/> the series converges
