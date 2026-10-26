@@ -96,7 +96,7 @@
       If we assume <m>y</m> is analytic and write <m>y=\sum _{n=0} ^\infty \frac{a_n}{n!}x^n</m>,
       then
       <md>
-        <mrow>\frac{dy}{dx} \amp = \sum _{n=1} ^\infty \dfrac{na_n}{n!}x^{n-1} = \sum _{n=1} \infty \dfrac{a_n}{(n-1)!}x^{n-1} = \sum _{n=0} ^\infty \dfrac{a_{n+1}}{n!}x^n </mrow>
+        <mrow>\frac{dy}{dx} \amp = \sum _{n=1} ^\infty \dfrac{na_n}{n!}x^{n-1} = \sum _{n=1} ^\infty \dfrac{a_n}{(n-1)!}x^{n-1} = \sum _{n=0} ^\infty \dfrac{a_{n+1}}{n!}x^n </mrow>
       </md>
       Then we see that a solution to this is exactly when <m>a_n=a_{n+1}</m> for all <m>n</m>, i.e.
       <m>a_0=a_1=a_2=\cdots</m>.  Then the solutions to the differential equation are
