@@ -152,7 +152,7 @@
       <p>
         This follows from <xref ref="lem-interval-convergence"/> below.  Let 
         <md>L=\sup \left\{ x\ \middle | \ \sum _{n=0} ^\infty a_n (x-c)^n \text{ converges} \right\}</md>.
-        Note that <m>L \geq c</m>. If <m>L=c</m> the series converges only at <m>c</m> ().
+        Note that <m>L \geq c</m>. If <m>L=c</m> the series converges only at <m>c</m>.
         If <m>L=\infty</m>, then <xref ref="lem-interval-convergence"/> guarantees convergence everywhere.
         Finally, assume <m>L=c+R \gt c</m>.  Then by <xref ref="lem-interval-convergence"/> the series converges
         absolutely on the interval <m>(c-R,c+R)</m>.  Moreover, by construction if the series converges
@@ -187,12 +187,12 @@
       <p>
         By making a substitution <m>y=x-c</m>, we may assume without loss of generality that <m>c=0</m>.
         Assume further without loss of generality that <m>r \gt 0</m>, and let <m>-r \lt b \lt r</m> be given.
-        By the ratio test, since <m>\sum _{n=0} ^\infty a_n r^n</m> converges, we must have <m>|a_nr^n|^\frac{1}{n} \leq 1</m>
-        (since if bigger than 1, the series would diverge by the ratio test).  Then we compute
+        By the root test, since <m>\displaystyle \sum _{n=0} ^\infty a_n r^n</m> converges, we must have <m>|a_nr^n|^\frac{1}{n} \leq 1</m>
+        (since if bigger than 1, the series would diverge by the root test).  Then we compute
          <md>
           |a_nb^n|^\frac{1}{n}=b|a_n|^\frac{1}{n} \lt |r||a_n|^\frac{1}{n} \leq 1
         </md>
-        Thus we see by the ratio test that <m>\displaystyle \sum _{n=1} ^\infty a_n b^n</m> converges absolutely.
+        Thus we see by the root test that <m>\displaystyle \sum _{n=1} ^\infty a_n b^n</m> converges absolutely.
       </p>
     </proof>
   </lemma>
