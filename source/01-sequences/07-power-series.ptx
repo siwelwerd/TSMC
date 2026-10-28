@@ -11,12 +11,17 @@
     <task>
       <statement>
         <p>
-          Find a linear approximation <m>L(x)</m> to <m>f(x)</m> at <m>x=0</m>.
+          Find a linear approximation <m>L_1(x)</m> to <m>f(x)</m> at <m>x=0</m>.
         </p>
       </statement>
       <hint>
-        <p><m>L(x)</m> should satisfy <m>L(0)=f(0)</m> and <m>L^\prime(0)=f^\prime(0)</m></p>
+        <p><m>L_1(x)</m> should satisfy <m>L_1(0)=f(0)</m> and <m>L_1^\prime(0)=f^\prime(0)</m></p>
       </hint>
+      <solution>
+        <p>
+          <m>L_1(x)=1+x</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -33,6 +38,11 @@
           </ul>
         </p>
       </hint>
+      <solution>
+        <p>
+          <m>L_2(x)=1+x+\frac{1}{2}x^2</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -50,6 +60,11 @@
           </ul>
         </p>
       </hint>
+      <solution>
+        <p>
+          <m>L_3(x)=1+x+\frac{1}{2}x^2+\frac{1}{6}x^3</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -64,6 +79,11 @@
           Find a degree <m>n</m> approximation <m>L_n(x)</m> to <m>f(x)</m> at <m>x=0</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>\displaystyle L_n(x)=\sum _{k=0} ^n \frac{x^k}{k!}</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -80,7 +100,7 @@
       <p>
           Let <m>f(x)</m> be <m>n</m>-times differentiable at <m>x=c</m>.
           The <term>Taylor polynomial of degree <m>n</m> at <m>x=c</m></term>
-          is the polynomial <m>\displaystyle T_n(x)=\sum _{k=1} ^n \dfrac{f^{(k)}(c)(x-c)^k}{k!}</m>
+          is the polynomial <m>\displaystyle T_n(x)=\sum _{k=0} ^n \dfrac{f^{(k)}(c)(x-c)^k}{k!}</m>
       </p>
     </statement>
   </definition>
@@ -108,19 +128,38 @@
   <activity>
     <statement>
       <p>
-        Show that the power series <m>\displaystyle \sum _{n=1} ^\infty \frac{x^n}{n!}</m>
+        Show that the power series <m>\displaystyle \sum _{n=0} ^\infty \frac{x^n}{n!}</m>
         converges everywhere, i.e. for every value of <m>x</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        We apply the ratio test.  Compute
+        <md> \lim _{n\rightarrow \infty} \left|\frac{a_{n+1}}{a_n}\right| = \frac{n!}{(n+1)!}\left|\frac{x^{n+1}}{x^n}\right| =
+        |x| \lim _{n \rightarrow \infty} \frac{1}{n+1}=0</md>
+        Since this limit is <m>0 \lt 1</m> for all values of <m>x</m>, this series converges for all <m>x</m> 
+        (i.e. it converges everywhere).
+      </p>
+    </solution>
   </activity>
 
   <activity>
     <statement>
       <p>
-        Determine where the power series <m>\displaystyle \sum _{n=1} ^\infty (-1)^nx^n</m>
+        Determine where the power series <m>\displaystyle \sum _{n=0} ^\infty (-1)^nx^n</m>
         converges.
       </p>
     </statement>
+    <solution>
+      <p>
+        We apply the ratio test.  Compute
+        <md> \lim _{n\rightarrow \infty} \left|\frac{a_{n+1}}{a_n}\right| = |x| </md>
+        Thus by the ratio test we know the series converges when <m>|x|\lt 1</m> and diverges 
+        when <m>|x| \gt 1</m>.  Since the series <m>\sum _{n=0} ^\infty (-1)^n(1)^n</m> diverges,
+        and the series <m>\sum _{n=0} ^\infty (-1)^n(-1)^n</m> also diverges, the power series
+        converges precisely on the interval <m>(-1,1)</m>.
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -130,6 +169,16 @@
         converges.
       </p>
     </statement>
+    <solution>
+      <p>
+        We apply the ratio test.  Compute
+        <md> \lim _{n\rightarrow \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim _{n \rightarrow \infty} \frac{3^{n+1}}{3^n} \frac{|x-1|^{n+1}}{|x-1|^n}=3|x-1| </md>
+        Thus by the ratio test we know the series converges when <m>3|x-1|\lt 1</m>, i.e. on <m>\left(\frac{2}{3},\frac{4}{3}\right)</m> and diverges 
+        when <m>3|x-1| \gt 1</m>.  Since the series <m>\sum _{n=0} ^\infty (3)^n(\frac{4}{3}-1)^n</m> diverges,
+        and the series <m>\sum _{n=0} ^\infty (3)^n(\frac{2}{3}-1)^n</m> also diverges, the power series
+        converges precisely on the interval <m>\left(\frac{2}{3}, \frac{4}{3}\right)</m>.
+      </p>
+    </solution>
   </activity>
 
   <theorem xml:id="thm-radius-convergence">
@@ -226,7 +275,7 @@
     <task>
       <statement>
         <p>
-          <m>\displaystyle \sum _{n=1} ^\infty \frac{(x+3)^n}{\ln(n)}</m>.
+          <m>\displaystyle \sum _{n=2} ^\infty \frac{(x+3)^n}{\ln(n)}</m>.
         </p>
       </statement>
     </task>
