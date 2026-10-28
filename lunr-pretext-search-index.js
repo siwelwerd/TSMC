@@ -754,7 +754,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Ratio and Root Tests",
-  "body": " Ratio and Root Tests  In we saw how comparing to another series that we know converges or diverges is a helpful technique. In this section, we introduce two tools for comparing to a geometric series without having to explicitly state what is in advance.   Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.    Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.      Use the ratio test to determine if the following series converge or diverge.                         The ratio test relies on successive terms to behave geometrically. Some series can exhibit geometric series-like decay more broadly while successive terms are misbehaving.   Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  Note instead that if we look at Since , we see that the terms approach , so the terms are eventually behaving like the geometric series .    Root Test   Let be a series, and set .   If , then the series converges absolutely.    If , then the series diverges.       The proof of this is similar to the proof of the ratio test, so we omit it here.    Determine if the following series converge or diverge.              Any series whose convergence can be determined by the ratio test could also be shown to converge or diverge by the root test. So in a sense, the ratio test is redundant; however, in many situations the ratio test is easier to apply and compute the limit.    Note that both the ratio and root test are tests for absolute convergence. This means they cannot detect conditional convergence. For example, they are inconclusive on series like the alternating harmonic series .   "
+  "body": " Ratio and Root Tests  In we saw how comparing to another series that we know converges or diverges is a helpful technique. In this section, we introduce two tools for comparing to a geometric series without having to explicitly state what is in advance.   Consider the series . Note that we cannot use a direct or limit comparison to the geometric series .  However, one other way to characterize the geometric series is that the ratio between successive terms is . For this series, we have . Thus, we see that the ratio in these terms is approaching , just like a geometric series.  The key idea is that since the ratio is approaching , we can eventually ensure the ratio stays strictly less than and argue for convergence.    Ratio Test   Let be a series with for all . If the limit exists, set . Then   If , then the series converges absolutely.    If (or the limit is infinite), then the series diverges.       First Suppose . Then for some , we have for all . , so we have for all . Hence the terms do not approach zero, so the series diverges by .  Now suppose . Set , so that . Since , by the definition of the limit, there is a positive integer such that, whenever , .  Note that if , we have , and if , then . So in either case we obtain for all .  For , multiplying these bounds gives   Let be the -th partial sum . For ,we have   Thus the absolute partial sums are increasing and bounded, so they converge. Therefore, the original series converges absolutely.      Use the ratio test to determine if the following series converge or diverge.           Thus this series converges by the ratio test.            since this is the limit of a rational function with a higher degree denominator. Thus this series converges by the ratio test.            Thus this series diverges by the ratio test.     The ratio test relies on successive terms to behave geometrically. Some series can exhibit geometric series-like decay more broadly while successive terms are misbehaving.   Consider the series . Note that the terms of the series look like , so the series definitely feels geometric  However, if we try to compute ratios of successive terms, we have while . Thus the limit of ratios of successive terms does not exist.  Note instead that if we look at Since , we see that the terms approach , so the terms are eventually behaving like the geometric series .    Root Test   Let be a series, and set .   If , then the series converges absolutely.    If , then the series diverges.       The proof of this is similar to the proof of the ratio test, so we omit it here.    Determine if the following series converge or diverge.         Thus this series diverges by the root test.          Thus this series converges by the root test.          Thus this series diverges by the root test.      Any series whose convergence can be determined by the ratio test could also be shown to converge or diverge by the root test. So in a sense, the ratio test is redundant; however, in many situations the ratio test is easier to apply and compute the limit.    Note that both the ratio and root test are tests for absolute convergence. This means they cannot detect conditional convergence. For example, they are inconclusive on series like the alternating harmonic series .   "
 },
 {
   "id": "sec-ratio-root-3",
@@ -781,7 +781,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.6.3",
   "title": "",
-  "body": "  Use the ratio test to determine if the following series converge or diverge.                        "
+  "body": "  Use the ratio test to determine if the following series converge or diverge.           Thus this series converges by the ratio test.            since this is the limit of a rational function with a higher degree denominator. Thus this series converges by the ratio test.            Thus this series diverges by the ratio test.    "
 },
 {
   "id": "sec-ratio-root-7",
@@ -808,7 +808,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.6.6",
   "title": "",
-  "body": "  Determine if the following series converge or diverge.            "
+  "body": "  Determine if the following series converge or diverge.         Thus this series diverges by the root test.          Thus this series converges by the root test.          Thus this series diverges by the root test.    "
 },
 {
   "id": "sec-ratio-root-11",
@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Power Series",
-  "body": " Power Series    Consider the function .     Find a linear approximation to at .    should satisfy and      Find a quadratic approximation to at .    should satisfy            Find a degree 3 approximation to at .    should satisfy             Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .      Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?       Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial      By construction, if is the degree Taylor polynomial for at , then for all .     A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.      Show that the power series converges everywhere, i.e. for every value of .      Determine where the power series converges.      Determine where the power series converges.      Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at . If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on       For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .      Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the root test, since converges, we must have (since if bigger than 1, the series would diverge by the root test). Then we compute Thus we see by the root test that converges absolutely.     Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.     Find the interval of convergence for each of the following power series.      .       .       .     The following is incredibly useful.    Let be a power series that converges on for some . Then            and these series both also converge on .      Let      Compute .      Compute .     "
+  "body": " Power Series    Consider the function .     Find a linear approximation to at .    should satisfy and           Find a quadratic approximation to at .    should satisfy                 Find a degree 3 approximation to at .    should satisfy                  Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .           Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?       Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial      By construction, if is the degree Taylor polynomial for at , then for all .     A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.      Show that the power series converges everywhere, i.e. for every value of .    We apply the ratio test. Compute Since this limit is for all values of , this series converges for all (i.e. it converges everywhere).      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when , i.e. on and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at . If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on       For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .      Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the root test, since converges, we must have (since if bigger than 1, the series would diverge by the root test). Then we compute Thus we see by the root test that converges absolutely.     Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.     Find the interval of convergence for each of the following power series.      .       .       .     The following is incredibly useful.    Let be a power series that converges on for some . Then            and these series both also converge on .      Let      Compute .      Compute .     "
 },
 {
   "id": "sec-power-series-2",
@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.1",
   "title": "",
-  "body": "  Consider the function .     Find a linear approximation to at .    should satisfy and      Find a quadratic approximation to at .    should satisfy            Find a degree 3 approximation to at .    should satisfy             Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .      Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?    "
+  "body": "  Consider the function .     Find a linear approximation to at .    should satisfy and           Find a quadratic approximation to at .    should satisfy                 Find a degree 3 approximation to at .    should satisfy                  Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .           Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?    "
 },
 {
   "id": "def-Taylor-polynomial",
@@ -880,7 +880,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.5",
   "title": "",
-  "body": "  Show that the power series converges everywhere, i.e. for every value of .   "
+  "body": "  Show that the power series converges everywhere, i.e. for every value of .    We apply the ratio test. Compute Since this limit is for all values of , this series converges for all (i.e. it converges everywhere).   "
 },
 {
   "id": "sec-power-series-7",
@@ -889,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.6",
   "title": "",
-  "body": "  Determine where the power series converges.   "
+  "body": "  Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .   "
 },
 {
   "id": "sec-power-series-8",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.7",
   "title": "",
-  "body": "  Determine where the power series converges.   "
+  "body": "  Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when , i.e. on and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .   "
 },
 {
   "id": "thm-radius-convergence",
@@ -1061,6 +1061,69 @@ var ptx_lunr_docs = [
   "number": "1.8.10",
   "title": "",
   "body": " Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .  "
+},
+{
+  "id": "sec-vector-valued-functions",
+  "level": "1",
+  "url": "sec-vector-valued-functions.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Vector-Valued Functions",
+  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.    "
+},
+{
+  "id": "def-vector-valued-function",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#def-vector-valued-function",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  A function for some is called a vector-valued function .   "
+},
+{
+  "id": "sec-vector-valued-functions-4",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-4",
+  "type": "Example",
+  "number": "2.1.2",
+  "title": "",
+  "body": " Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .  "
+},
+{
+  "id": "sec-vector-valued-functions-5",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-5",
+  "type": "Remark",
+  "number": "2.1.3",
+  "title": "",
+  "body": " Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)  "
+},
+{
+  "id": "def-parametric-eq",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#def-parametric-eq",
+  "type": "Definition",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  A vector-valued function can also be described by the parametric equations     "
+},
+{
+  "id": "sec-vector-valued-functions-8",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-8",
+  "type": "Example",
+  "number": "2.1.5",
+  "title": "",
+  "body": " The parametric equations describe the usual parameterization of the unit circle.  "
+},
+{
+  "id": "sec-vector-valued-functions-9",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-9",
+  "type": "Activity",
+  "number": "2.1.6",
+  "title": "",
+  "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.   "
 },
 {
   "id": "appendix-set-builder",
