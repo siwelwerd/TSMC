@@ -1385,6 +1385,69 @@ var ptx_lunr_docs = [
   "number": "B.2.6",
   "title": "",
   "body": "  Determine if the series converges or diverges.   "
+},
+{
+  "id": "appendix-problem-set3",
+  "level": "1",
+  "url": "appendix-problem-set3.html",
+  "type": "Section",
+  "number": "B.3",
+  "title": "Problem Set 3",
+  "body": " Problem Set 3     Find the Taylor series for centered at , and determine its interval of convergence.      Find the Taylor series for centered at , and determine its interval of convergence.      Find the Taylor series for centered at , and determine its interval of convergence.      Find the Taylor series for centered at , and determine its interval of convergence.   Do not compute this directly.     Determine the sum of the alternating series     Use your work in the previous question      Find a power series expression for .     "
+},
+{
+  "id": "appendix-problem-set3-2-1",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-1",
+  "type": "Exercise",
+  "number": "B.3.1",
+  "title": "",
+  "body": "  Find the Taylor series for centered at , and determine its interval of convergence.   "
+},
+{
+  "id": "appendix-problem-set3-2-2",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-2",
+  "type": "Exercise",
+  "number": "B.3.2",
+  "title": "",
+  "body": "  Find the Taylor series for centered at , and determine its interval of convergence.   "
+},
+{
+  "id": "appendix-problem-set3-2-3",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-3",
+  "type": "Exercise",
+  "number": "B.3.3",
+  "title": "",
+  "body": "  Find the Taylor series for centered at , and determine its interval of convergence.   "
+},
+{
+  "id": "appendix-problem-set3-2-4",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-4",
+  "type": "Exercise",
+  "number": "B.3.4",
+  "title": "",
+  "body": "  Find the Taylor series for centered at , and determine its interval of convergence.   Do not compute this directly.  "
+},
+{
+  "id": "appendix-problem-set3-2-5",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-5",
+  "type": "Exercise",
+  "number": "B.3.5",
+  "title": "",
+  "body": "  Determine the sum of the alternating series     Use your work in the previous question   "
+},
+{
+  "id": "appendix-problem-set3-2-6",
+  "level": "2",
+  "url": "appendix-problem-set3.html#appendix-problem-set3-2-6",
+  "type": "Exercise",
+  "number": "B.3.6",
+  "title": "",
+  "body": "  Find a power series expression for .   "
 }
 ]
 
