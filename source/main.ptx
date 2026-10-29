@@ -12,6 +12,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./01-sequences/chapter.ptx" />
+    <xi:include href="./02-vector-valued-functions/chapter.ptx" />
 
 
     <!-- Include backmatter -->

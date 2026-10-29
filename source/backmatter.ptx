@@ -10,6 +10,7 @@
     <title>Problem Sets</title>
     <xi:include href="problem-sets/problem-set1.ptx"/>
     <xi:include href="problem-sets/problem-set2.ptx"/>
+    <xi:include href="problem-sets/problem-set3.ptx"/>
   </appendix>
 
 </backmatter>

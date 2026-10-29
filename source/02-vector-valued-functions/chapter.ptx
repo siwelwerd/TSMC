@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-vector-valued-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vector Valued Functions</title>
+
+  <!-- include sections -->
+  <xi:include href="01-vector-valued-functions.ptx" />
+
+</chapter>

@@ -1,0 +1,18 @@
+<graph xmin="-1.5" xmax="1.5" ymin="-1.5" ymax="1.5"
+       displayXAxisTicks="false" displayYAxisTicks="false">
+    <shortDescription>
+        A plot of <m>\langle \cos(t), \sin(t)\rangle</m>
+    </shortDescription>
+    
+    <function name="f" variables="t">
+      (cos(t), sin(t))
+    </function>
+      <vector styleNumber="2" draggable="false">$$f($a)</vector>
+</graph>
+
+<slider name="a" from="-6" to="6" step="0.1" 
+        width="500" initialValue="0">
+  <label><m>t</m></label>
+</slider> 
+
+

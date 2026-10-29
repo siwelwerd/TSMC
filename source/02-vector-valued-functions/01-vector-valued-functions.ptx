@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-vector-valued-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vector-Valued Functions</title>
+
+  <p>In your previous math courses, you have been learning about functions whose domain
+  and codomain are (subsets of) the real numbers.  Symbolically, we represent this for a 
+  function <m>f</m> as <md>f: \R \rightarrow \R</md>.
+  There are many applications, such as studying motion of an object over time,
+  where we want to map an input variable (e.g. time) to a <em>point</em> (or vector)
+  in 2 or 3 dimensional space.
+  </p>
+
+  <definition xml:id="def-vector-valued-function">
+    <statement>
+      <p>
+          A function <m>\vec{r}: \R \rightarrow \R^n</m> for some <m>n</m> is called
+          a <term>vector-valued function</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <p>Consider <m>\vec{r} : \R \rightarrow \R^2</m> given by <m>\vec{r}(t)=\langle \cos(t), \sin(t) \rangle</m>.
+    </p>
+    <interactive label="interactive-curve1" platform="doenetml" width="95%" aspect="2:8">
+      <slate surface="doenetml">
+        <xi:include parse="text" href="interactives/curve1.xml"/> 
+      </slate>
+    </interactive>
+    <p>Now consider <m>\vec{s} : \R \rightarrow \R^2</m> given by <m>\vec{s}(t)=\langle \cos(t^3-t), \sin(t^3-t) \rangle</m>.
+    </p>
+    <interactive label="interactive-curve2" platform="doenetml" width="95%" aspect="2:8">
+      <slate surface="doenetml">
+        <xi:include parse="text" href="interactives/curve2.xml"/> 
+      </slate>
+    </interactive>
+    <p>We say that <m>\vec{r}</m> and <m>\vec{s}</m> are two different <term>parameterizations</term>
+      of the circle <m>x^2+y^2=1</m>.
+    </p>
+  </example>
+
+  <remark>
+    <p>Sometimes we think about the output of a vector-valued function as a vector,
+      and sometimes as a point (namely the head of the output vector whose tail is at the origin)
+    </p>
+  </remark>
+
+  <p>We often use vector-valued functions in the context of motion of an object.
+  For example, the path of a projectile launched with an inital speed of <m>v_0</m>
+  at an angle <m>\theta</m> is
+  <md>\vec{r}(t)=\langle v_0\cos(\theta) t, v_0 \sin(\theta)t-\frac{1}{2}gt^2\rangle</md>
+  where <m>g</m> is the gravitational constant.
+  </p>
+
+  <definition xml:id="def-parametric-eq">
+    <statement>
+      <p>
+          A vector-valued function <m>\vec{r}(t)=\langle x(t),y(t),z(t)\rangle</m> can also 
+          be described by the <term>parametric equations</term>
+          <md><mrow>x \amp = x(t) \amp y \amp= y(t) \amp z \amp=z(t)</mrow></md>
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <p>
+      The parametric equations
+      <md><mrow>x\amp=\cos(t) \amp y\amp=\sin(t)</mrow></md>
+      describe the usual parameterization of the unit circle.
+    </p>
+  </example>
+
+  <activity>
+    <statement>
+      <p>
+        Find a parameterization of the ellipse <m>4x^2+9y^2=36</m>
+      </p>
+    </statement>
+    <hint>
+      <p>Adapt the usual parameterization of the unit circle.</p>
+    </hint>
+  </activity>
+
+</section>
