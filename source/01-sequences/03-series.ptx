@@ -423,6 +423,66 @@
     </statement>
   </theorem>
 
+  <p>To prove this, we need to generalize our argument above into the following.</p>
+
+  <theorem xml:id="thm-cauchy-condensation">
+    <title>Cauchy Condensation Test</title>
+    <statement>
+      <p>
+        Let <m>\displaystyle \sum _{n=1} ^\infty a_n</m> be a series where the terms
+        <m>\{a_n\} _{n=1} ^\infty</m> form a decreasing sequence of positive numbers.
+        Then the series <m>\displaystyle \sum _{n=1} ^\infty a_n</m> converges if and only if
+        the series <m>\displaystyle \sum _{n=0} ^\infty 2^n a_{2^n}</m> converges.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        We will prove slightly more strongly that
+        <md> \sum _{n=1} ^\infty a_n \leq \sum _{n=0} ^\infty 2^n a_{2^n} \leq 2 \sum _{n=1} ^\infty a_n</md>.
+        For the first inequality, let <m>S_k</m> be the <m>k</m>-th partial sum <m>\displaystyle S_{k}= \sum _{n=1} ^{k} a_n</m>.
+        Then
+        <md>
+          <mrow>S_{2^k-1} \amp =a_1+(a_2+a_3)+(a_4+a_5+a_6+a_7) + \cdots + (a_{2^{k-1}}+\cdots+a_{2^k-1}) </mrow>
+          <mrow> \amp \leq a_1+2a_2+4a_4+\cdots+2^{k-1}a_{2^{k-1}}</mrow>
+          <mrow> \amp = \sum _{n=0} ^{k-1} 2^n a_{2^n} </mrow>
+        </md>
+      </p>
+      <p>
+        Now let <m>T_k</m> be the <m>k</m>-th partial sum <m>T_k = \displaystyle \sum _{n=0} ^k 2^na_n</m>.
+        Then
+        <md>
+          <mrow>T_k \amp = a_1+2a_2+4a_4+\cdots+2^ka_k </mrow>
+          <mrow> \amp = a_1+(a_2+a_2)+(a_4+a_4+a_4+a_4)+\cdots+(a_k+\cdots+a_k) </mrow>
+          <mrow> \amp = (a_1+a_2)+(a_2+a_4)+(a_4+a_4)+(a_4+a_5)+\cdots+(a_k+a_k) </mrow>
+          <mrow> \amp \leq (a_1+a_1)+(a_2+a_2)+(a_3+a_3)+(a_4+a_4)+\cdots+(a_{2k}+a_{2k}) </mrow>
+          <mrow> \amp = 2 S_{2k} </mrow>
+        </md>
+      </p>
+    </proof>
+  </theorem>
+
+  <p>Now, if we take a <m>p</m>-series <m>\displaystyle \sum _{n=1} ^\infty \frac{1}{n^p}</m>,
+  we see that <md>\sum _{n=0} ^\infty 2^n \frac{1}{\left(2^n\right)^p} = \sum _{n=0} ^\infty \left(2^n\right)^{1-p} = \sum _{n=0} ^\infty \left(2^{1-p}\right)^n</md>
+  which is a geometric series with <m>r=2^{1-p}</m> and thus converges when <m>p \gt 1</m> and diverges
+  when <m>p \leq 1</m>.
+  </p>
+
+  <activity>
+    <statement>
+      <p>
+        Show that <m>\displaystyle \sum _{n=2} ^\infty \frac{1}{n\ln(n)}</m> diverges.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Apply the Cauchy condensation test and look at
+        <md>\displaystyle \sum _{n=1} ^\infty 2^n \frac{1}{2^n\ln(2^n)} = \sum _{n=1} ^\infty \frac{1}{n\ln(2)}=\frac{1}{\ln(2)} \sum _{n=1} ^\infty \frac{1}{n}</md>.
+        Since this is a multiple of the harmonic series, both this and the original series converge.
+      </p>
+    </solution>
+  </activity>
+  
+
   
 
 </section>
