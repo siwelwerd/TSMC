@@ -27,6 +27,11 @@
       <statement>
         <p>Determine if the series <m>\displaystyle \sum _{n=2} ^\infty \dfrac{1}{\ln(n)\sqrt{n^2+1}}</m> converges or diverges.  </p>
       </statement>
+      <hint>
+        <p>
+          Use <xref ref="activity-n-log-n"/>.
+        </p>
+      </hint>
     </exercise>
     <exercise>
       <statement>

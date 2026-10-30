@@ -472,7 +472,7 @@
   when <m>p \leq 1</m>.
   </p>
 
-  <activity>
+  <activity xml:id="activity-n-log-n">
     <statement>
       <p>
         Show that <m>\displaystyle \sum _{n=2} ^\infty \frac{1}{n\ln(n)}</m> diverges.
