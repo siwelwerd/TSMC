@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Taylor Series",
-  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .     Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.     Determine the Taylor series for centered at .      Determine the Taylor series for centered at .      Determine the Taylor series for centered at .     Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.    We can generate new Taylor series from ones we already know this way. For example, since we know , then .     Use Taylor series to compute .     Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .   "
+  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .     Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.     Determine the Taylor series for centered at .      Determine the Taylor series for centered at .      Determine the Taylor series for centered at .     Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.     Compute .     We can generate new Taylor series from ones we already know this way. For example, since we know , then .     Use Taylor series to compute .     Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .   "
 },
 {
   "id": "sec-Taylor-series-3",
@@ -1057,26 +1057,35 @@ var ptx_lunr_docs = [
   "id": "sec-Taylor-series-10",
   "level": "2",
   "url": "sec-Taylor-series.html#sec-Taylor-series-10",
-  "type": "Example",
+  "type": "Activity",
   "number": "1.8.8",
   "title": "",
-  "body": " We can generate new Taylor series from ones we already know this way. For example, since we know , then .  "
+  "body": "  Compute .   "
 },
 {
   "id": "sec-Taylor-series-11",
   "level": "2",
   "url": "sec-Taylor-series.html#sec-Taylor-series-11",
-  "type": "Activity",
+  "type": "Example",
   "number": "1.8.9",
   "title": "",
-  "body": "  Use Taylor series to compute .   "
+  "body": " We can generate new Taylor series from ones we already know this way. For example, since we know , then .  "
 },
 {
   "id": "sec-Taylor-series-12",
   "level": "2",
   "url": "sec-Taylor-series.html#sec-Taylor-series-12",
-  "type": "Example",
+  "type": "Activity",
   "number": "1.8.10",
+  "title": "",
+  "body": "  Use Taylor series to compute .   "
+},
+{
+  "id": "sec-Taylor-series-13",
+  "level": "2",
+  "url": "sec-Taylor-series.html#sec-Taylor-series-13",
+  "type": "Example",
+  "number": "1.8.11",
   "title": "",
   "body": " Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .  "
 },
