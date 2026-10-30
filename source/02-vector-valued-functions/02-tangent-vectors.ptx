@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-tangent-vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tangent Vectors</title>
+
+  <p>
+    Given a curve <m>\vec{r}(t)</m>, we can plot a secant vector by computing 
+    <m>\vec{r}(t+h)-\vec{r}(t)</m> for some real number <m>h</m>.
+
+    <figure xml:id="fig-sec-vector">
+      <image>
+        <prefigure xmlns="https://prefigure.org" label="prefigure-secant-vector">
+          <xi:include href="prefigure/secant-vector.xml"/>
+        </prefigure>
+      </image>
+      <caption>A secant vector to a parametric curve</caption>
+    </figure>
+    Intuitively, we might consider constructing a <term>tangent vector</term>
+    through some sort of limiting process as <m>h \rightarrow 0</m>.
+  </p>
+  <p>
+    Recall the definition of a limit from single variable calculus:
+  </p>
+  <definition xml:id="def-limit">
+    <statement>
+      <p>
+        Let <m>f(x)</m> be a real-valued function defined on an open interval near a point <m>a</m>
+        (except possibly at <m>a</m>).  Then we say that <m>\displaystyle \lim _{x \rightarrow a} f(x)=L</m>
+        if for every <m>\epsilon \gt 0</m>, there exists <m>\delta \gt 0</m> such that 
+        <md>|f(x)-L| \lt \epsilon \text{ whenever } |x-a| \lt \delta</md>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    In other words, <m>\displaystyle \lim _{x \rightarrow a}f(x)=L</m> means that for
+    every choice of <m>\epsilon \gt 0</m>, we can 
+    ensure that <m>f(x)</m> is within <m>\epsilon</m> of <m>L</m> by choosing
+    a sufficiently small interval around <m>a</m>.
+  </p>
+  <p>
+    To adapt this to vector valued functions, we simply need to make precise what it means
+    to be <q>within <m>\epsilon</m> of a vector</q>.  
+  </p>
+
+  <definition> 
+    <statement>
+      <p>
+        Let <m>\vec{L} \in \R^n</m>, and let <m>\epsilon \gt 0</m>.  Then we set
+        <md>B_{\epsilon}(\vec{L}) = \left\{ \vec{x} \in \R^n \ \middle| \  |\vec{x}-\vec{L}| \lt \epsilon \right\}</md>,
+        i.e. so that <m>B_\epsilon (\vec{L})</m> is the set of all points in <m>\R^n</m> that 
+        are within <m>\epsilon</m> of the point <m>\vec{L}</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-limit-vector">
+    <statement>
+      <p>
+        Let <m>\vec{r}(t)</m> be a vector-valued function defined on an open interval near a point <m>a</m>
+        (except possibly at <m>a</m>).  Then we say that <m>\displaystyle \lim _{t \rightarrow a} \vec{r}(t)=\vec{L}</m>
+        if for every <m>\epsilon \gt 0</m>, there exists <m>\delta \gt 0</m> such that 
+        <md>\vec{r}(t) \in B_\epsilon(\vec{L}) \text{ whenever } |t-a| \lt \delta</md>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>While conceptually nice, this definition is difficult to work with in practice.  Fortunately,
+    we are able to leverage what we know about single variable limits.
+  </p>
+
+  <proposition>
+    <statement>
+      <p>
+        Let <m>\vec{r}(t)=\langle x(t),y(t),z(t)</m> be a vector valued function.
+        Then 
+        <md>\lim _{t \rightarrow a} \vec{r}(t) = \left \langle \lim _{t \rightarrow a} x(t), \lim _{t \rightarrow a} y(t), \lim _{t \rightarrow a} z(t) \right \rangle</md>.
+      </p>
+    </statement>
+  </proposition>
+
+  <p>With this in hand, we can now return to our idea of a tangent vector.</p>
+
+  <definition xml:id="def-tangent-vector">
+    <statement>
+      <p>
+        Let <m>\vec{r}(t)</m> be a vector-valued function.  The <term>tangent vector</term> to 
+        <m>\vec{r}(t)</m> is the limit
+        <md>\vec{r}^\prime(t) = \lim _{h \rightarrow 0} \frac{\vec{r}(t+h)-\vec{r}(t)}{h}</md>.
+      </p>
+    </statement>
+  </definition>
+
+
+</section>

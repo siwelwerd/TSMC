@@ -82,4 +82,27 @@
     </hint>
   </activity>
 
+  <observation>
+    <p>
+      It is straightforward to parameterize a function <m>y=f(x)</m>, namely
+      by the curve <m>\vec{r}(t)=\langle t, f(t)</m>.
+    </p>
+  </observation>
+
+  <activity>
+    <statement>
+      <p>
+        Find a parameterization of the curve <m>x=y^2</m>.
+      </p>
+    </statement>
+  </activity>
+
+  <activity>
+    <statement>
+      <p>
+        Find a parameterization of the polar curve <m>r=1+\cos(\theta)</m>.
+      </p>
+    </statement>
+  </activity>
+
 </section>

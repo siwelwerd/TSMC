@@ -1,0 +1,12 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>a = 0.6</definition>
+  <definition>b=0.3</definition>
+  <definition>r(t)=(4*cos(t),2*sin(t)+t)</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <grid-axes />
+    <parametric-curve function="r" domain="(0,3)"/>
+    <vector v="r(a)" stroke="red" thickness="2" alignment="southeast" label-location="0.75"><m>\vec{r}(t)</m></vector>
+    <vector v="r(a+b)" stroke="red" thickness="2" alignment="northwest" label-location="0.8" ><m>\vec{r}(t+h)</m></vector>
+    <vector v="r(a+b)-r(a)" tail="r(a)" stroke="green" thickness="2"/>
+  </coordinates>
+</diagram>
