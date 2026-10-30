@@ -69,7 +69,7 @@
     we are able to leverage what we know about single variable limits.
   </p>
 
-  <proposition>
+  <proposition xml:id="prop-limit-component">
     <statement>
       <p>
         Let <m>\vec{r}(t)=\langle x(t),y(t),z(t)</m> be a vector valued function.
@@ -88,8 +88,95 @@
         <m>\vec{r}(t)</m> is the limit
         <md>\vec{r}^\prime(t) = \lim _{h \rightarrow 0} \frac{\vec{r}(t+h)-\vec{r}(t)}{h}</md>.
       </p>
+      <p>When <m>\vec{r}(t)</m> represents the position of an object, the tangent vector <m>\vec{r}^\prime(t)</m>
+        is also called the <term>velocity (vector)</term>.  
+        Its magnitude, <m>|\vec{r}^\prime(t)|</m> is called <term>speed</term>.
+      </p>
     </statement>
   </definition>
+
+  <p>An immediate consequence of <xref ref="prop-limit-component"/> is
+  </p>
+  <proposition>
+    <statement>
+      <p> If <m>\vec{r}(t)=\langle x(t), y(t), z(t)\rangle</m>, then
+        <md>\vec{r}^\prime(t) = \langle x^\prime(t), y^\prime(t), z^\prime(t) \rangle</md>
+      </p>
+    </statement>
+  </proposition>
+
+  <activity>
+    <introduction>
+      <p>
+        Find the tangent vector to each of the following curves.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\vec{r}_1(t)= \langle \cos(t), \sin(t) \rangle</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\vec{r}_2(t)= \langle -\sin(t), \cos(t) \rangle</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\vec{r}_3(t)= \langle t^3, t^2 \rangle</m>
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>Because derivatives can be computed component-wise, our usual derivative rules
+    translate to the vector context in a straightforward way.
+  </p>
+  <fact>
+    <statement>
+    <p>
+      Let <m>f</m> be a differentiable real-valued function of a real variable <m>t</m>. Let <m>\vec{r}</m> and <m>\vec{s}</m> be
+      differentiable vector-valued functions of the real variable <m>t</m>. Then
+      <dl>
+        <li>
+          <title>Sum Rule</title>
+          <p>
+            <m>\frac{d}{dt} \left[\vec{r}(t) + \vec{s}(t) \right] = \vec{r}\, '(t) + \vec{s}\, '(t)</m>
+          </p>
+        </li>
+        <li>
+          <title>Scalar Multiplication Product Rule</title>
+          <p>
+            <m>\frac{d}{dt} \left[f(t) \vec{r}(t)\right] = f(t) \vec{r}\, '(t) + f'(t) \vec{r}(t)</m>
+          </p>
+        </li>
+        <li>
+          <title>Dot Product Rule</title>
+          <p>
+            <m>\frac{d}{dt} \left[\vec{r}(t) \cdot \vec{s}(t) \right] = \vec{r}\, '(t) \cdot \vec{s}(t) + \vec{r}(t) \cdot \vec{s}\, '(t)</m>
+          </p>
+        </li>
+        <li>
+          <title>Cross Product Rule</title>
+          <p>
+            <m>\frac{d}{dt} \left[\vec{r}(t) \times \vec{s}(t) \right] = \vec{r}\, '(t)  \times \vec{s}(t) + \vec{r}(t) \times \vec{s}\, '(t)</m>
+          </p>
+        </li>
+        <li>
+          <title>Chain Rule</title>
+          <p>
+            <m>\frac{d}{dt} \left[\vec{r}\left(f(t)\right)\right] = f'(t)  \  \vec{r}\, '(f(t))</m>
+          </p>
+        </li>
+      </dl>
+    </p>
+    </statement>
+  </fact>
 
 
 </section>
