@@ -448,15 +448,20 @@
         </md>
       </p>
       <p>
-        Now let <m>T_k</m> be the <m>k</m>-th partial sum <m>T_k = \displaystyle \sum _{n=0} ^k 2^na_n</m>.
-        Then
+        Now let <m>T_k</m> be the <m>k</m>-th partial sum <m>T_k = \displaystyle \sum _{n=0} ^k 2^na_{2^n}</m> (so that the above
+        can be rewritten as <m>S_{2^k-1} \leq T_{k-1}</m>).  Then
         <md>
-          <mrow>T_k \amp = a_1+2a_2+4a_4+\cdots+2^ka_k </mrow>
-          <mrow> \amp = a_1+(a_2+a_2)+(a_4+a_4+a_4+a_4)+\cdots+(a_k+\cdots+a_k) </mrow>
-          <mrow> \amp = (a_1+a_2)+(a_2+a_4)+(a_4+a_4)+(a_4+a_5)+\cdots+(a_k+a_k) </mrow>
-          <mrow> \amp \leq (a_1+a_1)+(a_2+a_2)+(a_3+a_3)+(a_4+a_4)+\cdots+(a_{2k}+a_{2k}) </mrow>
-          <mrow> \amp = 2 S_{2k} </mrow>
+          <mrow>T_k \amp = a_1+2a_2+4a_4+\cdots+2^ka_{2^k} </mrow>
+          <mrow> \amp = a_1+(a_2+a_2)+(a_4+a_4+a_4+a_4)+\cdots+(a_{2^k}+\cdots+a_{2^k}) </mrow>
+          <mrow> \amp = (a_1+a_2)+(a_2+a_4)+(a_4+a_4)+(a_4+a_5)+\cdots+(a_{2^k}+a_{2^k})+a_{2^k} </mrow>
+          <mrow> \amp \leq (a_1+a_1)+(a_2+a_2)+(a_3+a_3)+(a_4+a_4)+\cdots+(a_{2^k}+a_{2^k}) </mrow>
+          <mrow> \amp = 2 S_{2^k} </mrow>
         </md>
+        Combining these, we now have
+        <md>S_{2^k-1} \leq T_{k-1} \leq 2S_{2^{k-1}}</md>.
+        Thus, the sequence <m>\{S_k\}_{n=1} ^\infty</m> is bounded if and only if the sequence <m>\{T_k\}_{k=0} ^\infty</m> is bounded.
+        Since they are both increasing, we have that 
+        <m>\{S_k\}_{n=1} ^\infty</m> converges if and only if  <m>\{T_k\}_{k=0} ^\infty</m> converges.
       </p>
     </proof>
   </theorem>
