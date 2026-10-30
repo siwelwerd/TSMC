@@ -541,9 +541,9 @@ var ptx_lunr_docs = [
   "body": " Cauchy Condensation Test   Let be a series where the terms form a decreasing sequence of positive numbers. Then the series converges if and only if the series converges.    We will prove slightly more strongly that . For the first inequality, let be the -th partial sum . Then   Now let be the -th partial sum (so that the above can be rewritten as ). Then Combining these, we now have . Thus, the sequence is bounded if and only if the sequence is bounded. Since they are both increasing, we have that converges if and only if converges.   "
 },
 {
-  "id": "sec-series-23",
+  "id": "activity-n-log-n",
   "level": "2",
-  "url": "sec-series.html#sec-series-23",
+  "url": "sec-series.html#activity-n-log-n",
   "type": "Activity",
   "number": "1.3.17",
   "title": "",
@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "B.2",
   "title": "Problem Set 2",
-  "body": " Problem Set 2     Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.     "
+  "body": " Problem Set 2     Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.      Determine if the series converges or diverges.    Use .      Determine if the series converges or diverges.     "
 },
 {
   "id": "appendix-problem-set2-2-1",
@@ -1393,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "B.2.5",
   "title": "",
-  "body": "  Determine if the series converges or diverges.   "
+  "body": "  Determine if the series converges or diverges.    Use .   "
 },
 {
   "id": "appendix-problem-set2-2-6",
