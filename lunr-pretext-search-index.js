@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Attribution and Acknowledgements",
-  "body": " Attribution and Acknowledgements  This work includes materials used under license from the following works:  Basic Analysis I & II by Jiří Lebl is licensed under the CC-BY-NC-SA 4.0 license .  Calculus for Team-Based Inquiry Learning , edited by Steven Clontz and Drew Lewis, is licensed under the CC-BY-NC-SA 4.0 license .    "
+  "body": " Attribution and Acknowledgements  This work includes materials used under license from the following works:  Basic Analysis I & II by Jiří Lebl is licensed under the CC-BY-NC-SA 4.0 license .  Calculus for Team-Based Inquiry Learning , edited by Steven Clontz and Drew Lewis, is licensed under the CC-BY-NC-SA 4.0 license .  Active Calculus - Multivariable by Nicholas Long, Mitchel T. Keller, and Steven Schlicker is licensd under the CC-BY-SA 4.0 license .    "
 },
 {
   "id": "sec-reals",
@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Vector-Valued Functions",
-  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.    "
+  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.     It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .    "
 },
 {
   "id": "def-vector-valued-function",
@@ -1151,6 +1151,123 @@ var ptx_lunr_docs = [
   "number": "2.1.6",
   "title": "",
   "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.   "
+},
+{
+  "id": "sec-vector-valued-functions-10",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-10",
+  "type": "Observation",
+  "number": "2.1.7",
+  "title": "",
+  "body": " It is straightforward to parameterize a function , namely by the curve .  "
+},
+{
+  "id": "sec-vector-valued-functions-11",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-11",
+  "type": "Activity",
+  "number": "2.1.8",
+  "title": "",
+  "body": "  Find a parameterization of the curve .   "
+},
+{
+  "id": "sec-vector-valued-functions-12",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-12",
+  "type": "Activity",
+  "number": "2.1.9",
+  "title": "",
+  "body": "  Find a parameterization of the polar curve .   "
+},
+{
+  "id": "sec-tangent-vectors",
+  "level": "1",
+  "url": "sec-tangent-vectors.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Tangent Vectors",
+  "body": " Tangent Vectors  Given a curve , we can plot a secant vector by computing for some real number .     a = 0.6  b=0.3  r(t)=(4*cos(t),2*sin(t)+t)     \\vec{r}(t)  \\vec{r}(t+h)       A secant vector to a parametric curve  Intuitively, we might consider constructing a tangent vector through some sort of limiting process as .  Recall the definition of a limit from single variable calculus:    Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    In other words, means that for every choice of , we can ensure that is within of by choosing a sufficiently small interval around .  To adapt this to vector valued functions, we simply need to make precise what it means to be within of a vector .    Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .      Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    While conceptually nice, this definition is difficult to work with in practice. Fortunately, we are able to leverage what we know about single variable limits.    Let be a vector valued function. Then .    With this in hand, we can now return to our idea of a tangent vector.    Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .    An immediate consequence of is    If , then       Find the tangent vector to each of the following curves.                         Because derivatives can be computed component-wise, our usual derivative rules translate to the vector context in a straightforward way.    Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule          "
+},
+{
+  "id": "sec-tangent-vectors-2",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "tangent vector "
+},
+{
+  "id": "def-limit",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#def-limit",
+  "type": "Definition",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .   "
+},
+{
+  "id": "sec-tangent-vectors-7",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-7",
+  "type": "Definition",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .   "
+},
+{
+  "id": "def-limit-vector",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#def-limit-vector",
+  "type": "Definition",
+  "number": "2.2.4",
+  "title": "",
+  "body": "  Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .   "
+},
+{
+  "id": "prop-limit-component",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#prop-limit-component",
+  "type": "Proposition",
+  "number": "2.2.5",
+  "title": "",
+  "body": "  Let be a vector valued function. Then .   "
+},
+{
+  "id": "def-tangent-vector",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#def-tangent-vector",
+  "type": "Definition",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .   "
+},
+{
+  "id": "sec-tangent-vectors-14",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-14",
+  "type": "Proposition",
+  "number": "2.2.7",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "sec-tangent-vectors-15",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-15",
+  "type": "Activity",
+  "number": "2.2.8",
+  "title": "",
+  "body": "  Find the tangent vector to each of the following curves.                        "
+},
+{
+  "id": "sec-tangent-vectors-17",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-17",
+  "type": "Fact",
+  "number": "2.2.9",
+  "title": "",
+  "body": "  Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule         "
 },
 {
   "id": "appendix-set-builder",
