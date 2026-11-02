@@ -853,7 +853,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Power Series",
-  "body": " Power Series    Consider the function .     Find a linear approximation to at .    should satisfy and           Find a quadratic approximation to at .    should satisfy                 Find a degree 3 approximation to at .    should satisfy                  Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .           Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?       Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial      By construction, if is the degree Taylor polynomial for at , then for all .     A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.      Show that the power series converges everywhere, i.e. for every value of .    We apply the ratio test. Compute Since this limit is for all values of , this series converges for all (i.e. it converges everywhere).      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when , i.e. on and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at . If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on       For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .      Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the root test, since converges, we must have (since if bigger than 1, the series would diverge by the root test). Then we compute Thus we see by the root test that converges absolutely.     Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.     Find the interval of convergence for each of the following power series.      .       .       .     The following is incredibly useful.    Let be a power series that converges on for some . Then            and these series both also converge on .      Let      Compute .      Compute .     "
+  "body": " Power Series    Consider the function .     Find a linear approximation to at .    should satisfy and           Find a quadratic approximation to at .    should satisfy                 Find a degree 3 approximation to at .    should satisfy                  Evaluate your three approximations at . How do they compare to ?      Find a degree approximation to at .           Plot your degree approximation in Desmos alongside the function . Add a slider and observe what happens as increases?       Let be -times differentiable at . The Taylor polynomial of degree at is the polynomial      By construction, if is the degree Taylor polynomial for at , then for all .     A power series is a function of the form for some real numbers and . That is, is defined to be the value that the series converges to where it converges, and is undefined elsewhere.      Show that the power series converges everywhere, i.e. for every value of .    We apply the ratio test. Compute Since this limit is for all values of , this series converges for all (i.e. it converges everywhere).      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Determine where the power series converges.    We apply the ratio test. Compute Thus by the ratio test we know the series converges when , i.e. on and diverges when . Since the series diverges, and the series also diverges, the power series converges precisely on the interval .      Let be a power series. Then either   The series converges only at     The series converges everywhere    There exists such that the series converges absolutely on the open interval and diverges on .       This follows from below. Let . Note that . If the series converges only at . If , then guarantees convergence everywhere. Finally, assume . Then by the series converges absolutely on the interval . Moreover, by construction if the series converges at some point , then , a contradiction; and similarly, if it converges at some point , then by it converges at a point larger than , producing the same contradiction. So the series must diverge on       For a power series , the maximum interval on which it converges is called the interval of convergence . Since by this interval is symmetric about of length , is called the radius of convergence .      Let be a power series. If the series converges at , then it converges absolutely on the interval , i.e. at all points closer to than is.    By making a substitution , we may assume without loss of generality that . Assume further without loss of generality that , and let be given. By the root test, since converges, we must have (since if bigger than 1, the series would diverge by the root test). Then we compute Thus we see by the root test that converges absolutely.     Note that provides no information about convergence at the endpoints of the interval of convergence. These must each be checked individually.     Find the interval of convergence for each of the following power series.      .    Using the ratio test, so the series converges when . At the right endpoint the series simplifies to a harmonic series, while at the left endpoint it simplifies to an alternating harmonic series, so the interval of convergence is .       .    Applying the ratio test, we see that the series converges on . At we get a divergent -series, while the alternating series test provides convergence at , so the interval of convergence is .       .          The following is incredibly useful.    Let be a power series that converges on for some . Then            and these series both also converge on .      Let      Compute .           Compute .          "
 },
 {
   "id": "sec-power-series-2",
@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.12",
   "title": "",
-  "body": "  Find the interval of convergence for each of the following power series.      .       .       .    "
+  "body": "  Find the interval of convergence for each of the following power series.      .    Using the ratio test, so the series converges when . At the right endpoint the series simplifies to a harmonic series, while at the left endpoint it simplifies to an alternating harmonic series, so the interval of convergence is .       .    Applying the ratio test, we see that the series converges on . At we get a divergent -series, while the alternating series test provides convergence at , so the interval of convergence is .       .         "
 },
 {
   "id": "thm-power-series-diff-integral",
@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.14",
   "title": "",
-  "body": "  Let      Compute .      Compute .    "
+  "body": "  Let      Compute .           Compute .         "
 },
 {
   "id": "sec-Taylor-series",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Taylor Series",
-  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .     Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.     Determine the Taylor series for centered at .      Determine the Taylor series for centered at .      Determine the Taylor series for centered at .     Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.     Compute .     We can generate new Taylor series from ones we already know this way. For example, since we know , then .     Use Taylor series to compute .     Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .   "
+  "body": " Taylor Series  We have seen that power series can be useful, and that we can determine where they converge. However, a more difficult question in general is determining what they converge to .   Consider the power series . Note that for , then is a geometric series, so . In other words, on the interval of convergence we have .  Note that we can easily compute the derivatives of at using : . As a consequence, the Taylor polynomials are .     If is infinitely differentiable, then the Taylor series for centered at is .  If a function is equal to its Taylor series near a point, it is called analytic .     Not every infintely differentiable function is analytic, but it turns out the common ones we work with are.     Determine the Taylor series for centered at .           Determine the Taylor series for centered at .           Determine the Taylor series for centered at .          Knowing these Taylor series is very useful. For example, we may easily compute This is much easier than the traditional geometric argument.     Compute .          We can generate new Taylor series from ones we already know this way. For example, since we know , then .     Use Taylor series to compute .     Power series form a powerful technique for solving differential equations. For example, consider the differential equation , i.e. is a function of that is its own derivative.  If we assume is analytic and write , then Then we see that a solution to this is exactly when for all , i.e. . Then the solutions to the differential equation are .   "
 },
 {
   "id": "sec-Taylor-series-3",
@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.8.4",
   "title": "",
-  "body": "  Determine the Taylor series for centered at .   "
+  "body": "  Determine the Taylor series for centered at .        "
 },
 {
   "id": "sec-Taylor-series-7",
@@ -1033,7 +1033,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.8.5",
   "title": "",
-  "body": "  Determine the Taylor series for centered at .   "
+  "body": "  Determine the Taylor series for centered at .        "
 },
 {
   "id": "sec-Taylor-series-8",
@@ -1042,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.8.6",
   "title": "",
-  "body": "  Determine the Taylor series for centered at .   "
+  "body": "  Determine the Taylor series for centered at .        "
 },
 {
   "id": "sec-Taylor-series-9",
@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.8.8",
   "title": "",
-  "body": "  Compute .   "
+  "body": "  Compute .        "
 },
 {
   "id": "sec-Taylor-series-11",
