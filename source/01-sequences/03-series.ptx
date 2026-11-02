@@ -482,7 +482,7 @@
       <p>
         Apply the Cauchy condensation test and look at
         <md>\displaystyle \sum _{n=1} ^\infty 2^n \frac{1}{2^n\ln(2^n)} = \sum _{n=1} ^\infty \frac{1}{n\ln(2)}=\frac{1}{\ln(2)} \sum _{n=1} ^\infty \frac{1}{n}</md>.
-        Since this is a multiple of the harmonic series, both this and the original series converge.
+        Since this is a multiple of the harmonic series, both this and the original series diverge.
       </p>
     </solution>
   </activity>

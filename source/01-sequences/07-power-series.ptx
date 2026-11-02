@@ -264,6 +264,17 @@
           <m>\displaystyle \sum _{n=1} ^\infty \frac{x^n}{3n}</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          Using the ratio test,
+          <md>\lim _{n \rightarrow \infty} \left| \frac{a_{n+1}}{a_n}\right| = 
+              \lim _{n \rightarrow \infty} |x| \frac{n+1}{n}=|x|</md>
+          so the series converges when <m>|x| \lt 1</m>.  At the right endpoint
+          the series simplifies to a harmonic series, while at the left endpoint
+          it simplifies to an alternating harmonic series, so the interval
+          of convergence is <m>[-1,1)</m>.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -271,6 +282,14 @@
           <m>\displaystyle \sum _{n=1} ^\infty \frac{(x-2)^n}{\sqrt{n}}</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          Applying the ratio test, we see that the series converges on <m>|x-2| \lt 1</m>.
+          At <m>x=3</m> we get a divergent <m>p</m>-series, while the alternating
+          series test provides convergence at <m>x=1</m>, so the interval of convergence
+          is <m>[1,3)</m>.
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -278,6 +297,11 @@
           <m>\displaystyle \sum _{n=2} ^\infty \frac{(x+3)^n}{\ln(n)}</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>[-4,-2)</m>
+        </p>
+      </solution>
     </task>
   </activity>
   
@@ -316,6 +340,11 @@
           Compute <m>f^\prime(x)</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>f^\prime(x)=f(x)</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -323,6 +352,11 @@
           Compute <m>\displaystyle \int f(x)\ dx</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>\displaystyle \int f(x)\ dx= f(x)+C</m>
+        </p>
+      </solution>
     </task>
   </activity>
   

@@ -42,6 +42,11 @@
         Determine the Taylor series for <m>e^x</m> centered at <m>x=0</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>e^x=\sum _{n=0} ^\infty \frac{x^n}{n!}</m>
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -50,6 +55,11 @@
         Determine the Taylor series for <m>\sin(x)</m> centered at <m>x=0</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\sin(x)=\sum _{n=0} ^\infty \frac{(-1)^nx^{2n+1}}{(2n+1)!}</m>
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -58,7 +68,13 @@
         Determine the Taylor series for <m>\cos(x)</m> centered at <m>x=0</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\cos(x)=\sum _{n=0} ^\infty \frac{(-1)^nx^{2n}}{(2n)!}</m>
+      </p>
+    </solution>
   </activity>
+
 
   <example>
     <p>Knowing these Taylor series is very useful.  For example, we may easily compute
@@ -74,9 +90,14 @@
   <activity>
     <statement>
       <p>
-        Compute <m>\displaystyle \lim _{x \rightarrow \infty} \frac{1-\cos(x)}{x}</m>.
+        Compute <m>\displaystyle \lim _{x \rightarrow 0} \frac{1-\cos(x)}{x}</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <md>\lim _{x \rightarrow 0} \frac{1-\cos(x)}{x} = \lim _{x \rightarrow 0} -\frac{1}{x} \sum _{n=1} ^\infty \frac{(-1)^nx^{2n}}{(2n)!} = \lim _{x \rightarrow 0} -\sum _{n=1} ^\infty \frac{(-1)^nx^{2n-1}}{(2n)!}=0</md>
+      </p>
+    </solution>
   </activity>
 
   <example>
