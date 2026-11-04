@@ -105,4 +105,12 @@
     </statement>
   </activity>
 
+  <activity>
+    <statement>
+      <p>
+        Find a parameterization of the line from the point <m>\vec{P}</m> to the point <m>\vec{Q}</m>.
+      </p>
+    </statement>
+  </activity>
+
 </section>

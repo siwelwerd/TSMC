@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-arclength" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arclength</title>
+
+  <p>Suppose we are given a curve <m>\vec{r}(t)</m> on the time interval 
+  <m>a \leq t \leq b</m>.  How can we figure out how long this curve is?
+  </p>
+
+  <activity>
+    <statement>
+      <p>
+        Consider the line <m>\vec{r}(t)=\langle 2,3\rangle+t\langle 4,-3\rangle</m>.
+        How long is the line segment between <m>\vec{r}(0)</m> and <m>\vec{r}(1)</m>?
+      </p>
+    </statement>
+  </activity>
+
+</section>
