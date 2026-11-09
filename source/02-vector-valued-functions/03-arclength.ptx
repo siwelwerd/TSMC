@@ -8,12 +8,81 @@
   </p>
 
   <activity>
-    <statement>
+    <introduction>
       <p>
         Consider the line <m>\vec{r}(t)=\langle 2,3\rangle+t\langle 4,-3\rangle</m>.
-        How long is the line segment between <m>\vec{r}(0)</m> and <m>\vec{r}(1)</m>?
       </p>
-    </statement>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+        How long is the line segment between <m>\vec{r}(0)</m> and <m>\vec{r}(1)</m>?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+        How long is the line segment between <m>\vec{r}(3)</m> and <m>\vec{r}(5)</m>?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+        Can you express this length in terms of <m>\vec{r}(3)</m> and <m>\vec{r}(5)</m>?
+        </p>
+      </statement>
+    </task>
   </activity>
+
+  <activity>
+    <introduction>
+      <p>
+        Now consider the curve <m>\vec{r}(t)=\langle t^3-2t,2t^2\rangle</m>.
+      </p>
+      <image width="50%">
+        <prefigure xmlns="https://prefigure.org" label="prefigure-arclength-estimate">
+          <xi:include href="prefigure/arclength-estimate.xml"/>
+        </prefigure>
+      </image>
+    </introduction>
+    <task>
+      <statement>
+        <p>Estimate the length of the curve between <m>\vec{r}\left(\frac{1}{2}\right)</m> and <m>\vec{r}(1)</m>.  
+        </p> 
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          How might we make this estimate more accurate?
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>
+    Now, lets consider a curve <m>\vec{r}(t)</m>, and add up approximate arclengths
+  </p>
+  <image>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-arclength">
+      <xi:include href="prefigure/arclength.xml"/>
+    </prefigure>
+  </image>
+  <p>So our arclength is approximated by
+    <md>\left|\vec{r}(t_1)-\vec{r}(t_0)\right|+\cdots+\left|\vec{r}(t_8)-\vec{r}(t_7)\right|</md>, 
+    which we might write more generally as
+    <md>\sum _{i=0} ^n |\vec{r}(t_{i+1})-\vec{r}(t_i)|</md>.
+  </p>
+  <p>Observing that this is almost a difference quotient, we may rewrite and then
+  apply the mean value theorem:
+  <md>
+    <mrow>\sum _{i=0} ^n |\vec{r}(t_{i+1})-\vec{r}(t_i)| \amp = \sum _{i=0} ^n \left| \frac{\vec{r}(t_{i+1})-\vec{r}(t_i)}{\Delta t}\right| \Delta t </mrow>
+    <mrow> \amp = \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t</mrow>
+  </md>.
+  Then, taking a limit as the size of the time intervals goes to zero, we have
+  <md> \lim _{\Delta t \rightarrow 0} \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t = \int _{a} ^b |\vec{r}^\prime(t)|\ dt</md>.
+</p>
 
 </section>
