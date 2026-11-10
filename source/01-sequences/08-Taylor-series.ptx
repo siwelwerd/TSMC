@@ -114,6 +114,15 @@
         Use Taylor series to compute <m>\displaystyle \int \sin(x^2)\ dx</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <md> 
+          <mrow>\int \sin(x^2)\ dx \amp = \int \sum _{n=0} ^\infty \frac{(-1)^n x^{4n+1}}{(2n+1)!}\ dx </mrow>
+          <mrow> \amp = \sum _{n=0} ^\infty \frac{(-1)^n}{(2n+1)!} \int x^{4n+1}\ dx </mrow>
+          <mrow> \amp = \sum _{n=0} ^\infty \frac{(-1)^n x^{4n+2}}{(4n+2)(2n+1)!} +C </mrow>
+        </md>
+      </p>
+    </solution>
   </activity>
 
   <example>

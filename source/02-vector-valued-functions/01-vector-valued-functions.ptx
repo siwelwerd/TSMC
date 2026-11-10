@@ -80,6 +80,11 @@
     <hint>
       <p>Adapt the usual parameterization of the unit circle.</p>
     </hint>
+    <solution>
+      <p>
+        <m>\vec{r}(t)=\langle 3\cos(t),2\sin(t) \rangle</m>
+      </p>
+    </solution>
   </activity>
 
   <observation>
