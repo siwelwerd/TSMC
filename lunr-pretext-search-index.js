@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Vector-Valued Functions",
-  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.     It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .      Find a parameterization of the line from the point to the point .    "
+  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.          It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .      Find a parameterization of the line from the point to the point .    "
 },
 {
   "id": "def-vector-valued-function",
@@ -1150,7 +1150,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.1.6",
   "title": "",
-  "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.   "
+  "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.        "
 },
 {
   "id": "sec-vector-valued-functions-10",
