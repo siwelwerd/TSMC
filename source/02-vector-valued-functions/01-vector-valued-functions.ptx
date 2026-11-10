@@ -11,6 +11,23 @@
   in 2 or 3 dimensional space.
   </p>
 
+  <definition xml:id="def-Rn">
+    <statement>
+      <p>
+        <term>Euclidean <m>n</m>-space</term>, denoted <m>\R^n</m>, is the set
+          <md>\R^n = \left\{ (x_1,\ldots, x_n)\ |\ x_i \in \R\right\}</md>
+          consisting of all <m>n</m>-dimensional points (or <m>n</m>-vectors) of 
+          real numbers.
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <p><m>\R^2</m> is the set of all points in the usual <m>xy</m>plane, and
+    <m>\R^3</m> is the set of all points in 3-space.
+    </p>
+  </example>
+
   <definition xml:id="def-vector-valued-function">
     <statement>
       <p>
