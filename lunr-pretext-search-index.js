@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Tangent Vectors",
-  "body": " Tangent Vectors  Given a curve , we can plot a secant vector by computing for some real number .     a = 0.6  b=0.3  r(t)=(4*cos(t),2*sin(t)+t)     \\vec{r}(t)  \\vec{r}(t+h)       A secant vector to a parametric curve  Intuitively, we might consider constructing a tangent vector through some sort of limiting process as .  Recall the definition of a limit from single variable calculus:    Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    In other words, means that for every choice of , we can ensure that is within of by choosing a sufficiently small interval around .  To adapt this to vector valued functions, we simply need to make precise what it means to be within of a vector .    Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .      Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    While conceptually nice, this definition is difficult to work with in practice. Fortunately, we are able to leverage what we know about single variable limits.    Let be a vector valued function. Then when all of these limits exist.    With this in hand, we can now return to our idea of a tangent vector.    Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .    An immediate consequence of is    If , then .      Find the tangent vector to each of the following curves.                         Because derivatives can be computed component-wise, our usual derivative rules translate to the vector context in a straightforward way.    Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule          "
+  "body": " Tangent Vectors  Given a curve , we can plot a secant vector by computing for some real number .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})      A secant vector to a parametric curve  Intuitively, we might consider constructing a tangent vector through some sort of limiting process as .  Recall the definition of a limit from single variable calculus:    Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    In other words, means that for every choice of , we can ensure that is within of by choosing a sufficiently small interval around .  To adapt this to vector valued functions, we simply need to make precise what it means to be within of a vector .    Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .      Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    While conceptually nice, this definition is difficult to work with in practice. Fortunately, we are able to leverage what we know about single variable limits.    Let be a vector valued function. Then when all of these limits exist.    With this in hand, we can now return to our idea of a tangent vector.    Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .    An immediate consequence of is    If , then .      Find the tangent vector to each of the following curves.                         Because derivatives can be computed component-wise, our usual derivative rules translate to the vector context in a straightforward way.    Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule          "
 },
 {
   "id": "sec-tangent-vectors-2",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Arclength",
-  "body": " Arclength  Suppose we are given a curve on the time interval . How can we figure out how long this curve is?    Consider the line . How long is the line segment between and ?    "
+  "body": " Arclength  Suppose we are given a curve on the time interval . How can we figure out how long this curve is?    Consider the line .     How long is the line segment between and ?      How long is the line segment between and ?      Can you express this length in terms of and ?       Now consider the curve .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})         Estimate the length of the curve between and .      How might we make this estimate more accurate?     Now, lets consider a curve , and add up approximate arclengths      alignments = [\"northwest\",\"northwest\",\"northwest\",\"northwest\",\"north\",\"northeast\",\"northeast\",\"east\",\"southeast\"]  t = [0,0.5,1,1.5,2,2.5,3,3.5,4]  r(t)=(-(t^2\/15+2)*cos(t),(1.5-t\/12)*sin(t))     \\vec{r}(t_${i})    \\vec{r}(t_${8})       A curve subdivided into 8 time intervals, with vectors approximating the arclength.    So our arclength is approximated by , which we might write more generally as .  Observing that this is almost a difference quotient, we may rewrite and then apply the mean value theorem: . Then, taking a limit as the size of the time intervals goes to zero, we have .    Let be a differentiable vector-valued function. Then the arclength of on the interval is . In other words, the distance traveled is the integral of speed over time.      For a fixed positive number , find the length of the curve on the interval .      For a fixed vectors and , find the length of the line on the interval .      The astroid curve, for a fixed value , is parameterized by on the interval (pictured below for ).     a = 2  r(t)=(a*(cos(t))^3,a*(sin(t))^3)         Find the length of the astroid curve in terms of .    "
 },
 {
   "id": "sec-arclength-3",
@@ -1294,7 +1294,61 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.3.1",
   "title": "",
-  "body": "  Consider the line . How long is the line segment between and ?   "
+  "body": "  Consider the line .     How long is the line segment between and ?      How long is the line segment between and ?      Can you express this length in terms of and ?    "
+},
+{
+  "id": "sec-arclength-4",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-4",
+  "type": "Activity",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  Now consider the curve .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})         Estimate the length of the curve between and .      How might we make this estimate more accurate?    "
+},
+{
+  "id": "sec-arclength-6",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-6",
+  "type": "Figure",
+  "number": "2.3.3",
+  "title": "",
+  "body": "    alignments = [\"northwest\",\"northwest\",\"northwest\",\"northwest\",\"north\",\"northeast\",\"northeast\",\"east\",\"southeast\"]  t = [0,0.5,1,1.5,2,2.5,3,3.5,4]  r(t)=(-(t^2\/15+2)*cos(t),(1.5-t\/12)*sin(t))     \\vec{r}(t_${i})    \\vec{r}(t_${8})       A curve subdivided into 8 time intervals, with vectors approximating the arclength.   "
+},
+{
+  "id": "def-arclength",
+  "level": "2",
+  "url": "sec-arclength.html#def-arclength",
+  "type": "Definition",
+  "number": "2.3.4",
+  "title": "",
+  "body": "  Let be a differentiable vector-valued function. Then the arclength of on the interval is . In other words, the distance traveled is the integral of speed over time.   "
+},
+{
+  "id": "sec-arclength-10",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-10",
+  "type": "Activity",
+  "number": "2.3.5",
+  "title": "",
+  "body": "  For a fixed positive number , find the length of the curve on the interval .   "
+},
+{
+  "id": "sec-arclength-11",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-11",
+  "type": "Activity",
+  "number": "2.3.6",
+  "title": "",
+  "body": "  For a fixed vectors and , find the length of the line on the interval .   "
+},
+{
+  "id": "sec-arclength-12",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-12",
+  "type": "Activity",
+  "number": "2.3.7",
+  "title": "",
+  "body": "  The astroid curve, for a fixed value , is parameterized by on the interval (pictured below for ).     a = 2  r(t)=(a*(cos(t))^3,a*(sin(t))^3)         Find the length of the astroid curve in terms of .   "
 },
 {
   "id": "appendix-set-builder",

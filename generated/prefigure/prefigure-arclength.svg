@@ -1,0 +1,486 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-arclength-figure" width="610" height="310" viewBox="0 0 610 310">
+  <defs>
+    <clipPath id="prefigure-arclength-__clipPath-0">
+      <rect x="5.0" y="5.0" width="600.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-arclength-__clipPath-1">
+      <rect x="5.0" y="5.0" width="600.0" height="300.0"/>
+    </clipPath>
+    <marker id="prefigure-arclength-arrow-head-end-3_None_24_60-red" markerWidth="13.5" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="9.8" refY="6.0">
+      <path d="M 13.5 6.0L 0.0 12.0L 2.6 7.5L 2.6 4.5L 0.0 0.0Z" fill="red" stroke="none"/>
+    </marker>
+    <marker id="prefigure-arclength-arrow-head-end-3_None_24_60-red-outline" markerWidth="17.5" markerHeight="16.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="11.8" refY="8.0">
+      <path d="M 16.3 9.8 L 2.8 15.8 A 2 2 0 0 1 0.0 14.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 16.3 6.2 A 2 2 0 0 1 16.3 9.8 Z" fill="white" stroke="none"/>
+    </marker>
+  </defs>
+  <path id="prefigure-arclength-__path-0" d="M 101.8 188.9 L 101.8 186.0 L 101.9 183.1 L 102.1 180.2 L 102.4 177.3 L 102.7 174.5 L 103.1 171.6 L 103.5 168.8 L 104.1 165.9 L 104.7 163.1 L 105.4 160.4 L 106.1 157.6 L 107.0 154.8 L 107.9 152.1 L 108.8 149.4 L 109.9 146.7 L 111.0 144.0 L 112.2 141.4 L 113.4 138.8 L 114.7 136.2 L 116.1 133.6 L 117.6 131.1 L 119.1 128.6 L 120.7 126.1 L 122.3 123.6 L 124.1 121.2 L 125.8 118.8 L 127.7 116.5 L 129.6 114.2 L 131.6 111.9 L 133.7 109.6 L 135.8 107.4 L 138.0 105.3 L 140.2 103.1 L 142.5 101.0 L 144.9 99.0 L 147.3 97.0 L 149.8 95.0 L 152.3 93.1 L 154.9 91.2 L 157.6 89.4 L 160.3 87.6 L 163.1 85.8 L 165.9 84.1 L 168.8 82.5 L 171.8 80.8 L 174.8 79.3 L 177.8 77.8 L 180.9 76.3 L 184.1 74.9 L 187.3 73.5 L 190.5 72.2 L 193.8 70.9 L 197.2 69.7 L 200.6 68.5 L 204.0 67.4 L 207.5 66.3 L 211.0 65.3 L 214.6 64.4 L 218.2 63.5 L 221.8 62.6 L 225.5 61.8 L 229.2 61.0 L 233.0 60.3 L 236.8 59.7 L 240.6 59.1 L 244.5 58.6 L 248.4 58.1 L 252.3 57.6 L 256.3 57.3 L 260.3 56.9 L 264.3 56.7 L 268.3 56.5 L 272.4 56.3 L 276.5 56.2 L 280.6 56.1 L 284.7 56.1 L 288.9 56.2 L 293.1 56.3 L 297.3 56.5 L 301.5 56.7 L 305.7 56.9 L 309.9 57.3 L 314.1 57.6 L 318.4 58.0 L 322.7 58.5 L 326.9 59.0 L 331.2 59.6 L 335.5 60.2 L 339.8 60.9 L 344.0 61.6 L 348.3 62.4 L 352.6 63.2 L 356.9 64.1 L 361.2 65.0 L 365.4 66.0 L 369.7 67.0 L 373.9 68.1 L 378.2 69.2 L 382.4 70.3 L 386.6 71.5 L 390.8 72.8 L 395.0 74.1 L 399.1 75.4 L 403.3 76.8 L 407.4 78.2 L 411.5 79.6 L 415.6 81.1 L 419.6 82.7 L 423.6 84.2 L 427.6 85.9 L 431.6 87.5 L 435.5 89.2 L 439.4 90.9 L 443.2 92.7 L 447.0 94.5 L 450.8 96.3 L 454.5 98.1 L 458.2 100.0 L 461.8 101.9 L 465.4 103.9 L 469.0 105.9 L 472.5 107.9 L 475.9 109.9 L 479.3 112.0 L 482.7 114.1 L 486.0 116.2 L 489.2 118.3 L 492.4 120.5 L 495.5 122.6 L 498.5 124.8 L 501.5 127.1 L 504.5 129.3 L 507.3 131.6 L 510.1 133.8 L 512.8 136.1 L 515.5 138.4 L 518.1 140.8 L 520.6 143.1 L 523.0 145.4 L 525.3 147.8 L 527.6 150.2 L 529.8 152.6 L 531.9 154.9 L 534.0 157.3 L 535.9 159.7 L 537.8 162.1 L 539.6 164.6 L 541.3 167.0 L 542.9 169.4 L 544.4 171.8 L 545.8 174.2 L 547.2 176.6 L 548.4 179.1 L 549.6 181.5 L 550.6 183.9 L 551.6 186.3 L 552.5 188.7 L 553.3 191.1 L 554.5 195.8 L 555.3 200.6 L 555.8 205.2 L 555.8 209.9 L 555.4 214.5 L 554.5 219.0 L 553.3 223.4 L 551.6 227.7 L 549.5 232.0 L 546.9 236.2 L 545.4 238.2 L 543.9 240.3 L 542.2 242.3 L 540.4 244.2 L 538.5 246.2 L 536.5 248.1 L 534.4 250.0 L 532.1 251.8 L 529.8 253.7 L 527.3 255.4 L 524.8 257.2 L 522.1 258.9 L 519.3 260.6 L 516.4 262.3 L 513.4 263.9 L 510.3 265.5 L 507.1 267.1 L 503.7 268.6 L 500.3 270.1 L 496.7 271.5 L 493.1 272.9 L 489.3 274.3" stroke="blue" stroke-width="2" fill="none" clip-path="url(#prefigure-arclength-__clipPath-1)"/>
+  <g id="prefigure-arclength-__group-0">
+    <g id="prefigure-arclength-__g-0-i_0">
+      <g id="prefigure-arclength-__label-0-i_0" transform="translate(96.8,183.9) translate(-37.8,-19.6)">
+        <g id="prefigure-arclength-__g-9">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-2-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-2-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-2-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-2-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-2-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
+              <path id="prefigure-arclength-MJX-2-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_0)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 0 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-2-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-2-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-2-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 0 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-2-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_0" data-semantic-speech="t 0" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-2-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:0" data-semantic-speech="0" data-semantic-prefix="Subscript">
+                      <use data-c="30" xlink:href="#prefigure-arclength-MJX-2-NCM-N-30"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-2-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="101.8" cy="188.9" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 101.8 188.9 L 122.9 124.7" id="prefigure-arclength-__path-1-i_0"/>
+    <g id="prefigure-arclength-__g-1-i_1">
+      <g id="prefigure-arclength-__label-1-i_1" transform="translate(119.1,116.2) translate(-37.8,-19.6)">
+        <g id="prefigure-arclength-__g-10">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-3-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-3-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-3-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-3-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-3-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-3-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+              <path id="prefigure-arclength-MJX-3-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_1)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 1 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-3-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-3-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-3-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 1 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-3-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_1" data-semantic-speech="t 1" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-3-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:1" data-semantic-speech="1" data-semantic-prefix="Subscript">
+                      <use data-c="31" xlink:href="#prefigure-arclength-MJX-3-NCM-N-31"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-3-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="124.1" cy="121.2" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 124.1 121.2 L 184.3 75.7" id="prefigure-arclength-__path-2-i_1"/>
+    <g id="prefigure-arclength-__g-2-i_2">
+      <g id="prefigure-arclength-__label-2-i_2" transform="translate(182.3,68.5) translate(-37.8,-19.6)">
+        <g id="prefigure-arclength-__g-11">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-4-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-4-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-4-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-4-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-4-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-4-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+              <path id="prefigure-arclength-MJX-4-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_2)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 2 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-4-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-4-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-4-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 2 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-4-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_2" data-semantic-speech="t 2" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-4-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:2" data-semantic-speech="2" data-semantic-prefix="Subscript">
+                      <use data-c="32" xlink:href="#prefigure-arclength-MJX-4-NCM-N-32"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-4-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="187.3" cy="73.5" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 187.3 73.5 L 277.0 56.8" id="prefigure-arclength-__path-3-i_2"/>
+    <g id="prefigure-arclength-__g-3-i_3">
+      <g id="prefigure-arclength-__label-3-i_3" transform="translate(275.6,51.1) translate(-37.8,-19.6)">
+        <g id="prefigure-arclength-__g-12">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-5-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-5-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-5-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-5-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-5-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-5-NCM-N-33" d="M303 353C369 378 431 441 431 526C431 569 410 604 369 631C333 654 292 666 246 666C201 666 162 654 127 631C88 605 68 571 68 528C68 495 90 472 122 472C154 472 176 495 176 527C176 560 157 578 119 580C145 615 186 633 242 633C302 633 332 598 332 527C332 485 324 450 309 421C282 373 245 364 183 364C171 362 165 357 165 348C165 333 172 333 192 333L235 333C310 333 348 280 348 173C348 88 317 14 241 14C176 14 128 36 99 80C134 79 160 105 160 139C160 173 135 198 101 198C62 198 42 178 42 137C42 88 64 49 108 18C147-9 193-22 244-22C301-22 350-3 393 34C436 71 457 117 457 173C457 267 383 332 303 353Z"/>
+              <path id="prefigure-arclength-MJX-5-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_3)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 3 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-5-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-5-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-5-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 3 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-5-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_3" data-semantic-speech="t 3" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-5-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:3" data-semantic-speech="3" data-semantic-prefix="Subscript">
+                      <use data-c="33" xlink:href="#prefigure-arclength-MJX-5-NCM-N-33"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-5-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="280.6" cy="56.1" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 280.6 56.1 L 383.0 71.0" id="prefigure-arclength-__path-4-i_3"/>
+    <g id="prefigure-arclength-__g-4-i_4">
+      <g id="prefigure-arclength-__label-4-i_4" transform="translate(386.6,63.5) translate(-18.9,-19.6)">
+        <g id="prefigure-arclength-__g-13">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-6-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-6-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-6-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-6-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-6-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-6-NCM-N-34" d="M353 677C344 677 336 672 330 663L28 199L28 163L289 163L289 81C289 63 285 51 278 46C271 41 252 39 219 39L194 39L194 0C223 2 269 3 331 3C393 3 439 2 468 0L468 39L443 39C410 39 391 41 384 46C377 51 373 63 373 81L373 163L471 163L471 202L373 202L373 660C373 670 366 677 353 677M295 553L295 202L67 202Z"/>
+              <path id="prefigure-arclength-MJX-6-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_4)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 4 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-6-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-6-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-6-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 4 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-6-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_4" data-semantic-speech="t 4" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-6-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:4" data-semantic-speech="4" data-semantic-prefix="Subscript">
+                      <use data-c="34" xlink:href="#prefigure-arclength-MJX-6-NCM-N-34"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-6-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="386.6" cy="71.5" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 386.6 71.5 L 479.3 112.6" id="prefigure-arclength-__path-5-i_4"/>
+    <g id="prefigure-arclength-__g-5-i_5">
+      <g id="prefigure-arclength-__label-5-i_5" transform="translate(487.7,109.1) translate(0.0,-19.6)">
+        <g id="prefigure-arclength-__g-14">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-7-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-7-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-7-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-7-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-7-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-7-NCM-N-35" d="M118 315C123 315 129 319 134 326C164 371 205 393 257 393C292 393 319 373 337 332C348 305 354 264 354 209C354 146 346 102 331 76C306 35 272 14 229 14C162 14 109 62 91 114C94 113 96 114 100 114C130 114 155 137 155 167C155 198 130 219 100 219C65 219 50 200 50 163C50 63 131-22 231-22C292-22 344 0 386 44C428 88 449 141 449 202C449 260 432 310 398 353C361 400 315 423 259 423C212 423 171 408 138 378L138 556C165 548 191 544 218 544C264 544 304 555 338 578C369 597 390 616 402 634C408 642 411 648 411 651C411 661 406 666 396 666C341 645 294 634 256 634C211 634 168 643 127 662C122 664 118 665 114 665C105 665 100 656 100 637L100 345C100 324 100 315 118 315Z"/>
+              <path id="prefigure-arclength-MJX-7-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_5)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 5 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-7-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-7-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-7-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 5 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-7-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_5" data-semantic-speech="t 5" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-7-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:5" data-semantic-speech="5" data-semantic-prefix="Subscript">
+                      <use data-c="35" xlink:href="#prefigure-arclength-MJX-7-NCM-N-35"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-7-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="482.7" cy="114.1" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 482.7 114.1 L 541.7 169.3" id="prefigure-arclength-__path-6-i_5"/>
+    <g id="prefigure-arclength-__g-6-i_6">
+      <g id="prefigure-arclength-__label-6-i_6" transform="translate(549.4,166.8) translate(0.0,-19.6)">
+        <g id="prefigure-arclength-__g-15">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-8-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-8-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-8-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-8-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-8-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-8-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+              <path id="prefigure-arclength-MJX-8-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_6)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 6 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-8-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-8-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-8-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 6 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-8-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_6" data-semantic-speech="t 6" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-8-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:6" data-semantic-speech="6" data-semantic-prefix="Subscript">
+                      <use data-c="36" xlink:href="#prefigure-arclength-MJX-8-NCM-N-36"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-8-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="544.4" cy="171.8" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 544.4 171.8 L 550.2 226.2" id="prefigure-arclength-__path-7-i_6"/>
+    <g id="prefigure-arclength-__g-7-i_7">
+      <g id="prefigure-arclength-__label-7-i_7" transform="translate(558.6,229.9) translate(0.0,-9.8)">
+        <g id="prefigure-arclength-__g-16">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+            <defs>
+              <path id="prefigure-arclength-MJX-9-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+              <path id="prefigure-arclength-MJX-9-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+              <path id="prefigure-arclength-MJX-9-NCM-N-2061" d=""/>
+              <path id="prefigure-arclength-MJX-9-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+              <path id="prefigure-arclength-MJX-9-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+              <path id="prefigure-arclength-MJX-9-NCM-N-37" d="M475 604C482 613 485 626 485 644L243 644C174 644 135 648 128 657C125 660 122 667 120 676L89 676L55 464L88 464C98 520 106 550 112 555C115 558 146 560 205 560L401 560L295 410C214 295 174 171 174 36C174-3 190-22 223-22C256-22 272-3 272 36L272 87C272 239 296 349 343 416Z"/>
+              <path id="prefigure-arclength-MJX-9-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_7)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 7 right parenthesis">
+                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                  <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                      <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-9-NCM-I-1D45F"/>
+                    </g>
+                    <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                      <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-9-NCM-N-20D7"/>
+                    </g>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                  <use data-c="2061" xlink:href="#prefigure-arclength-MJX-9-NCM-N-2061"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 7 right parenthesis" transform="translate(510.5,0)">
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                    <use data-c="28" xlink:href="#prefigure-arclength-MJX-9-NCM-N-28"/>
+                  </g>
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_7" data-semantic-speech="t 7" transform="translate(389,0)">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                      <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-9-NCM-I-1D461"/>
+                    </g>
+                    <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:7" data-semantic-speech="7" data-semantic-prefix="Subscript">
+                      <use data-c="37" xlink:href="#prefigure-arclength-MJX-9-NCM-N-37"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                    <use data-c="29" xlink:href="#prefigure-arclength-MJX-9-NCM-N-29"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <circle cx="550.6" cy="229.9" r="4" stroke="red" stroke-width="2" fill="red"/>
+    </g>
+    <path stroke="red" stroke-width="3" fill="none" marker-end="url(#prefigure-arclength-arrow-head-end-3_None_24_60-red)" d="M 550.6 229.9 L 492.3 272.2" id="prefigure-arclength-__path-8-i_7"/>
+  </g>
+  <g id="prefigure-arclength-__g-8">
+    <g id="prefigure-arclength-__label-8" transform="translate(494.3,279.3) translate(0.0,-0.0)">
+      <g id="prefigure-arclength-__g-17">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="37.760px" height="19.640px" role="img" focusable="false" viewBox="0 -837 2086.1 1085" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-arclength-MJX-10-NCM-I-1D45F" d="M436 374C436 416 395 442 351 442C302 442 261 419 227 372C217 411 183 442 136 442C95 442 65 410 44 345C34 312 29 293 29 287C29 278 34 273 45 273C50 273 53 274 56 276C61 285 64 292 65 299C83 375 106 413 133 413C150 413 159 399 159 371C159 358 154 331 144 290L87 63C84 50 78 24 78 19C78-1 89-11 110-11C130-11 143-1 150 19L169 91C180 134 187 162 190 175L221 303C223 311 231 324 244 343C271 381 302 413 351 413C363 413 373 411 382 406C352 397 337 378 337 351C337 325 351 312 378 312C411 312 436 341 436 374Z"/>
+            <path id="prefigure-arclength-MJX-10-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+            <path id="prefigure-arclength-MJX-10-NCM-N-2061" d=""/>
+            <path id="prefigure-arclength-MJX-10-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+            <path id="prefigure-arclength-MJX-10-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
+            <path id="prefigure-arclength-MJX-10-NCM-N-38" d="M250 666C201 666 158 650 122 618C86 586 68 546 68 497C68 456 83 419 113 386C120 378 142 361 179 335C88 288 42 227 42 153C42 100 64 57 107 24C147-7 194-22 249-22C305-22 354-4 395 32C436 68 457 115 457 170C457 216 441 257 408 294C396 307 365 330 316 361C393 402 431 454 431 515C431 606 344 666 250 666M379 515C379 463 348 418 286 381L167 459C136 479 120 505 120 536C120 596 185 633 249 633C318 633 379 584 379 515M250 14C168 14 99 73 99 153C99 220 136 274 210 315L328 240C376 209 400 174 400 134C400 62 325 14 250 14Z"/>
+            <path id="prefigure-arclength-MJX-10-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="depth:1" data-semantic-id="10" data-semantic-children="2,8" data-semantic-content="9,0" data-semantic-attributes="latex:\vec{r}(t_8)" data-semantic-speech="ModifyingAbove r With right arrow left parenthesis t 8 right parenthesis">
+              <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="simple function" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="10" data-semantic-attributes="latex:\vec{r};texclass:ORD" data-semantic-speech="ModifyingAbove r With right arrow">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:r" data-semantic-operator="appl" data-semantic-speech="r" data-semantic-prefix="Base">
+                    <use data-c="1D45F" xlink:href="#prefigure-arclength-MJX-10-NCM-I-1D45F"/>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(510.5,26)">
+                    <use data-c="20D7" xlink:href="#prefigure-arclength-MJX-10-NCM-N-20D7"/>
+                  </g>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(510.5,0)">
+                <use data-c="2061" xlink:href="#prefigure-arclength-MJX-10-NCM-N-2061"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-added="true" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:2" data-semantic-id="8" data-semantic-children="6" data-semantic-content="3,7" data-semantic-parent="10" data-semantic-speech="left parenthesis t 8 right parenthesis" transform="translate(510.5,0)">
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:3" data-semantic-id="3" data-semantic-parent="8" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                  <use data-c="28" xlink:href="#prefigure-arclength-MJX-10-NCM-N-28"/>
+                </g>
+                <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:3" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="8" data-semantic-attributes="latex:t_8" data-semantic-speech="t 8" transform="translate(389,0)">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:t" data-semantic-speech="t" data-semantic-prefix="Base">
+                    <use data-c="1D461" xlink:href="#prefigure-arclength-MJX-10-NCM-I-1D461"/>
+                  </g>
+                  <g data-mml-node="mn" transform="translate(394,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:4" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:8" data-semantic-speech="8" data-semantic-prefix="Subscript">
+                    <use data-c="38" xlink:href="#prefigure-arclength-MJX-10-NCM-N-38"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:3" data-semantic-id="7" data-semantic-parent="8" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(1186.6,0)">
+                  <use data-c="29" xlink:href="#prefigure-arclength-MJX-10-NCM-N-29"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="489.3" cy="274.3" r="4" stroke="red" stroke-width="2" fill="red"/>
+  </g>
+</svg>

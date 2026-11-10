@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-astroid-figure" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="prefigure-astroid-__clipPath-0">
+      <rect x="25.0" y="25.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-astroid-__clipPath-1">
+      <rect x="25.0" y="25.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-astroid-grid-axes">
+    <g id="prefigure-astroid-grid" stroke="#ccc" stroke-width="1">
+      <line x1="25.0" y1="325.0" x2="25.0" y2="25.0"/>
+      <line x1="62.5" y1="325.0" x2="62.5" y2="25.0"/>
+      <line x1="100.0" y1="325.0" x2="100.0" y2="25.0"/>
+      <line x1="137.5" y1="325.0" x2="137.5" y2="25.0"/>
+      <line x1="175.0" y1="325.0" x2="175.0" y2="25.0"/>
+      <line x1="212.5" y1="325.0" x2="212.5" y2="25.0"/>
+      <line x1="250.0" y1="325.0" x2="250.0" y2="25.0"/>
+      <line x1="287.5" y1="325.0" x2="287.5" y2="25.0"/>
+      <line x1="325.0" y1="325.0" x2="325.0" y2="25.0"/>
+      <line x1="25.0" y1="325.0" x2="325.0" y2="325.0"/>
+      <line x1="25.0" y1="287.5" x2="325.0" y2="287.5"/>
+      <line x1="25.0" y1="250.0" x2="325.0" y2="250.0"/>
+      <line x1="25.0" y1="212.5" x2="325.0" y2="212.5"/>
+      <line x1="25.0" y1="175.0" x2="325.0" y2="175.0"/>
+      <line x1="25.0" y1="137.5" x2="325.0" y2="137.5"/>
+      <line x1="25.0" y1="100.0" x2="325.0" y2="100.0"/>
+      <line x1="25.0" y1="62.5" x2="325.0" y2="62.5"/>
+      <line x1="25.0" y1="25.0" x2="325.0" y2="25.0"/>
+    </g>
+    <g id="prefigure-astroid-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-astroid-__line-18" x1="25.0" y1="175.0" x2="325.0" y2="175.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-astroid-__line-19" x1="100.0" y1="178.0" x2="100.0" y2="172.0"/>
+        <line id="prefigure-astroid-__line-20" x1="250.0" y1="178.0" x2="250.0" y2="172.0"/>
+      </g>
+      <line id="prefigure-astroid-__line-21" x1="175.0" y1="325.0" x2="175.0" y2="25.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-astroid-__line-22" x1="172.0" y1="250.0" x2="178.0" y2="250.0"/>
+        <line id="prefigure-astroid-__line-23" x1="172.0" y1="100.0" x2="178.0" y2="100.0"/>
+      </g>
+    </g>
+    <g id="prefigure-astroid-__label-0" transform="translate(100.0,186.0) translate(-7.5,-0.0)">
+      <g id="prefigure-astroid-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-astroid-MJX-2-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+            <path id="prefigure-astroid-MJX-2-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-1}" data-semantic-speech="minus 1">
+                <use data-c="2D" xlink:href="#prefigure-astroid-MJX-2-NCM-N-2D"/>
+                <use data-c="31" xlink:href="#prefigure-astroid-MJX-2-NCM-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-astroid-__label-1" transform="translate(250.0,186.0) translate(-4.5,-0.0)">
+      <g id="prefigure-astroid-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-astroid-MJX-3-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#prefigure-astroid-MJX-3-NCM-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-astroid-__label-2" transform="translate(164.0,250.0) translate(-15.1,-6.0)">
+      <g id="prefigure-astroid-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-astroid-MJX-4-NCM-N-2D" d="M11 187L276 187L276 245L11 245Z"/>
+            <path id="prefigure-astroid-MJX-4-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{-1}" data-semantic-speech="minus 1">
+                <use data-c="2D" xlink:href="#prefigure-astroid-MJX-4-NCM-N-2D"/>
+                <use data-c="31" xlink:href="#prefigure-astroid-MJX-4-NCM-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-astroid-__label-3" transform="translate(164.0,100.0) translate(-9.0,-6.0)">
+      <g id="prefigure-astroid-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-astroid-MJX-5-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="general:text;clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{1}" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#prefigure-astroid-MJX-5-NCM-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefigure-astroid-__path-0" d="M 325.0 175.0 L 324.1 175.0 L 321.5 174.7 L 317.2 174.0 L 314.4 173.4 L 311.3 172.7 L 307.8 171.7 L 304.0 170.6 L 299.9 169.2 L 295.6 167.5 L 291.0 165.6 L 288.6 164.5 L 286.1 163.4 L 283.6 162.2 L 281.1 161.0 L 278.5 159.6 L 275.9 158.2 L 273.3 156.8 L 270.7 155.2 L 268.0 153.6 L 265.3 151.9 L 262.6 150.2 L 259.9 148.4 L 257.1 146.5 L 254.4 144.5 L 251.7 142.5 L 249.0 140.5 L 246.3 138.3 L 243.6 136.2 L 241.0 133.9 L 238.3 131.6 L 235.7 129.3 L 233.1 126.9 L 230.6 124.4 L 228.0 122.0 L 225.6 119.4 L 223.1 116.9 L 220.7 114.3 L 218.4 111.7 L 216.1 109.0 L 213.8 106.4 L 211.7 103.7 L 209.5 101.0 L 207.5 98.3 L 205.5 95.6 L 203.5 92.9 L 201.6 90.1 L 199.8 87.4 L 198.1 84.7 L 196.4 82.0 L 194.8 79.3 L 193.2 76.7 L 191.8 74.1 L 190.4 71.5 L 189.0 68.9 L 187.8 66.4 L 186.6 63.9 L 185.5 61.4 L 184.4 59.0 L 182.5 54.4 L 180.8 50.1 L 179.4 46.0 L 178.3 42.2 L 177.3 38.7 L 176.6 35.6 L 176.0 32.8 L 175.3 28.5 L 175.0 25.9 L 175.0 25.0 L 175.0 25.9 L 174.7 28.5 L 174.0 32.8 L 173.4 35.6 L 172.7 38.7 L 171.7 42.2 L 170.6 46.0 L 169.2 50.1 L 167.5 54.4 L 165.6 59.0 L 164.5 61.4 L 163.4 63.9 L 162.2 66.4 L 161.0 68.9 L 159.6 71.5 L 158.2 74.1 L 156.8 76.7 L 155.2 79.3 L 153.6 82.0 L 151.9 84.7 L 150.2 87.4 L 148.4 90.1 L 146.5 92.9 L 144.5 95.6 L 142.5 98.3 L 140.5 101.0 L 138.3 103.7 L 136.2 106.4 L 133.9 109.0 L 131.6 111.7 L 129.3 114.3 L 126.9 116.9 L 124.4 119.4 L 122.0 122.0 L 119.4 124.4 L 116.9 126.9 L 114.3 129.3 L 111.7 131.6 L 109.0 133.9 L 106.4 136.2 L 103.7 138.3 L 101.0 140.5 L 98.3 142.5 L 95.6 144.5 L 92.9 146.5 L 90.1 148.4 L 87.4 150.2 L 84.7 151.9 L 82.0 153.6 L 79.3 155.2 L 76.7 156.8 L 74.1 158.2 L 71.5 159.6 L 68.9 161.0 L 66.4 162.2 L 63.9 163.4 L 61.4 164.5 L 59.0 165.6 L 54.4 167.5 L 50.1 169.2 L 46.0 170.6 L 42.2 171.7 L 38.7 172.7 L 35.6 173.4 L 32.8 174.0 L 28.5 174.7 L 25.9 175.0 L 25.0 175.0 L 25.9 175.0 L 28.5 175.3 L 32.8 176.0 L 35.6 176.6 L 38.7 177.3 L 42.2 178.3 L 46.0 179.4 L 50.1 180.8 L 54.4 182.5 L 59.0 184.4 L 61.4 185.5 L 63.9 186.6 L 66.4 187.8 L 68.9 189.0 L 71.5 190.4 L 74.1 191.8 L 76.7 193.2 L 79.3 194.8 L 82.0 196.4 L 84.7 198.1 L 87.4 199.8 L 90.1 201.6 L 92.9 203.5 L 95.6 205.5 L 98.3 207.5 L 101.0 209.5 L 103.7 211.7 L 106.4 213.8 L 109.0 216.1 L 111.7 218.4 L 114.3 220.7 L 116.9 223.1 L 119.4 225.6 L 122.0 228.0 L 124.4 230.6 L 126.9 233.1 L 129.3 235.7 L 131.6 238.3 L 133.9 241.0 L 136.2 243.6 L 138.3 246.3 L 140.5 249.0 L 142.5 251.7 L 144.5 254.4 L 146.5 257.1 L 148.4 259.9 L 150.2 262.6 L 151.9 265.3 L 153.6 268.0 L 155.2 270.7 L 156.8 273.3 L 158.2 275.9 L 159.6 278.5 L 161.0 281.1 L 162.2 283.6 L 163.4 286.1 L 164.5 288.6 L 165.6 291.0 L 167.5 295.6 L 169.2 299.9 L 170.6 304.0 L 171.7 307.8 L 172.7 311.3 L 173.4 314.4 L 174.0 317.2 L 174.7 321.5 L 175.0 324.1 L 175.0 325.0 L 175.0 324.1 L 175.3 321.5 L 176.0 317.2 L 176.6 314.4 L 177.3 311.3 L 178.3 307.8 L 179.4 304.0 L 180.8 299.9 L 182.5 295.6 L 184.4 291.0 L 185.5 288.6 L 186.6 286.1 L 187.8 283.6 L 189.0 281.1 L 190.4 278.5 L 191.8 275.9 L 193.2 273.3 L 194.8 270.7 L 196.4 268.0 L 198.1 265.3 L 199.8 262.6 L 201.6 259.9 L 203.5 257.1 L 205.5 254.4 L 207.5 251.7 L 209.5 249.0 L 211.7 246.3 L 213.8 243.6 L 216.1 241.0 L 218.4 238.3 L 220.7 235.7 L 223.1 233.1 L 225.6 230.6 L 228.0 228.0 L 230.6 225.6 L 233.1 223.1 L 235.7 220.7 L 238.3 218.4 L 241.0 216.1 L 243.6 213.8 L 246.3 211.7 L 249.0 209.5 L 251.7 207.5 L 254.4 205.5 L 257.1 203.5 L 259.9 201.6 L 262.6 199.8 L 265.3 198.1 L 268.0 196.4 L 270.7 194.8 L 273.3 193.2 L 275.9 191.8 L 278.5 190.4 L 281.1 189.0 L 283.6 187.8 L 286.1 186.6 L 288.6 185.5 L 291.0 184.4 L 295.6 182.5 L 299.9 180.8 L 304.0 179.4 L 307.8 178.3 L 311.3 177.3 L 314.4 176.6 L 317.2 176.0 L 321.5 175.3 L 324.1 175.0 L 325.0 175.0" stroke="blue" stroke-width="2" fill="none" clip-path="url(#prefigure-astroid-__clipPath-1)"/>
+</svg>
