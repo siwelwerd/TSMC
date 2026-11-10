@@ -65,24 +65,74 @@
   <p>
     Now, lets consider a curve <m>\vec{r}(t)</m>, and add up approximate arclengths
   </p>
-  <image>
-    <prefigure xmlns="https://prefigure.org" label="prefigure-arclength">
-      <xi:include href="prefigure/arclength.xml"/>
-    </prefigure>
-  </image>
+  <figure>
+    <image>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-arclength">
+        <xi:include href="prefigure/arclength.xml"/>
+      </prefigure>
+    </image>
+    <caption>
+      <p>A curve subdivided into 8 time intervals, with vectors approximating the arclength.
+      </p>
+    </caption>
+  </figure>
   <p>So our arclength is approximated by
     <md>\left|\vec{r}(t_1)-\vec{r}(t_0)\right|+\cdots+\left|\vec{r}(t_8)-\vec{r}(t_7)\right|</md>, 
     which we might write more generally as
     <md>\sum _{i=0} ^n |\vec{r}(t_{i+1})-\vec{r}(t_i)|</md>.
   </p>
   <p>Observing that this is almost a difference quotient, we may rewrite and then
-  apply the mean value theorem:
-  <md>
-    <mrow>\sum _{i=0} ^n |\vec{r}(t_{i+1})-\vec{r}(t_i)| \amp = \sum _{i=0} ^n \left| \frac{\vec{r}(t_{i+1})-\vec{r}(t_i)}{\Delta t}\right| \Delta t </mrow>
-    <mrow> \amp = \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t</mrow>
-  </md>.
-  Then, taking a limit as the size of the time intervals goes to zero, we have
-  <md> \lim _{\Delta t \rightarrow 0} \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t = \int _{a} ^b |\vec{r}^\prime(t)|\ dt</md>.
-</p>
+    apply the mean value theorem:
+    <md>
+      <mrow>\sum _{i=0} ^n |\vec{r}(t_{i+1})-\vec{r}(t_i)| \amp = \sum _{i=0} ^n \left| \frac{\vec{r}(t_{i+1})-\vec{r}(t_i)}{\Delta t}\right| \Delta t </mrow>
+      <mrow> \amp = \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t</mrow>
+    </md>.
+    Then, taking a limit as the size of the time intervals goes to zero, we have
+    <md> \lim _{\Delta t \rightarrow 0} \sum _{i=0} ^n |\vec{r}^\prime(t_i^*)| \Delta t = \int _{a} ^b |\vec{r}^\prime(t)|\ dt</md>.
+  </p>
+  <definition xml:id="def-arclength">
+    <statement>
+      <p>
+        Let <m>\vec{r}(t): \R \rightarrow \R^n</m> be a differentiable vector-valued function.
+        Then the <term>arclength</term> of <m>\vec{r}</m> on the interval <m>a \leq t \leq b</m> is
+        <md>L=\int _a ^b \left| \vec{r}^\prime(t)\right| dt</md>.
+        In other words, the distance traveled is the integral of speed over time.
+      </p>
+    </statement>
+  </definition>
+
+  <activity>
+    <statement>
+      <p>
+        For a fixed positive number <m>R</m>, find the length of the curve <m>\vec{r}(t)=\langle R\cos(t), R\sin(t) \rangle</m>
+        on the interval <m>[0,2\pi]</m>.
+      </p>
+    </statement>
+  </activity>
+  
+  <activity>
+    <statement>
+      <p>
+        For a fixed vectors <m>\vec{p}</m> and <m>\vec{v}</m>, find the length of the line <m>\vec{r}(t)=\vec{p}+t\vec{v}</m>
+        on the interval <m>[t_0,t_1]</m>.
+      </p>
+    </statement>
+  </activity>
+  
+  <activity>
+    <statement>
+      <p>
+        The astroid curve, for a fixed value <m>a</m>, is parameterized by 
+        <m>\vec{r}(t)=\langle a \cos^3 (t), a \sin^3(t)\rangle</m>
+        on the interval <m>[0,2\pi]</m> (pictured below for <m>a=2</m>).
+      </p>
+      <image width="50%">
+        <prefigure xmlns="https://prefigure.org" label="prefigure-astroid">
+          <xi:include href="prefigure/astroid.xml"/>
+        </prefigure>
+      </image>
+      <p>Find the length of the astroid curve in terms of <m>a</m>.</p>
+    </statement>
+  </activity>
 
 </section>

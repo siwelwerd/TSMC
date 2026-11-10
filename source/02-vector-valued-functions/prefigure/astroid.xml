@@ -1,0 +1,8 @@
+<diagram dimensions="(300,300)" margins="25" xmlns="https://prefigure.org">
+  <definition>a = 2</definition>
+  <definition>r(t)=(a*(cos(t))^3,a*(sin(t))^3)</definition>
+  <coordinates bbox="(-a,-a,a,a)">
+    <grid-axes/>
+    <parametric-curve function="r" domain="(0,2*pi)"/>
+  </coordinates>
+</diagram>
