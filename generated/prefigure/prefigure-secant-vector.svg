@@ -12,6 +12,12 @@
     <marker id="prefigure-secant-vector-arrow-head-end-2_None_24_60-red-outline" markerWidth="13.0" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="8.5" refY="6.0">
       <path d="M 11.8 7.8 L 2.8 11.8 A 2 2 0 0 1 0.0 10.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 11.8 4.2 A 2 2 0 0 1 11.8 7.8 Z" fill="white" stroke="none"/>
     </marker>
+    <marker id="prefigure-secant-vector-arrow-head-end-2_None_24_60-green" markerWidth="9.0" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="6.5" refY="4.0">
+      <path d="M 9.0 4.0L 0.0 8.0L 1.7 5.0L 1.7 3.0L 0.0 0.0Z" fill="green" stroke="none"/>
+    </marker>
+    <marker id="prefigure-secant-vector-arrow-head-end-2_None_24_60-green-outline" markerWidth="13.0" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="8.5" refY="6.0">
+      <path d="M 11.8 7.8 L 2.8 11.8 A 2 2 0 0 1 0.0 10.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 11.8 4.2 A 2 2 0 0 1 11.8 7.8 Z" fill="white" stroke="none"/>
+    </marker>
   </defs>
   <g id="prefigure-secant-vector-grid-axes">
     <g id="prefigure-secant-vector-grid" stroke="#ccc" stroke-width="1">
@@ -227,4 +233,5 @@
     </g>
     <path stroke="red" stroke-width="2" fill="none" marker-end="url(#prefigure-secant-vector-arrow-head-end-2_None_24_60-red)" d="M 155.0 245.0 L 81.3 127.1"/>
   </g>
+  <path stroke="green" stroke-width="2" fill="none" marker-end="url(#prefigure-secant-vector-arrow-head-end-2_None_24_60-green)" d="M 155.0 245.0 L 145.9 157.4" id="prefigure-secant-vector-__path-1"/>
 </svg>
