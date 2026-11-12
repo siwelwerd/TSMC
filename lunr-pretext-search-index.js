@@ -1096,16 +1096,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Vector-Valued Functions",
-  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.    A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.          It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .      Find a parameterization of the line from the point to the point .    "
+  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.     Euclidean -space , denoted , is the set consisting of all -dimensional points (or -vectors) of real numbers.     is the set of all points in the usual plane, and is the set of all points in 3-space.     A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.          It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .      Find a parameterization of the line from the point to the point .    "
 },
 {
-  "id": "def-vector-valued-function",
+  "id": "def-Rn",
   "level": "2",
-  "url": "sec-vector-valued-functions.html#def-vector-valued-function",
+  "url": "sec-vector-valued-functions.html#def-Rn",
   "type": "Definition",
   "number": "2.1.1",
   "title": "",
-  "body": "  A function for some is called a vector-valued function .   "
+  "body": "   Euclidean -space , denoted , is the set consisting of all -dimensional points (or -vectors) of real numbers.   "
 },
 {
   "id": "sec-vector-valued-functions-4",
@@ -1114,14 +1114,32 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.2",
   "title": "",
+  "body": " is the set of all points in the usual plane, and is the set of all points in 3-space.  "
+},
+{
+  "id": "def-vector-valued-function",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#def-vector-valued-function",
+  "type": "Definition",
+  "number": "2.1.3",
+  "title": "",
+  "body": "  A function for some is called a vector-valued function .   "
+},
+{
+  "id": "sec-vector-valued-functions-6",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-6",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
   "body": " Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .  "
 },
 {
-  "id": "sec-vector-valued-functions-5",
+  "id": "sec-vector-valued-functions-7",
   "level": "2",
-  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-5",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-7",
   "type": "Remark",
-  "number": "2.1.3",
+  "number": "2.1.5",
   "title": "",
   "body": " Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)  "
 },
@@ -1130,36 +1148,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-vector-valued-functions.html#def-parametric-eq",
   "type": "Definition",
-  "number": "2.1.4",
-  "title": "",
-  "body": "  A vector-valued function can also be described by the parametric equations     "
-},
-{
-  "id": "sec-vector-valued-functions-8",
-  "level": "2",
-  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-8",
-  "type": "Example",
-  "number": "2.1.5",
-  "title": "",
-  "body": " The parametric equations describe the usual parameterization of the unit circle.  "
-},
-{
-  "id": "sec-vector-valued-functions-9",
-  "level": "2",
-  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-9",
-  "type": "Activity",
   "number": "2.1.6",
   "title": "",
-  "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.        "
+  "body": "  A vector-valued function can also be described by the parametric equations     "
 },
 {
   "id": "sec-vector-valued-functions-10",
   "level": "2",
   "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-10",
-  "type": "Observation",
+  "type": "Example",
   "number": "2.1.7",
   "title": "",
-  "body": " It is straightforward to parameterize a function , namely by the curve .  "
+  "body": " The parametric equations describe the usual parameterization of the unit circle.  "
 },
 {
   "id": "sec-vector-valued-functions-11",
@@ -1168,16 +1168,16 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.1.8",
   "title": "",
-  "body": "  Find a parameterization of the curve .   "
+  "body": "  Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.        "
 },
 {
   "id": "sec-vector-valued-functions-12",
   "level": "2",
   "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-12",
-  "type": "Activity",
+  "type": "Observation",
   "number": "2.1.9",
   "title": "",
-  "body": "  Find a parameterization of the polar curve .   "
+  "body": " It is straightforward to parameterize a function , namely by the curve .  "
 },
 {
   "id": "sec-vector-valued-functions-13",
@@ -1185,6 +1185,24 @@ var ptx_lunr_docs = [
   "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-13",
   "type": "Activity",
   "number": "2.1.10",
+  "title": "",
+  "body": "  Find a parameterization of the curve .   "
+},
+{
+  "id": "sec-vector-valued-functions-14",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-14",
+  "type": "Activity",
+  "number": "2.1.11",
+  "title": "",
+  "body": "  Find a parameterization of the polar curve .   "
+},
+{
+  "id": "sec-vector-valued-functions-15",
+  "level": "2",
+  "url": "sec-vector-valued-functions.html#sec-vector-valued-functions-15",
+  "type": "Activity",
+  "number": "2.1.12",
   "title": "",
   "body": "  Find a parameterization of the line from the point to the point .   "
 },
