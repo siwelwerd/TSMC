@@ -107,7 +107,7 @@
   <observation>
     <p>
       It is straightforward to parameterize a function <m>y=f(x)</m>, namely
-      by the curve <m>\vec{r}(t)=\langle t, f(t)</m>.
+      by the curve <m>\vec{r}(t)=\langle t, f(t)\rangle</m>.
     </p>
   </observation>
 
