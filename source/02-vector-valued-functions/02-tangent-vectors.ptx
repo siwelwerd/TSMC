@@ -135,6 +135,16 @@
     </task>
   </activity>
 
+  <activity>
+    <statement>
+      <p>
+        Find a (vector) equation of the tangent line to the curve
+        <m>\vec{r}(t)=\langle t^3-t,t^2+t \rangle</m>
+        at the point <m>(0,2)</m>.
+      </p>
+    </statement>
+  </activity>
+
   <p>Because derivatives can be computed component-wise, our usual derivative rules
     translate to the vector context in a straightforward way.
   </p>
