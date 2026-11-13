@@ -117,6 +117,11 @@
         Find a parameterization of the curve <m>x=y^2</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\vec{r}(t)=\langle t^2, t \rangle </m>
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -125,6 +130,11 @@
         Find a parameterization of the polar curve <m>r=1+\cos(\theta)</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\vec{r}(\theta)=\langle (1+\cos(\theta))\cos(\theta), (1+\cos(\theta))\sin(\theta) \rangle </m>
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -133,6 +143,11 @@
         Find a parameterization of the line from the point <m>\vec{P}</m> to the point <m>\vec{Q}</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\vec{r}(t)= \vec{P}+t(\vec{Q}-\vec{P})</m>
+      </p>
+    </solution>
   </activity>
 
 </section>
