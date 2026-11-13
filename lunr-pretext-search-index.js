@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Vector-Valued Functions",
-  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.     Euclidean -space , denoted , is the set consisting of all -dimensional points (or -vectors) of real numbers.     is the set of all points in the usual plane, and is the set of all points in 3-space.     A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.          It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .      Find a parameterization of the polar curve .      Find a parameterization of the line from the point to the point .    "
+  "body": " Vector-Valued Functions  In your previous math courses, you have been learning about functions whose domain and codomain are (subsets of) the real numbers. Symbolically, we represent this for a function as . There are many applications, such as studying motion of an object over time, where we want to map an input variable (e.g. time) to a point (or vector) in 2 or 3 dimensional space.     Euclidean -space , denoted , is the set consisting of all -dimensional points (or -vectors) of real numbers.     is the set of all points in the usual plane, and is the set of all points in 3-space.     A function for some is called a vector-valued function .     Consider given by .   Now consider given by .   We say that and are two different parameterizations of the circle .    Sometimes we think about the output of a vector-valued function as a vector, and sometimes as a point (namely the head of the output vector whose tail is at the origin)   We often use vector-valued functions in the context of motion of an object. For example, the path of a projectile launched with an inital speed of at an angle is where is the gravitational constant.    A vector-valued function can also be described by the parametric equations       The parametric equations describe the usual parameterization of the unit circle.     Find a parameterization of the ellipse     Adapt the usual parameterization of the unit circle.          It is straightforward to parameterize a function , namely by the curve .     Find a parameterization of the curve .           Find a parameterization of the polar curve .           Find a parameterization of the line from the point to the point .         "
 },
 {
   "id": "def-Rn",
@@ -1186,7 +1186,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.1.10",
   "title": "",
-  "body": "  Find a parameterization of the curve .   "
+  "body": "  Find a parameterization of the curve .        "
 },
 {
   "id": "sec-vector-valued-functions-14",
@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.1.11",
   "title": "",
-  "body": "  Find a parameterization of the polar curve .   "
+  "body": "  Find a parameterization of the polar curve .        "
 },
 {
   "id": "sec-vector-valued-functions-15",
@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.1.12",
   "title": "",
-  "body": "  Find a parameterization of the line from the point to the point .   "
+  "body": "  Find a parameterization of the line from the point to the point .        "
 },
 {
   "id": "sec-tangent-vectors",
@@ -1213,7 +1213,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Tangent Vectors",
-  "body": " Tangent Vectors  Given a curve , we can plot a secant vector by computing for some real number .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})       A secant vector to a parametric curve  Intuitively, we might consider constructing a tangent vector through some sort of limiting process as .  Recall the definition of a limit from single variable calculus:    Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    In other words, means that for every choice of , we can ensure that is within of by choosing a sufficiently small interval around .  To adapt this to vector valued functions, we simply need to make precise what it means to be within of a vector .    Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .      Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    While conceptually nice, this definition is difficult to work with in practice. Fortunately, we are able to leverage what we know about single variable limits.    Let be a vector valued function. Then when all of these limits exist.    With this in hand, we can now return to our idea of a tangent vector.    Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .    An immediate consequence of is    If , then .      Find the tangent vector to each of the following curves.                         Because derivatives can be computed component-wise, our usual derivative rules translate to the vector context in a straightforward way.    Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule          "
+  "body": " Tangent Vectors  Given a curve , we can plot a secant vector by computing for some real number .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})       A secant vector to a parametric curve  Intuitively, we might consider constructing a tangent vector through some sort of limiting process as .  Recall the definition of a limit from single variable calculus:    Let be a real-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    In other words, means that for every choice of , we can ensure that is within of by choosing a sufficiently small interval around .  To adapt this to vector valued functions, we simply need to make precise what it means to be within of a vector .    Let , and let . Then we set , i.e. so that is the set of all points in that are within of the point .      Let be a vector-valued function defined on an open interval near a point (except possibly at ). Then we say that if for every , there exists such that .    While conceptually nice, this definition is difficult to work with in practice. Fortunately, we are able to leverage what we know about single variable limits.    Let be a vector valued function. Then when all of these limits exist.    With this in hand, we can now return to our idea of a tangent vector.    Let be a vector-valued function. The tangent vector to is the limit .  When represents the position of an object, the tangent vector is also called the velocity (vector) . Its magnitude, is called speed .    An immediate consequence of is    If , then .      Find the tangent vector to each of the following curves.                           Find a (vector) equation of the tangent line to the curve at the point .    Because derivatives can be computed component-wise, our usual derivative rules translate to the vector context in a straightforward way.    Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule          "
 },
 {
   "id": "sec-tangent-vectors-2",
@@ -1288,11 +1288,20 @@ var ptx_lunr_docs = [
   "body": "  Find the tangent vector to each of the following curves.                        "
 },
 {
-  "id": "sec-tangent-vectors-17",
+  "id": "sec-tangent-vectors-16",
   "level": "2",
-  "url": "sec-tangent-vectors.html#sec-tangent-vectors-17",
-  "type": "Fact",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-16",
+  "type": "Activity",
   "number": "2.2.9",
+  "title": "",
+  "body": "  Find a (vector) equation of the tangent line to the curve at the point .   "
+},
+{
+  "id": "sec-tangent-vectors-18",
+  "level": "2",
+  "url": "sec-tangent-vectors.html#sec-tangent-vectors-18",
+  "type": "Fact",
+  "number": "2.2.10",
   "title": "",
   "body": "  Let be a differentiable real-valued function of a real variable . Let and be differentiable vector-valued functions of the real variable . Then   Sum Rule       Scalar Multiplication Product Rule       Dot Product Rule       Cross Product Rule       Chain Rule         "
 },
@@ -1303,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Arclength",
-  "body": " Arclength  Suppose we are given a curve on the time interval . How can we figure out how long this curve is?    Consider the line .     How long is the line segment between and ?      How long is the line segment between and ?      Can you express this length in terms of and ?       Now consider the curve .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})         Estimate the length of the curve between and .      How might we make this estimate more accurate?     Now, lets consider a curve , and add up approximate arclengths      alignments = [\"northwest\",\"northwest\",\"northwest\",\"northwest\",\"north\",\"northeast\",\"northeast\",\"east\",\"southeast\"]  t = [0,0.5,1,1.5,2,2.5,3,3.5,4]  r(t)=(-(t^2\/15+2)*cos(t),(1.5-t\/12)*sin(t))     \\vec{r}(t_${i})    \\vec{r}(t_${8})       A curve subdivided into 8 time intervals, with vectors approximating the arclength.    So our arclength is approximated by , which we might write more generally as .  Observing that this is almost a difference quotient, we may rewrite and then apply the mean value theorem: . Then, taking a limit as the size of the time intervals goes to zero, we have .    Let be a differentiable vector-valued function. Then the arclength of on the interval is . In other words, the distance traveled is the integral of speed over time.      For a fixed positive number , find the length of the curve on the interval .      For a fixed vectors and , find the length of the line on the interval .      The astroid curve, for a fixed value , is parameterized by on the interval (pictured below for ).     a = 2  r(t)=(a*(cos(t))^3,a*(sin(t))^3)         Find the length of the astroid curve in terms of .    "
+  "body": " Arclength  Suppose we are given a curve on the time interval . How can we figure out how long this curve is?    Consider the line .     How long is the line segment between and ?      How long is the line segment between and ?      Can you express this length in terms of and ?       Now consider the curve .     a = 0.5  b = 1  r(t)=(t^3-2*t,2*t^2)     \\vec{r}(${a})  \\vec{r}(${b})         Estimate the length of the curve between and .      How might we make this estimate more accurate?     Now, lets consider a curve , and add up approximate arclengths      alignments = [\"northwest\",\"northwest\",\"northwest\",\"northwest\",\"north\",\"northeast\",\"northeast\",\"east\",\"southeast\"]  t = [0,0.5,1,1.5,2,2.5,3,3.5,4]  r(t)=(-(t^2\/15+2)*cos(t),(1.5-t\/12)*sin(t))     \\vec{r}(t_${i})    \\vec{r}(t_${8})       A curve subdivided into 8 time intervals, with vectors approximating the arclength.    So our arclength is approximated by , which we might write more generally as .  Observing that this is almost a difference quotient, we may rewrite and then apply the mean value theorem: . Then, taking a limit as the size of the time intervals goes to zero, we have .    Let be a differentiable vector-valued function. Then the arclength of on the interval is . In other words, the distance traveled is the integral of speed over time.      For a fixed positive number , find the length of the curve on the interval .      For a fixed vectors and , find the length of the line on the interval .      The astroid curve, for a fixed value , is parameterized by on the interval (pictured below for ).     a = 2  r(t)=(a*(cos(t))^3,a*(sin(t))^3)         Find the length of the astroid curve in terms of .      Find the arclength of . on the interval     This last example has the special property that it is parameterized by arc length ; that is, an object on that path moves with unit speed, and thus its arc length is simply the time traveled.    Let be a differentiable vector-valued function. Set . Then is an increasing function, and hence invertible, and is parameterized by arc length.    Note that by the Fundamental Theorem of Calculus. Let , and compute . Then .      Find the arc length parameterization of the curve      It is usually difficult (or impossible) to explicitly write down a parameterization by arc length, but it is a useful theoretical tool.   "
 },
 {
   "id": "sec-arclength-3",
@@ -1367,6 +1376,51 @@ var ptx_lunr_docs = [
   "number": "2.3.7",
   "title": "",
   "body": "  The astroid curve, for a fixed value , is parameterized by on the interval (pictured below for ).     a = 2  r(t)=(a*(cos(t))^3,a*(sin(t))^3)         Find the length of the astroid curve in terms of .   "
+},
+{
+  "id": "sec-arclength-13",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-13",
+  "type": "Activity",
+  "number": "2.3.8",
+  "title": "",
+  "body": "  Find the arclength of . on the interval    "
+},
+{
+  "id": "sec-arclength-14",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "parameterized by arc length "
+},
+{
+  "id": "sec-arclength-15",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-15",
+  "type": "Theorem",
+  "number": "2.3.9",
+  "title": "",
+  "body": "  Let be a differentiable vector-valued function. Set . Then is an increasing function, and hence invertible, and is parameterized by arc length.    Note that by the Fundamental Theorem of Calculus. Let , and compute . Then .   "
+},
+{
+  "id": "sec-arclength-16",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-16",
+  "type": "Activity",
+  "number": "2.3.10",
+  "title": "",
+  "body": "  Find the arc length parameterization of the curve    "
+},
+{
+  "id": "sec-arclength-17",
+  "level": "2",
+  "url": "sec-arclength.html#sec-arclength-17",
+  "type": "Remark",
+  "number": "2.3.11",
+  "title": "",
+  "body": " It is usually difficult (or impossible) to explicitly write down a parameterization by arc length, but it is a useful theoretical tool.  "
 },
 {
   "id": "appendix-set-builder",
