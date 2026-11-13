@@ -135,4 +135,52 @@
     </statement>
   </activity>
 
+  <activity>
+    <statement>
+      <p>Find the arclength of 
+        <m>\vec{r}(t)=\langle \frac{1}{\sqrt{2}}\cos(t), \frac{1}{\sqrt{2}}\sin(t), \frac{1}{2}t \rangle</m>.
+        on the interval <m>[0,t_0]</m>
+      </p>
+    </statement>
+  </activity>
+
+  <p>This last example has the special property that it is <term>parameterized by arc length</term>;
+  that is, an object on that path moves with unit speed, and thus its arc length is simply
+  the time traveled.
+  </p>
+
+  <theorem>
+    <statement>
+      <p>
+        Let <m>\vec{r}(t): \R \rightarrow \R^n</m> be a differentiable vector-valued function.
+        Set 
+        <md>s(t) = \int _0 ^t |\vec{r}^\prime(u)|\ du</md>.
+        Then <m>s(t)</m> is an increasing function, and hence invertible, 
+        and <m>\vec{r}(s^{-1}(t))</m> is parameterized by arc length.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Note that <m>s^\prime(t)=|\vec{r}^\prime(t)|</m> by the Fundamental Theorem of Calculus.
+        Let <m>\vec{r}_1(t)=\vec{r}(s^{-1}(t))</m>, and compute
+        <md>|\vec{r}_1^\prime(t)| = |\vec{r}^\prime(s^{-1}(t)) | \cdot \frac{1}{s^\prime(s^{-1}(t))} = 1</md>.
+        Then <m>\int _0 ^t |\vec{r}_1 ^\prime(u)|\ du = t</m>.
+      </p>
+    </proof>
+  </theorem>
+
+  <activity>
+    <statement>
+      <p>
+        Find the arc length parameterization of the curve <m>\vec{r}(t)=\langle 3 \cos(t), 3\sin(t)\rangle</m>
+      </p>
+    </statement>
+  </activity>
+
+  <remark>
+    <p>It is usually difficult (or impossible) to explicitly write down a
+    parameterization by arc length, but it is a useful theoretical tool.
+    </p>
+  </remark>
+
 </section>
