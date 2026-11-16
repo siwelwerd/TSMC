@@ -19,6 +19,11 @@
         How long is the line segment between <m>\vec{r}(0)</m> and <m>\vec{r}(1)</m>?
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>5</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -26,6 +31,11 @@
         How long is the line segment between <m>\vec{r}(3)</m> and <m>\vec{r}(5)</m>?
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>10</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -33,6 +43,11 @@
         Can you express this length in terms of <m>\vec{r}(3)</m> and <m>\vec{r}(5)</m>?
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>|\vec{r}(5)-\vec{r}(3)|</m>
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -52,6 +67,11 @@
         <p>Estimate the length of the curve between <m>\vec{r}\left(\frac{1}{2}\right)</m> and <m>\vec{r}(1)</m>.  
         </p> 
       </statement>
+      <solution>
+        <p>
+          <m>|\vec{r}(1)-\vec{r}(\frac{1}{2})|</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>

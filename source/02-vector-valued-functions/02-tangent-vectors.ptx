@@ -118,6 +118,11 @@
           <m>\vec{r}_1(t)= \langle \cos(t), \sin(t) \rangle</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>\vec{r}_1^\prime(t)=\langle -\sin(t), \cos(t) \rangle</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -125,6 +130,11 @@
           <m>\vec{r}_2(t)= \langle -\sin(t), \cos(t) \rangle</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>\vec{r}_2^\prime(t)=\langle -\cos(t), -\sin(t) \rangle</m>
+        </p>
+      </solution>
     </task>
     <task>
       <statement>
@@ -132,6 +142,11 @@
           <m>\vec{r}_3(t)= \langle t^3, t^2 \rangle</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          <m>\vec{r}_3^\prime(t)=\langle 3t^2, 2t \rangle</m>
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -143,6 +158,11 @@
         at the point <m>(0,2)</m>.
       </p>
     </statement>
+    <solution>
+      <p>
+        <m>\vec{L}(t) = \langle 0,2\rangle + t \langle 2,3\rangle </m>
+      </p>
+    </solution>
   </activity>
 
   <p>Because derivatives can be computed component-wise, our usual derivative rules
