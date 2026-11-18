@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="appendix-vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vectors</title>
+
+  <subsection>
+    <title>Dot Products</title>
+    <p>The <term>dot product</term> is a way to measure angles between vectors.  
+    Let <m>\vec{u} = \langle u_1,u_2\rangle</m> and 
+    <m>\vec{v} = \langle v_1, v_2\rangle</m> be vectors in <m>\R^2</m>.
+    </p> 
+    <figure xml:id="fig-dot-product">
+      <image width="50%">
+        <prefigure xmlns="https://prefigure.org" label="prefigure-dot-product">
+          <xi:include href="prefigure/dot-product.xml"/>
+        </prefigure>
+      </image>
+      <caption>The angle <m>\theta</m> between the vectors <m>\vec{u}</m> and <m>\vec{v}</m>.</caption>
+    </figure>
+    <p>
+      Then by the law of cosines, we have
+      <md>|\vec{u}-\vec{v}|^2  = |\vec{u}^2| + |\vec{v}^2|-2|\vec{u}||\vec{v}|\cos(\theta) </md>.
+      Noting that <m>\vec{u}-\vec{v}=\langle u_1-v_1, u_2-v_2 \rangle</m>,
+      we have
+      <md>(u_1-v_1)^2+(u_2-v_2)^2  = (u_1^2+u_2^2) + (v_1^2+v_2^2)-2|\vec{u}||\vec{v}|\cos(\theta) </md>.
+      Then
+      <md>
+        <mrow>|\vec{u}||\vec{v}|\cos(\theta) \amp = \frac{1}{2}\left((u_1^2+u_2^2) + (v_1^2+v_2^2)-(u_1-v_1)^2-(u_2-v_2)^2\right) </mrow>
+        <mrow> \amp = u_1v_1+u_2v_2</mrow>
+      </md>
+    </p>
+
+    <definition xml:id="def-dot-product">
+      <statement>
+        <p>
+          Let <m>\vec{u},\vec{v} \in \R^n</m> with 
+          <m>\vec{u}=\langle u_1,\ldots,u_n\rangle</m> and
+          <m>\vec{v}=\langle v_1,\ldots,v_n\rangle</m>.
+          Then the <term>dot product</term> of <m>\vec{u}</m> and <m>\vec{v}</m> is
+          <md>\vec{u} \cdot \vec{v} = u_1v_1+\cdots+u_nv_n</md>.
+        </p>
+        <p>Note that the dot product of two vectors produces a <em>scalar</em>.</p>
+      </statement>
+    </definition>
+
+    <observation>
+      <p>The angle <m>\theta</m> between the vectors <m>\vec{u}</m> and <m>\vec{v}</m>
+        is given by
+        <md>\cos(\theta) = \frac{\vec{u}\cdot\vec{v}}{|\vec{u}||\vec{v}|}</md>.
+      </p>
+    </observation>
+
+    <p>An immediate consequence of this is:</p>
+    <fact xml:id="fact-dot-product-orthogonal">
+      <statement>
+        <p>Let <m>\vec{u},\vec{v} \in \R^n</m>.  Then <m>\vec{u}</m> and 
+          <m>\vec{v}</m> are orthogonal if and only if <m>\vec{u} \cdot \vec{v}=0</m>.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          <m>\vec{u}</m> and <m>\vec{v}</m> are orthogonal precisely when
+          <m>\cos(\theta)=0</m>, which happens if and only if <m>\vec{u} \cdot \vec{v}=0</m>.
+        </p>
+      </proof>
+    </fact>
+
+    <p>Because of its simple algebraic definition, it is straightforward to see
+    that the dot product has a number of useful properties.</p>
+
+    <fact xml:id="fact-dot-product-properties">
+      <statement>
+        <p>Let <m>\vec{u},\vec{v},\vec{w} \in \R^n</m> and <m>c \in \R</m>. Then
+        </p>
+        <ol>
+          <li>
+            <m>\vec{u} \cdot \vec{v} = \vec{v} \cdot \vec{u}</m>
+          </li>
+          <li>
+            <m>\left(\vec{u}+\vec{v}\right) \cdot \vec{w} = \vec{u} \cdot \vec{w}+\vec{v}\cdot\vec{w}</m>
+          </li>
+          <li>
+            <m>\left(c \vec{u}\right) \cdot \vec{v} = c \vec{u} \cdot \vec{v}</m>
+          </li>
+        </ol>
+      </statement>
+    </fact>
+  </subsection>
+  <subsection>
+    <title>Cross Products</title>
+    <p>Given two vectors <m>\vec{u}, \vec{v} \in \R^3</m>, we often need 
+      to find a third vector <m>\vec{w}</m> that is orthogonal to both
+      <m>\vec{u}</m> and <m>\vec{v}</m>; equivalently, <m>\vec{w}</m>
+      should be a vector that is orthogonal (or normal) to the plane
+      spanned by <m>\vec{u}</m> and <m>\vec{v}</m>. We will use <m>\times</m>
+      to represent this operation, and investigate properties we desire it
+      to have in order to define it.
+    </p>
+
+    <activity>
+      <task>
+        <statement>
+          <p>
+            Find a vector orthogonal to both <m>\hat{i}</m> and <m>\hat{j}</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Find a vector orthogonal to both <m>\hat{j}</m> and <m>\hat{k}</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Find a vector orthogonal to both <m>\hat{i}</m> and <m>\hat{k}</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Find a vector orthogonal to both <m>\hat{i}</m> and <m>\hat{i}</m>.
+          </p>
+        </statement>
+      </task>
+    </activity>
+
+    <remark>
+      <p>Since there is an entire plane's worth of vectors orthogonal to a single
+      vector and no good way to choose among them, we will insist <m>\vec{v} \times \vec{v}=\vec{0}</m>
+      for any vector <m>\vec{v}</m>.
+      </p>
+    </remark>
+    
+
+
+
+
+  </subsection>
+
+
+</section>

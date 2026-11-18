@@ -5,6 +5,7 @@
   <appendix xml:id="appendix">
     <title>Appendix</title>
     <xi:include href="appendix/set-builder.ptx"/>
+    <xi:include href="appendix/vectors.ptx"/>
   </appendix>
   <appendix xml:id="appendix-psets">
     <title>Problem Sets</title>

@@ -1,0 +1,12 @@
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>u=(4,3)</definition>
+  <definition>v=(-1,4)</definition>
+  <coordinates bbox="(-2,-0.5,4,4.5)">
+    <vector v="u" alignment="southeast" label-location="0.5" stroke="blue"><m>\vec{u}</m></vector>
+    <vector v="v" alignment="southwest" label-location="0.6" stroke="blue"><m>\vec{v}</m></vector>
+    <vector v="u-v" tail="v" alignment="northeast" label-location="0.5" stroke="red"><m>\vec{u}-\vec{v}</m></vector>
+    <angle-marker points="(u,(0,0),v)" stroke="black">
+      <m>\theta</m>
+    </angle-marker>
+  </coordinates>
+</diagram>
