@@ -195,6 +195,26 @@
         </p>
       </statement>
     </definition>
+
+    <p>It is straightforward to check the following.</p>
+    <observation>
+      <p>Let <m>\vec{u},\vec{v} \in \R^3</m>.  Then
+      <ul>
+        <li>
+          <p>
+            <m>\vec{u} \cdot (\vec{u} \times \vec{v}) = 0</m>
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p>
+            <m>\vec{v} \cdot (\vec{u} \times \vec{v}) = 0</m>
+          </p>
+        </li>
+      </ul>
+      </p>
+    </observation>
   </subsection>
 
 
