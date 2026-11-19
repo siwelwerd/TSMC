@@ -131,14 +131,70 @@
     <remark>
       <p>Since there is an entire plane's worth of vectors orthogonal to a single
       vector and no good way to choose among them, we will insist <m>\vec{v} \times \vec{v}=\vec{0}</m>
-      for any vector <m>\vec{v}</m>.
+      for any vector <m>\vec{v}</m>. Similarly, we will have <m>\vec{0} \times \vec{v} = \vec{0}</m>.
       </p>
     </remark>
-    
 
-
-
-
+    <p>To make a definition of <m>\times</m>, we will have to make some choices.
+      The usual convention is to have a <term>right-handed coordinate system</term>
+      and set
+      <md>
+        <mrow> \hat{i} \times \hat{j} \amp =  \hat{k} \amp
+               \hat{j} \times \hat{k} \amp = \hat{i} \amp
+               \hat{k} \times \hat{i} \amp =  \hat{j}
+        </mrow>
+      </md>
+    </p>
+    <p>We would like our operation <m>\times</m> to distribute, in which case
+      we have 
+      <md>\vec{0}=(\hat{i} + \hat{j}) \times (\hat{i} + \hat{j}) = 
+        \hat{i} \times \hat{i} + \hat{i} \times \hat{j}+ \hat{j}\times\hat{i} + \hat{j} \times \hat{j}
+        =\hat{i} \times \hat{j} + \hat{j}\times\hat{i}
+      </md>
+      Thus we have 
+      <md>
+        <mrow> \hat{j} \times \hat{i} \amp = -\hat{k} \amp
+               \hat{k} \times \hat{j} \amp = -\hat{i} \amp
+               \hat{i} \times \hat{k} \amp = -\hat{j}
+        </mrow>
+      </md>
+    </p>
+    <p>
+      Now, let <m>\vec{u}=u_1 \hat{i}+u_2\hat{j}+u_3\hat{k}</m> and
+      <m>\vec{v}=v_1\hat{i}+v_2\hat{j}+v_3\hat{k}</m>.  Then we would have
+      <md>
+        <mrow> 
+          \vec{u} \times \vec{v} 
+          \amp = \left(u_1 \hat{i}+u_2\hat{j}+u_3\hat{k}\right) \times 
+                 \left(v_1\hat{i}+v_2\hat{j}+v_3\hat{k}\right)
+        </mrow>
+        <mrow>
+          \amp = u_1 v_1 \hat{i} \times \hat{i} + u_1 v_2 \hat{i} \times \hat{j} + u_1 v_3 \hat{i} \times \hat{k} +
+        </mrow>
+        <mrow>
+          \amp \phantom{=} u_2 v_1 \hat{j} \times \hat{i} + u_2 v_2 \hat{j} \times \hat{j} + u_2 v_3 \hat{j} \times \hat{k} +
+        </mrow>
+        <mrow>
+          \amp \phantom{=} u_3 v_1 \hat{k} \times \hat{i} + u_3 v_2 \hat{k} \times \hat{j} + u_3 v_3 \hat{k} \times \hat{k} 
+        </mrow>
+        <mrow>
+          \amp = (u_1v_2-u_2v_1) \hat{i} \times \hat{j} + (u_2v_3-v_3u_2) \hat{j} \times \hat{k} + (u_1v_3-u_3v_1) \hat{i} \times \hat{k}
+        </mrow>
+        <mrow>
+          \amp =  (u_2v_3-v_3u_2) \hat{i} - (u_1v_3-u_3v_1) \hat{j}+ (u_1v_2-u_2v_1)\hat{k}
+        </mrow>
+      </md>
+    </p>
+    <definition xml:id="def-cross-product">
+      <statement>
+        <p>
+          Let <m>\vec{u}=u_1 \hat{i}+u_2\hat{j}+u_3\hat{k}</m> and
+          <m>\vec{v}=v_1\hat{i}+v_2\hat{j}+v_3\hat{k}</m>. We define the
+          <term>cross product</term> as
+          <md>\vec{u} \times \vec{v} = (u_2v_3-v_3u_2) \hat{i} - (u_1v_3-u_3v_1) \hat{j}+ (u_1v_2-u_2v_1)\hat{k} </md>
+        </p>
+      </statement>
+    </definition>
   </subsection>
 
 
