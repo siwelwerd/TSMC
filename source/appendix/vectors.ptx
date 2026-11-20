@@ -215,7 +215,67 @@
       </ul>
       </p>
     </observation>
+
+    <p>Our definition of the cross product is not the easiest thing to memorize.
+      Here is a presentation that is easier to remember.
+    </p>
+    <fact xml:id="fact-cross-product-determinant">
+      <statement>
+        <p>
+          Let <m>\vec{u}=\langle u_1,u_2,u_3\rangle</m> and <m>\vec{v}=\langle v_1,v_2,v_3 \rangle</m>. Then
+          <md>\vec{u} \times \vec{v} = \det \begin{bmatrix}
+          \hat{i} \amp \hat{j} \amp \hat{k} \\
+          u_1 \amp u_2 \amp u_3 \\
+          v_1 \amp v_2 \amp v_3
+          \end{bmatrix}
+          </md>
+        </p>
+      </statement>
+    </fact>
   </subsection>
+
+  <activity>
+    <statement>
+      <p>
+        Compute <m>\langle 2,-3,4 \rangle \times \langle 1,3,-1 \rangle</m>.
+      </p>
+    </statement>
+  </activity>
+  
+  <activity>
+    <statement>
+      <p>
+        Find a vector orthogonal to both  <m>\langle 3,-3,1 \rangle</m> and <m>\langle 0,2,-2 \rangle</m>.
+      </p>
+    </statement>
+  </activity>
+
+  <observation>
+    <p>The cross product is <term>anticommutative</term>; that is, for <m>\vec{u},\vec{v} \in \R^3</m>,
+    <md>\vec{v} \times \vec{u} = - \vec{u} \times \vec{v}</md>.
+    As a consequence, note that <m>\vec{v} \times \vec{v} = 0</m>
+    </p>
+  </observation>
+
+  <theorem xml:id="thm-cross-product-magnitude">
+    <statement>
+      <p>
+        Let <m>\vec{u}, \vec{v} \in \R^3</m>.  Then
+        <md>|\vec{u}\times\vec{v}=|\vec{u}||\vec{v}|\sin(\theta)</md>
+        where <m>\theta</m> is the angle between the two vectors.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        Note that <m>|\vec{u}||\vec{v}|\sin(\theta)</m> is the area of the parallelogram
+        spanned by the two vectors.  Without loss of generality,
+        write <m>\vec{u}=\langle a,b,0\rangle</m> and <m>\vec{v}=\langle c,d,0\rangle</m>.
+        Then <m>|\vec{u} \times \vec{v}|=\det \begin{bmatrix} a \amp b \\ c \amp d \end[bmatrix]</m>,
+        which by definition is the area of the parallelogram.
+      </p>
+    </proof>
+  </theorem>
+  
 
 
 </section>
